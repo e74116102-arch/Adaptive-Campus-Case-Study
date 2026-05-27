@@ -3,8 +3,7 @@
 # 研究主題
 適應性校園案例研究
 # Knowledge Precedent
-├── 1. Architectural Layer（建築層）
-   │
+ 1. Architectural Layer（建築層）
    ├── 1-1 Structural System（結構系統）
    │      ├── 結構規律性
    │      ├── 大跨度空間
@@ -23,8 +22,7 @@
           ├── 儀式性
           └── 工業／歷史氛圍
 
-├── 2. Urban Context Layer（都市脈絡層）
-   │
+ 2. Urban Context Layer（都市脈絡層）
    ├── 2-1 Historical Context（歷史脈絡）
    │      ├── 工業遺產
    │      ├── 軍事遺產
@@ -43,8 +41,7 @@
           ├── 微氣候
           └── 綠化環境
 
-├── 3. Temporal Transformation Layer（時間轉化層）
-   │
+ 3. Temporal Transformation Layer（時間轉化層）
    ├── 3-1 Historical Evolution（歷史演變）
    │      ├── 建築年代
    │      ├── 改建年代
@@ -63,8 +60,7 @@
           ├── 機能可轉換性
           └── 長期永續性
 
-├── 4. Functional Layer（機能層）
-   │
+ 4. Functional Layer（機能層）
    ├── 4-1 Educational Function（教育機能）
    │      ├── 教室
    │      ├── Studio
@@ -83,8 +79,7 @@
           ├── 展演活動
           └── 跨域交流
 
-└── 5. Typology Layer（類型層）
-    │
+ 5. Typology Layer（類型層）
     ├── 5-1 Campus Renewal（校園更新）
     │      ├── Public Connectivity
     │      ├── Flexible Learning
