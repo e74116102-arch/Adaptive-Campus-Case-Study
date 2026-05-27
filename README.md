@@ -38,9 +38,9 @@
       └── 公共可達性
 
    - 2-3 Environmental Condition（環境條件）
-          - 自然採光
-          - 自然通風
-          - 微氣候
+      - 自然採光
+      - 自然通風
+      - 微氣候
           └── 綠化環境
 
  3. Temporal Transformation Layer（時間轉化層）
@@ -57,9 +57,9 @@
       └── 混合使用
 
    - 3-3 Adaptive Capacity（持續利用能力）
-          - 空間彈性
-          - 結構中性
-          - 機能可轉換性
+      - 空間彈性
+      - 結構中性
+      - 機能可轉換性
           └── 長期永續性
 
  4. Functional Layer（機能層）
@@ -76,9 +76,9 @@
       └── Café
 
    - 4-3 Mixed-use Function（混合使用）
-          - 行政
-          - 社區共享
-          - 展演活動
+      - 行政
+      - 社區共享
+      - 展演活動
           └── 跨域交流
 
  5. Typology Layer（類型層）
@@ -98,7 +98,7 @@
       └── Courtyard Type
 
     - 5-4 Institutional Reuse（機構再利用）
-           - Hospital
-           - Court
-           - Government Building
+      - Hospital
+      - Court
+      - Government Building
            └── Commercial Building
