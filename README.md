@@ -50,8 +50,7 @@ python scripts\extract_campus_precedents.py
 ```
 
 3. 使用 `json/campus_knowledge_precedents.json` 作為 My GPT 的完整知識檔。
-4. 使用 `json/case_overview.json` 作為快速瀏覽或輕量上傳檔。
-5. 使用 `GPT_Site_Context_Analysis_Prompt.md` 作為 My GPT 的 Instructions。
+4. 使用 `GPT_Site_Context_Analysis_Prompt.md` 作為 My GPT 的 Instructions。
 
 ## JSON 內容
 
