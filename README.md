@@ -1,10 +1,8 @@
 # Adaptive Campus Case Study
 
-這個資料夾是「校園再利用案例知識庫」專案。
+把 `campus_cases.xlsx` 裡的校園案例，轉成可以給 My GPT / AI Co-Designer 使用的 JSON 知識資料。
 
-目標是把 `campus_cases.xlsx` 裡的校園案例，轉成可以給 My GPT / AI Co-Designer 使用的 JSON 知識資料。
-
-## 最常用的檔案
+## 常用的檔案
 
 | 檔案 | 用途 |
 |---|---|
@@ -60,7 +58,7 @@ python scripts\extract_campus_precedents.py
 每個案例都有兩個主要部分：
 
 - `knowledge_precedent`：依五層分類架構標記案例特徵。
-- `precedent_dna`：依期中簡報的 Precedent DNA 邏輯整理案例。
+- `precedent_dna`： Precedent DNA 邏輯整理案例。
 
 五層分類架構：
 
@@ -69,15 +67,3 @@ python scripts\extract_campus_precedents.py
 3. Temporal Transformation Layer（時間轉化層）
 4. Functional Layer（機能層）
 5. Typology Layer（類型層）
-
-## 目前資料狀態
-
-- 目前 Excel 有 20 筆非空白案例。
-- 已產生 20 份個案 JSON。
-- 已產生 1 份精簡總覽 JSON：`json/case_overview.json`。
-- JSON 是從 Excel 以規則式萃取產生，不是完整文獻研究資料。
-- Excel 空白欄位會保留為 `null`，不會硬填資料。
-
-## 注意
-
-`classifiction structure.txt` 檔名原本就拼成 `classifiction`，目前先保留，避免改名造成路徑混亂。內容是 Knowledge Precedent 分類架構。
