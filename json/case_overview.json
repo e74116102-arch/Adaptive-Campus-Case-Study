@@ -1,0 +1,3764 @@
+{
+  "metadata": {
+    "name": "Adaptive Campus Case Overview",
+    "source_file": "campus_cases.xlsx",
+    "case_count": 20,
+    "purpose": "Compact overview for browsing, filtering, and uploading to My GPT when the full knowledge database is too large."
+  },
+  "indexes": {
+    "by_region_country": {
+      "USA": [
+        "case_01_lehigh_university_packer_hall",
+        "case_10_scad_clark_hall",
+        "case_11_scad_bradley_hall",
+        "case_12_scad_number_nine",
+        "case_13_scad_ruskin_hall",
+        "case_15_university_of_pittsburgh_ford_factory",
+        "case_16_guilford_technical_community_college_advanced_manufacturing_campus",
+        "case_19_duke_university_smith_warehouse"
+      ],
+      "UK": [
+        "case_02_nottingham_trent_university",
+        "case_14_university_of_the_arts_london_granary_building"
+      ],
+      "Portugal": [
+        "case_03_university_of_coimbra"
+      ],
+      "Taiwan": [
+        "case_04_national_cheng_kung_university_future_venue",
+        "case_05_feng_chia_university_common_good_hall",
+        "case_06_ntu_humanities_building",
+        "case_07_ntu_liberal_education_classroom_building",
+        "case_08_ncku_industrial_design_history_department"
+      ],
+      "Hong Kong": [
+        "case_09_scad_hong_kong_campus"
+      ],
+      "Netherlands": [
+        "case_17_tu_delft_bk_city"
+      ],
+      "Canada": [
+        "case_18_university_of_toronto_daniels_building"
+      ],
+      "Finland": [
+        "case_20_aalto_university_harald_herlin_learning_centre"
+      ]
+    },
+    "by_typology": {
+      "public_connectivity": [
+        "case_01_lehigh_university_packer_hall",
+        "case_03_university_of_coimbra",
+        "case_04_national_cheng_kung_university_future_venue",
+        "case_05_feng_chia_university_common_good_hall",
+        "case_06_ntu_humanities_building",
+        "case_07_ntu_liberal_education_classroom_building",
+        "case_08_ncku_industrial_design_history_department",
+        "case_10_scad_clark_hall",
+        "case_11_scad_bradley_hall",
+        "case_12_scad_number_nine",
+        "case_13_scad_ruskin_hall",
+        "case_17_tu_delft_bk_city",
+        "case_18_university_of_toronto_daniels_building",
+        "case_19_duke_university_smith_warehouse",
+        "case_20_aalto_university_harald_herlin_learning_centre"
+      ],
+      "historic_integration": [
+        "case_01_lehigh_university_packer_hall",
+        "case_02_nottingham_trent_university",
+        "case_03_university_of_coimbra",
+        "case_08_ncku_industrial_design_history_department",
+        "case_09_scad_hong_kong_campus",
+        "case_11_scad_bradley_hall",
+        "case_12_scad_number_nine",
+        "case_13_scad_ruskin_hall",
+        "case_14_university_of_the_arts_london_granary_building",
+        "case_16_guilford_technical_community_college_advanced_manufacturing_campus",
+        "case_17_tu_delft_bk_city",
+        "case_18_university_of_toronto_daniels_building",
+        "case_20_aalto_university_harald_herlin_learning_centre"
+      ],
+      "corridor_type": [
+        "case_01_lehigh_university_packer_hall",
+        "case_08_ncku_industrial_design_history_department",
+        "case_11_scad_bradley_hall",
+        "case_13_scad_ruskin_hall",
+        "case_17_tu_delft_bk_city"
+      ],
+      "flexible_learning": [
+        "case_02_nottingham_trent_university",
+        "case_04_national_cheng_kung_university_future_venue",
+        "case_05_feng_chia_university_common_good_hall",
+        "case_10_scad_clark_hall",
+        "case_15_university_of_pittsburgh_ford_factory",
+        "case_16_guilford_technical_community_college_advanced_manufacturing_campus",
+        "case_17_tu_delft_bk_city",
+        "case_18_university_of_toronto_daniels_building",
+        "case_19_duke_university_smith_warehouse",
+        "case_20_aalto_university_harald_herlin_learning_centre"
+      ],
+      "linear_modular": [
+        "case_02_nottingham_trent_university",
+        "case_08_ncku_industrial_design_history_department",
+        "case_10_scad_clark_hall",
+        "case_14_university_of_the_arts_london_granary_building",
+        "case_15_university_of_pittsburgh_ford_factory",
+        "case_16_guilford_technical_community_college_advanced_manufacturing_campus"
+      ],
+      "courtyard_type": [
+        "case_03_university_of_coimbra",
+        "case_06_ntu_humanities_building",
+        "case_13_scad_ruskin_hall"
+      ],
+      "court": [
+        "case_03_university_of_coimbra",
+        "case_06_ntu_humanities_building",
+        "case_09_scad_hong_kong_campus",
+        "case_13_scad_ruskin_hall"
+      ],
+      "government_building": [
+        "case_03_university_of_coimbra",
+        "case_06_ntu_humanities_building",
+        "case_09_scad_hong_kong_campus",
+        "case_13_scad_ruskin_hall"
+      ],
+      "barrack_conversion": [
+        "case_08_ncku_industrial_design_history_department"
+      ],
+      "large_span": [
+        "case_10_scad_clark_hall",
+        "case_14_university_of_the_arts_london_granary_building",
+        "case_15_university_of_pittsburgh_ford_factory",
+        "case_17_tu_delft_bk_city",
+        "case_19_duke_university_smith_warehouse"
+      ],
+      "factory_conversion": [
+        "case_10_scad_clark_hall",
+        "case_15_university_of_pittsburgh_ford_factory",
+        "case_16_guilford_technical_community_college_advanced_manufacturing_campus",
+        "case_19_duke_university_smith_warehouse"
+      ],
+      "hospital": [
+        "case_11_scad_bradley_hall",
+        "case_13_scad_ruskin_hall"
+      ],
+      "commercial_building": [
+        "case_12_scad_number_nine"
+      ]
+    },
+    "by_keyword": {
+      "historic renovation": [
+        "case_01_lehigh_university_packer_hall"
+      ],
+      "corridor": [
+        "case_01_lehigh_university_packer_hall",
+        "case_17_tu_delft_bk_city"
+      ],
+      "openness": [
+        "case_01_lehigh_university_packer_hall",
+        "case_04_national_cheng_kung_university_future_venue",
+        "case_06_ntu_humanities_building",
+        "case_10_scad_clark_hall",
+        "case_12_scad_number_nine"
+      ],
+      "campus publicness": [
+        "case_01_lehigh_university_packer_hall",
+        "case_20_aalto_university_harald_herlin_learning_centre"
+      ],
+      "atrium": [
+        "case_02_nottingham_trent_university",
+        "case_09_scad_hong_kong_campus",
+        "case_15_university_of_pittsburgh_ford_factory"
+      ],
+      "adaptive reuse": [
+        "case_02_nottingham_trent_university",
+        "case_09_scad_hong_kong_campus",
+        "case_17_tu_delft_bk_city"
+      ],
+      "modular learning": [
+        "case_02_nottingham_trent_university"
+      ],
+      "daylight": [
+        "case_02_nottingham_trent_university",
+        "case_20_aalto_university_harald_herlin_learning_centre"
+      ],
+      "courtyard": [
+        "case_03_university_of_coimbra",
+        "case_13_scad_ruskin_hall"
+      ],
+      "cloister": [
+        "case_03_university_of_coimbra"
+      ],
+      "monumentality": [
+        "case_03_university_of_coimbra"
+      ],
+      "historic layering": [
+        "case_03_university_of_coimbra"
+      ],
+      "transparency": [
+        "case_04_national_cheng_kung_university_future_venue",
+        "case_16_guilford_technical_community_college_advanced_manufacturing_campus"
+      ],
+      "flexibility": [
+        "case_04_national_cheng_kung_university_future_venue"
+      ],
+      "public interaction": [
+        "case_04_national_cheng_kung_university_future_venue"
+      ],
+      "landscape architecture": [
+        "case_05_feng_chia_university_common_good_hall"
+      ],
+      "fluidity": [
+        "case_05_feng_chia_university_common_good_hall"
+      ],
+      "permeability": [
+        "case_05_feng_chia_university_common_good_hall",
+        "case_07_ntu_liberal_education_classroom_building"
+      ],
+      "learning commons": [
+        "case_05_feng_chia_university_common_good_hall"
+      ],
+      "sunken plaza": [
+        "case_06_ntu_humanities_building"
+      ],
+      "circulation": [
+        "case_06_ntu_humanities_building",
+        "case_07_ntu_liberal_education_classroom_building",
+        "case_09_scad_hong_kong_campus"
+      ],
+      "multi-level space": [
+        "case_06_ntu_humanities_building"
+      ],
+      "public ground": [
+        "case_07_ntu_liberal_education_classroom_building"
+      ],
+      "interaction": [
+        "case_07_ntu_liberal_education_classroom_building"
+      ],
+      "military reuse": [
+        "case_08_ncku_industrial_design_history_department"
+      ],
+      "arcade": [
+        "case_08_ncku_industrial_design_history_department"
+      ],
+      "linear plan": [
+        "case_08_ncku_industrial_design_history_department"
+      ],
+      "heritage": [
+        "case_08_ncku_industrial_design_history_department"
+      ],
+      "court conversion": [
+        "case_09_scad_hong_kong_campus"
+      ],
+      "industrial reuse": [
+        "case_10_scad_clark_hall",
+        "case_19_duke_university_smith_warehouse"
+      ],
+      "adaptive learning": [
+        "case_10_scad_clark_hall"
+      ],
+      "hospital reuse": [
+        "case_11_scad_bradley_hall",
+        "case_13_scad_ruskin_hall"
+      ],
+      "corridor system": [
+        "case_11_scad_bradley_hall"
+      ],
+      "preservation": [
+        "case_11_scad_bradley_hall",
+        "case_13_scad_ruskin_hall"
+      ],
+      "commercial reuse": [
+        "case_12_scad_number_nine"
+      ],
+      "sustainability": [
+        "case_12_scad_number_nine"
+      ],
+      "warehouse reuse": [
+        "case_14_university_of_the_arts_london_granary_building"
+      ],
+      "timber": [
+        "case_14_university_of_the_arts_london_granary_building"
+      ],
+      "industrial heritage": [
+        "case_14_university_of_the_arts_london_granary_building"
+      ],
+      "factory reuse": [
+        "case_15_university_of_pittsburgh_ford_factory"
+      ],
+      "collaborative learning": [
+        "case_15_university_of_pittsburgh_ford_factory"
+      ],
+      "manufacturing reuse": [
+        "case_16_guilford_technical_community_college_advanced_manufacturing_campus"
+      ],
+      "industrial campus": [
+        "case_16_guilford_technical_community_college_advanced_manufacturing_campus"
+      ],
+      "campus renewal": [
+        "case_17_tu_delft_bk_city"
+      ],
+      "studio": [
+        "case_17_tu_delft_bk_city",
+        "case_18_university_of_toronto_daniels_building",
+        "case_19_duke_university_smith_warehouse"
+      ],
+      "historic integration": [
+        "case_17_tu_delft_bk_city",
+        "case_18_university_of_toronto_daniels_building",
+        "case_20_aalto_university_harald_herlin_learning_centre"
+      ],
+      "flexible learning": [
+        "case_17_tu_delft_bk_city",
+        "case_20_aalto_university_harald_herlin_learning_centre"
+      ],
+      "heritage reuse": [
+        "case_18_university_of_toronto_daniels_building"
+      ],
+      "architecture school": [
+        "case_18_university_of_toronto_daniels_building"
+      ],
+      "public programming": [
+        "case_18_university_of_toronto_daniels_building"
+      ],
+      "campus gateway": [
+        "case_18_university_of_toronto_daniels_building"
+      ],
+      "warehouse": [
+        "case_19_duke_university_smith_warehouse"
+      ],
+      "arts campus": [
+        "case_19_duke_university_smith_warehouse"
+      ],
+      "large-span": [
+        "case_19_duke_university_smith_warehouse"
+      ],
+      "public connectivity": [
+        "case_19_duke_university_smith_warehouse"
+      ],
+      "library renewal": [
+        "case_20_aalto_university_harald_herlin_learning_centre"
+      ],
+      "exhibition": [
+        "case_20_aalto_university_harald_herlin_learning_centre"
+      ]
+    }
+  },
+  "cases": [
+    {
+      "case_no": 1,
+      "id": "case_01_lehigh_university_packer_hall",
+      "case_name": "Lehigh University - Packer Hall",
+      "original_function": "Historic academic building",
+      "current_function": "University building",
+      "region_country": "USA",
+      "year": null,
+      "location": null,
+      "key_spatial_features": "Stone structure with new materials, long corridor connecting public spaces, open shared spaces",
+      "keywords": [
+        "historic renovation",
+        "corridor",
+        "openness",
+        "campus publicness"
+      ],
+      "typology_tags": [
+        "public_connectivity",
+        "historic_integration",
+        "corridor_type"
+      ],
+      "layer_tags": {
+        "architectural_layer": [
+          {
+            "group": "structural_system",
+            "criterion": "structural_regularity",
+            "label_zh": "結構規律性"
+          },
+          {
+            "group": "spatial_organization",
+            "criterion": "circulation_system",
+            "label_zh": "動線系統"
+          },
+          {
+            "group": "spatial_organization",
+            "criterion": "atrium_courtyard_corridor",
+            "label_zh": "中庭／迴廊"
+          },
+          {
+            "group": "spatial_organization",
+            "criterion": "spatial_openness",
+            "label_zh": "空間開放性"
+          },
+          {
+            "group": "spatial_character",
+            "criterion": "publicness",
+            "label_zh": "公共性"
+          },
+          {
+            "group": "spatial_character",
+            "criterion": "industrial_historical_atmosphere",
+            "label_zh": "工業／歷史氛圍"
+          }
+        ],
+        "urban_context_layer": [
+          {
+            "group": "historical_context",
+            "criterion": "campus_history",
+            "label_zh": "校園歷史"
+          },
+          {
+            "group": "historical_context",
+            "criterion": "local_memory",
+            "label_zh": "地方記憶"
+          },
+          {
+            "group": "urban_relationship",
+            "criterion": "campus_openness",
+            "label_zh": "校園開放性"
+          },
+          {
+            "group": "urban_relationship",
+            "criterion": "community_connection",
+            "label_zh": "社區連結"
+          },
+          {
+            "group": "urban_relationship",
+            "criterion": "public_accessibility",
+            "label_zh": "公共可達性"
+          },
+          {
+            "group": "environmental_condition",
+            "criterion": "natural_ventilation",
+            "label_zh": "自然通風"
+          }
+        ],
+        "temporal_transformation_layer": [
+          {
+            "group": "historical_evolution",
+            "criterion": "historical_layering",
+            "label_zh": "歷史疊加"
+          },
+          {
+            "group": "historical_evolution",
+            "criterion": "spatial_evolution",
+            "label_zh": "空間演變"
+          },
+          {
+            "group": "functional_transformation",
+            "criterion": "teaching_space",
+            "label_zh": "教學空間"
+          },
+          {
+            "group": "functional_transformation",
+            "criterion": "public_exchange",
+            "label_zh": "公共交流"
+          },
+          {
+            "group": "adaptive_capacity",
+            "criterion": "functional_convertibility",
+            "label_zh": "機能可轉換性"
+          },
+          {
+            "group": "adaptive_capacity",
+            "criterion": "long_term_sustainability",
+            "label_zh": "長期永續性"
+          }
+        ],
+        "functional_layer": [
+          {
+            "group": "educational_function",
+            "criterion": "classroom",
+            "label_zh": "教室"
+          },
+          {
+            "group": "public_function",
+            "criterion": "lounge",
+            "label_zh": "Lounge"
+          },
+          {
+            "group": "mixed_use_function",
+            "criterion": "community_shared",
+            "label_zh": "社區共享"
+          }
+        ],
+        "typology_layer": [
+          {
+            "group": "campus_renewal",
+            "criterion": "public_connectivity",
+            "label_zh": "Public Connectivity"
+          },
+          {
+            "group": "campus_renewal",
+            "criterion": "historic_integration",
+            "label_zh": "Historic Integration"
+          },
+          {
+            "group": "military_reuse",
+            "criterion": "corridor_type",
+            "label_zh": "Corridor Type"
+          }
+        ]
+      },
+      "spatial_vocabulary": [
+        "Stone structure with new materials",
+        "long corridor connecting public spaces",
+        "open shared spaces",
+        "historic renovation",
+        "corridor",
+        "openness",
+        "campus publicness"
+      ],
+      "semantic_relations": [
+        "Corridor -> connects (Circulation Relation) -> public or teaching spaces"
+      ],
+      "transformation_summary": {
+        "from": "Historic academic building",
+        "to": "University building"
+      }
+    },
+    {
+      "case_no": 2,
+      "id": "case_02_nottingham_trent_university",
+      "case_name": "Nottingham Trent University",
+      "original_function": "Historic Victorian building",
+      "current_function": "Teaching and research space",
+      "region_country": "UK",
+      "year": null,
+      "location": null,
+      "key_spatial_features": "Atrium daylighting, permeable spaces, modular classrooms, preserved Victorian structure",
+      "keywords": [
+        "atrium",
+        "adaptive reuse",
+        "modular learning",
+        "daylight"
+      ],
+      "typology_tags": [
+        "flexible_learning",
+        "historic_integration",
+        "linear_modular"
+      ],
+      "layer_tags": {
+        "architectural_layer": [
+          {
+            "group": "structural_system",
+            "criterion": "structural_regularity",
+            "label_zh": "結構規律性"
+          },
+          {
+            "group": "structural_system",
+            "criterion": "modular_degree",
+            "label_zh": "模組化程度"
+          },
+          {
+            "group": "structural_system",
+            "criterion": "floor_height_condition",
+            "label_zh": "層高條件"
+          },
+          {
+            "group": "spatial_organization",
+            "criterion": "plan_composition",
+            "label_zh": "平面構成"
+          },
+          {
+            "group": "spatial_organization",
+            "criterion": "atrium_courtyard_corridor",
+            "label_zh": "中庭／迴廊"
+          },
+          {
+            "group": "spatial_organization",
+            "criterion": "spatial_openness",
+            "label_zh": "空間開放性"
+          },
+          {
+            "group": "spatial_character",
+            "criterion": "industrial_historical_atmosphere",
+            "label_zh": "工業／歷史氛圍"
+          }
+        ],
+        "urban_context_layer": [
+          {
+            "group": "historical_context",
+            "criterion": "campus_history",
+            "label_zh": "校園歷史"
+          },
+          {
+            "group": "historical_context",
+            "criterion": "local_memory",
+            "label_zh": "地方記憶"
+          },
+          {
+            "group": "urban_relationship",
+            "criterion": "campus_openness",
+            "label_zh": "校園開放性"
+          },
+          {
+            "group": "environmental_condition",
+            "criterion": "natural_daylighting",
+            "label_zh": "自然採光"
+          },
+          {
+            "group": "environmental_condition",
+            "criterion": "natural_ventilation",
+            "label_zh": "自然通風"
+          }
+        ],
+        "temporal_transformation_layer": [
+          {
+            "group": "historical_evolution",
+            "criterion": "historical_layering",
+            "label_zh": "歷史疊加"
+          },
+          {
+            "group": "historical_evolution",
+            "criterion": "spatial_evolution",
+            "label_zh": "空間演變"
+          },
+          {
+            "group": "functional_transformation",
+            "criterion": "teaching_space",
+            "label_zh": "教學空間"
+          },
+          {
+            "group": "functional_transformation",
+            "criterion": "mixed_use",
+            "label_zh": "混合使用"
+          },
+          {
+            "group": "adaptive_capacity",
+            "criterion": "spatial_flexibility",
+            "label_zh": "空間彈性"
+          },
+          {
+            "group": "adaptive_capacity",
+            "criterion": "functional_convertibility",
+            "label_zh": "機能可轉換性"
+          },
+          {
+            "group": "adaptive_capacity",
+            "criterion": "long_term_sustainability",
+            "label_zh": "長期永續性"
+          }
+        ],
+        "functional_layer": [
+          {
+            "group": "educational_function",
+            "criterion": "classroom",
+            "label_zh": "教室"
+          },
+          {
+            "group": "public_function",
+            "criterion": "atrium",
+            "label_zh": "中庭"
+          },
+          {
+            "group": "mixed_use_function",
+            "criterion": "interdisciplinary_exchange",
+            "label_zh": "跨域交流"
+          }
+        ],
+        "typology_layer": [
+          {
+            "group": "campus_renewal",
+            "criterion": "flexible_learning",
+            "label_zh": "Flexible Learning"
+          },
+          {
+            "group": "campus_renewal",
+            "criterion": "historic_integration",
+            "label_zh": "Historic Integration"
+          },
+          {
+            "group": "industrial_reuse",
+            "criterion": "linear_modular",
+            "label_zh": "Linear Modular"
+          }
+        ]
+      },
+      "spatial_vocabulary": [
+        "Atrium daylighting",
+        "permeable spaces",
+        "modular classrooms",
+        "preserved Victorian structure",
+        "atrium",
+        "adaptive reuse",
+        "modular learning",
+        "daylight"
+      ],
+      "semantic_relations": [
+        "Atrium -> brings daylight into (Environmental Relation) -> Teaching and research space",
+        "Preserved structure/layout -> anchors (Conceptual Relation) -> historic integration"
+      ],
+      "transformation_summary": {
+        "from": "Historic Victorian building",
+        "to": "Teaching and research space"
+      }
+    },
+    {
+      "case_no": 3,
+      "id": "case_03_university_of_coimbra",
+      "case_name": "University of Coimbra",
+      "original_function": "Historic university complex",
+      "current_function": "University campus",
+      "region_country": "Portugal",
+      "year": null,
+      "location": null,
+      "key_spatial_features": "Courtyards and cloisters, layered public spaces, ritual axis, terraced landscape",
+      "keywords": [
+        "courtyard",
+        "cloister",
+        "monumentality",
+        "historic layering"
+      ],
+      "typology_tags": [
+        "public_connectivity",
+        "historic_integration",
+        "courtyard_type",
+        "court",
+        "government_building"
+      ],
+      "layer_tags": {
+        "architectural_layer": [
+          {
+            "group": "spatial_organization",
+            "criterion": "plan_composition",
+            "label_zh": "平面構成"
+          },
+          {
+            "group": "spatial_organization",
+            "criterion": "circulation_system",
+            "label_zh": "動線系統"
+          },
+          {
+            "group": "spatial_organization",
+            "criterion": "atrium_courtyard_corridor",
+            "label_zh": "中庭／迴廊"
+          },
+          {
+            "group": "spatial_character",
+            "criterion": "spatial_scale",
+            "label_zh": "空間尺度"
+          },
+          {
+            "group": "spatial_character",
+            "criterion": "publicness",
+            "label_zh": "公共性"
+          },
+          {
+            "group": "spatial_character",
+            "criterion": "rituality",
+            "label_zh": "儀式性"
+          },
+          {
+            "group": "spatial_character",
+            "criterion": "industrial_historical_atmosphere",
+            "label_zh": "工業／歷史氛圍"
+          }
+        ],
+        "urban_context_layer": [
+          {
+            "group": "historical_context",
+            "criterion": "campus_history",
+            "label_zh": "校園歷史"
+          },
+          {
+            "group": "historical_context",
+            "criterion": "local_memory",
+            "label_zh": "地方記憶"
+          },
+          {
+            "group": "urban_relationship",
+            "criterion": "public_accessibility",
+            "label_zh": "公共可達性"
+          },
+          {
+            "group": "environmental_condition",
+            "criterion": "natural_ventilation",
+            "label_zh": "自然通風"
+          },
+          {
+            "group": "environmental_condition",
+            "criterion": "microclimate",
+            "label_zh": "微氣候"
+          },
+          {
+            "group": "environmental_condition",
+            "criterion": "green_environment",
+            "label_zh": "綠化環境"
+          }
+        ],
+        "temporal_transformation_layer": [
+          {
+            "group": "historical_evolution",
+            "criterion": "historical_layering",
+            "label_zh": "歷史疊加"
+          },
+          {
+            "group": "historical_evolution",
+            "criterion": "spatial_evolution",
+            "label_zh": "空間演變"
+          },
+          {
+            "group": "functional_transformation",
+            "criterion": "teaching_space",
+            "label_zh": "教學空間"
+          },
+          {
+            "group": "functional_transformation",
+            "criterion": "public_exchange",
+            "label_zh": "公共交流"
+          },
+          {
+            "group": "adaptive_capacity",
+            "criterion": "functional_convertibility",
+            "label_zh": "機能可轉換性"
+          }
+        ],
+        "functional_layer": [
+          {
+            "group": "educational_function",
+            "criterion": "classroom",
+            "label_zh": "教室"
+          },
+          {
+            "group": "public_function",
+            "criterion": "lounge",
+            "label_zh": "Lounge"
+          },
+          {
+            "group": "mixed_use_function",
+            "criterion": "community_shared",
+            "label_zh": "社區共享"
+          }
+        ],
+        "typology_layer": [
+          {
+            "group": "campus_renewal",
+            "criterion": "public_connectivity",
+            "label_zh": "Public Connectivity"
+          },
+          {
+            "group": "campus_renewal",
+            "criterion": "historic_integration",
+            "label_zh": "Historic Integration"
+          },
+          {
+            "group": "military_reuse",
+            "criterion": "courtyard_type",
+            "label_zh": "Courtyard Type"
+          },
+          {
+            "group": "institutional_reuse",
+            "criterion": "court",
+            "label_zh": "Court"
+          },
+          {
+            "group": "institutional_reuse",
+            "criterion": "government_building",
+            "label_zh": "Government Building"
+          }
+        ]
+      },
+      "spatial_vocabulary": [
+        "Courtyards and cloisters",
+        "layered public spaces",
+        "ritual axis",
+        "terraced landscape",
+        "courtyard",
+        "cloister",
+        "monumentality",
+        "historic layering"
+      ],
+      "semantic_relations": [
+        "Courtyard/Cloister -> organizes (Spatial Relation) -> public campus movement",
+        "Landscape roof/terrain -> integrates (Environmental Relation) -> green campus environment"
+      ],
+      "transformation_summary": {
+        "from": "Historic university complex",
+        "to": "University campus"
+      }
+    },
+    {
+      "case_no": 4,
+      "id": "case_04_national_cheng_kung_university_future_venue",
+      "case_name": "National Cheng Kung University Future Venue",
+      "original_function": "Contemporary campus building",
+      "current_function": "University learning space",
+      "region_country": "Taiwan",
+      "year": null,
+      "location": null,
+      "key_spatial_features": "Transparent facade, indoor-outdoor continuity, flexible furniture, open plan",
+      "keywords": [
+        "transparency",
+        "flexibility",
+        "openness",
+        "public interaction"
+      ],
+      "typology_tags": [
+        "public_connectivity",
+        "flexible_learning"
+      ],
+      "layer_tags": {
+        "architectural_layer": [
+          {
+            "group": "spatial_organization",
+            "criterion": "plan_composition",
+            "label_zh": "平面構成"
+          },
+          {
+            "group": "spatial_organization",
+            "criterion": "spatial_openness",
+            "label_zh": "空間開放性"
+          },
+          {
+            "group": "spatial_character",
+            "criterion": "publicness",
+            "label_zh": "公共性"
+          }
+        ],
+        "urban_context_layer": [
+          {
+            "group": "historical_context",
+            "criterion": "campus_history",
+            "label_zh": "校園歷史"
+          },
+          {
+            "group": "urban_relationship",
+            "criterion": "urban_interface",
+            "label_zh": "都市介面"
+          },
+          {
+            "group": "urban_relationship",
+            "criterion": "campus_openness",
+            "label_zh": "校園開放性"
+          },
+          {
+            "group": "urban_relationship",
+            "criterion": "community_connection",
+            "label_zh": "社區連結"
+          },
+          {
+            "group": "urban_relationship",
+            "criterion": "public_accessibility",
+            "label_zh": "公共可達性"
+          },
+          {
+            "group": "environmental_condition",
+            "criterion": "natural_daylighting",
+            "label_zh": "自然採光"
+          },
+          {
+            "group": "environmental_condition",
+            "criterion": "natural_ventilation",
+            "label_zh": "自然通風"
+          },
+          {
+            "group": "environmental_condition",
+            "criterion": "microclimate",
+            "label_zh": "微氣候"
+          }
+        ],
+        "temporal_transformation_layer": [
+          {
+            "group": "functional_transformation",
+            "criterion": "teaching_space",
+            "label_zh": "教學空間"
+          },
+          {
+            "group": "functional_transformation",
+            "criterion": "public_exchange",
+            "label_zh": "公共交流"
+          },
+          {
+            "group": "adaptive_capacity",
+            "criterion": "spatial_flexibility",
+            "label_zh": "空間彈性"
+          },
+          {
+            "group": "adaptive_capacity",
+            "criterion": "structural_neutrality",
+            "label_zh": "結構中性"
+          }
+        ],
+        "functional_layer": [
+          {
+            "group": "educational_function",
+            "criterion": "classroom",
+            "label_zh": "教室"
+          },
+          {
+            "group": "mixed_use_function",
+            "criterion": "community_shared",
+            "label_zh": "社區共享"
+          }
+        ],
+        "typology_layer": [
+          {
+            "group": "campus_renewal",
+            "criterion": "public_connectivity",
+            "label_zh": "Public Connectivity"
+          },
+          {
+            "group": "campus_renewal",
+            "criterion": "flexible_learning",
+            "label_zh": "Flexible Learning"
+          }
+        ]
+      },
+      "spatial_vocabulary": [
+        "Transparent facade",
+        "indoor-outdoor continuity",
+        "flexible furniture",
+        "open plan",
+        "transparency",
+        "flexibility",
+        "openness",
+        "public interaction"
+      ],
+      "semantic_relations": [
+        "Transparent facade -> connects visually with (Perceptual Relation) -> campus public realm",
+        "Open plan/interior -> supports (Functional Relation) -> flexible learning use"
+      ],
+      "transformation_summary": {
+        "from": "Contemporary campus building",
+        "to": "University learning space"
+      }
+    },
+    {
+      "case_no": 5,
+      "id": "case_05_feng_chia_university_common_good_hall",
+      "case_name": "Feng Chia University Common Good Hall",
+      "original_function": "New campus building",
+      "current_function": "University public learning space",
+      "region_country": "Taiwan",
+      "year": null,
+      "location": null,
+      "key_spatial_features": "Landscape roof, flowing terrain-like form, transparent facade, interdisciplinary exchange spaces",
+      "keywords": [
+        "landscape architecture",
+        "fluidity",
+        "permeability",
+        "learning commons"
+      ],
+      "typology_tags": [
+        "public_connectivity",
+        "flexible_learning"
+      ],
+      "layer_tags": {
+        "architectural_layer": [
+          {
+            "group": "spatial_organization",
+            "criterion": "spatial_openness",
+            "label_zh": "空間開放性"
+          },
+          {
+            "group": "spatial_character",
+            "criterion": "publicness",
+            "label_zh": "公共性"
+          }
+        ],
+        "urban_context_layer": [
+          {
+            "group": "historical_context",
+            "criterion": "campus_history",
+            "label_zh": "校園歷史"
+          },
+          {
+            "group": "urban_relationship",
+            "criterion": "urban_interface",
+            "label_zh": "都市介面"
+          },
+          {
+            "group": "urban_relationship",
+            "criterion": "campus_openness",
+            "label_zh": "校園開放性"
+          },
+          {
+            "group": "urban_relationship",
+            "criterion": "community_connection",
+            "label_zh": "社區連結"
+          },
+          {
+            "group": "urban_relationship",
+            "criterion": "public_accessibility",
+            "label_zh": "公共可達性"
+          },
+          {
+            "group": "environmental_condition",
+            "criterion": "natural_daylighting",
+            "label_zh": "自然採光"
+          },
+          {
+            "group": "environmental_condition",
+            "criterion": "microclimate",
+            "label_zh": "微氣候"
+          },
+          {
+            "group": "environmental_condition",
+            "criterion": "green_environment",
+            "label_zh": "綠化環境"
+          }
+        ],
+        "temporal_transformation_layer": [
+          {
+            "group": "functional_transformation",
+            "criterion": "teaching_space",
+            "label_zh": "教學空間"
+          },
+          {
+            "group": "functional_transformation",
+            "criterion": "public_exchange",
+            "label_zh": "公共交流"
+          },
+          {
+            "group": "functional_transformation",
+            "criterion": "mixed_use",
+            "label_zh": "混合使用"
+          }
+        ],
+        "functional_layer": [
+          {
+            "group": "educational_function",
+            "criterion": "classroom",
+            "label_zh": "教室"
+          },
+          {
+            "group": "public_function",
+            "criterion": "lounge",
+            "label_zh": "Lounge"
+          },
+          {
+            "group": "mixed_use_function",
+            "criterion": "community_shared",
+            "label_zh": "社區共享"
+          },
+          {
+            "group": "mixed_use_function",
+            "criterion": "interdisciplinary_exchange",
+            "label_zh": "跨域交流"
+          }
+        ],
+        "typology_layer": [
+          {
+            "group": "campus_renewal",
+            "criterion": "public_connectivity",
+            "label_zh": "Public Connectivity"
+          },
+          {
+            "group": "campus_renewal",
+            "criterion": "flexible_learning",
+            "label_zh": "Flexible Learning"
+          }
+        ]
+      },
+      "spatial_vocabulary": [
+        "Landscape roof",
+        "flowing terrain-like form",
+        "transparent facade",
+        "interdisciplinary exchange spaces",
+        "landscape architecture",
+        "fluidity",
+        "permeability",
+        "learning commons"
+      ],
+      "semantic_relations": [
+        "Transparent facade -> connects visually with (Perceptual Relation) -> campus public realm",
+        "Landscape roof/terrain -> integrates (Environmental Relation) -> green campus environment"
+      ],
+      "transformation_summary": {
+        "from": "New campus building",
+        "to": "University public learning space"
+      }
+    },
+    {
+      "case_no": 6,
+      "id": "case_06_ntu_humanities_building",
+      "case_name": "NTU Humanities Building",
+      "original_function": "New campus building",
+      "current_function": "Humanities campus facility",
+      "region_country": "Taiwan",
+      "year": null,
+      "location": null,
+      "key_spatial_features": "Sunken plaza, skybridges, courtyards, layered circulation",
+      "keywords": [
+        "sunken plaza",
+        "circulation",
+        "openness",
+        "multi-level space"
+      ],
+      "typology_tags": [
+        "public_connectivity",
+        "courtyard_type",
+        "court",
+        "government_building"
+      ],
+      "layer_tags": {
+        "architectural_layer": [
+          {
+            "group": "spatial_organization",
+            "criterion": "plan_composition",
+            "label_zh": "平面構成"
+          },
+          {
+            "group": "spatial_organization",
+            "criterion": "circulation_system",
+            "label_zh": "動線系統"
+          },
+          {
+            "group": "spatial_organization",
+            "criterion": "atrium_courtyard_corridor",
+            "label_zh": "中庭／迴廊"
+          },
+          {
+            "group": "spatial_organization",
+            "criterion": "spatial_openness",
+            "label_zh": "空間開放性"
+          },
+          {
+            "group": "spatial_character",
+            "criterion": "spatial_scale",
+            "label_zh": "空間尺度"
+          },
+          {
+            "group": "spatial_character",
+            "criterion": "publicness",
+            "label_zh": "公共性"
+          },
+          {
+            "group": "spatial_character",
+            "criterion": "industrial_historical_atmosphere",
+            "label_zh": "工業／歷史氛圍"
+          }
+        ],
+        "urban_context_layer": [
+          {
+            "group": "historical_context",
+            "criterion": "campus_history",
+            "label_zh": "校園歷史"
+          },
+          {
+            "group": "historical_context",
+            "criterion": "local_memory",
+            "label_zh": "地方記憶"
+          },
+          {
+            "group": "urban_relationship",
+            "criterion": "campus_openness",
+            "label_zh": "校園開放性"
+          },
+          {
+            "group": "urban_relationship",
+            "criterion": "public_accessibility",
+            "label_zh": "公共可達性"
+          },
+          {
+            "group": "environmental_condition",
+            "criterion": "natural_ventilation",
+            "label_zh": "自然通風"
+          },
+          {
+            "group": "environmental_condition",
+            "criterion": "microclimate",
+            "label_zh": "微氣候"
+          },
+          {
+            "group": "environmental_condition",
+            "criterion": "green_environment",
+            "label_zh": "綠化環境"
+          }
+        ],
+        "temporal_transformation_layer": [
+          {
+            "group": "historical_evolution",
+            "criterion": "historical_layering",
+            "label_zh": "歷史疊加"
+          }
+        ],
+        "functional_layer": [
+          {
+            "group": "mixed_use_function",
+            "criterion": "administration",
+            "label_zh": "行政"
+          }
+        ],
+        "typology_layer": [
+          {
+            "group": "campus_renewal",
+            "criterion": "public_connectivity",
+            "label_zh": "Public Connectivity"
+          },
+          {
+            "group": "military_reuse",
+            "criterion": "courtyard_type",
+            "label_zh": "Courtyard Type"
+          },
+          {
+            "group": "institutional_reuse",
+            "criterion": "court",
+            "label_zh": "Court"
+          },
+          {
+            "group": "institutional_reuse",
+            "criterion": "government_building",
+            "label_zh": "Government Building"
+          }
+        ]
+      },
+      "spatial_vocabulary": [
+        "Sunken plaza",
+        "skybridges",
+        "courtyards",
+        "layered circulation",
+        "sunken plaza",
+        "circulation",
+        "openness",
+        "multi-level space"
+      ],
+      "semantic_relations": [
+        "Courtyard/Cloister -> organizes (Spatial Relation) -> public campus movement",
+        "Skybridges -> link (Circulation Relation) -> multi-level campus spaces"
+      ],
+      "transformation_summary": {
+        "from": "New campus building",
+        "to": "Humanities campus facility"
+      }
+    },
+    {
+      "case_no": 7,
+      "id": "case_07_ntu_liberal_education_classroom_building",
+      "case_name": "NTU Liberal Education Classroom Building",
+      "original_function": "New campus building",
+      "current_function": "Teaching building",
+      "region_country": "Taiwan",
+      "year": null,
+      "location": null,
+      "key_spatial_features": "Public ground floor, staggered circulation, open facade system",
+      "keywords": [
+        "public ground",
+        "circulation",
+        "permeability",
+        "interaction"
+      ],
+      "typology_tags": [
+        "public_connectivity"
+      ],
+      "layer_tags": {
+        "architectural_layer": [
+          {
+            "group": "spatial_organization",
+            "criterion": "plan_composition",
+            "label_zh": "平面構成"
+          },
+          {
+            "group": "spatial_organization",
+            "criterion": "circulation_system",
+            "label_zh": "動線系統"
+          },
+          {
+            "group": "spatial_organization",
+            "criterion": "spatial_openness",
+            "label_zh": "空間開放性"
+          },
+          {
+            "group": "spatial_character",
+            "criterion": "publicness",
+            "label_zh": "公共性"
+          }
+        ],
+        "urban_context_layer": [
+          {
+            "group": "historical_context",
+            "criterion": "campus_history",
+            "label_zh": "校園歷史"
+          },
+          {
+            "group": "urban_relationship",
+            "criterion": "urban_interface",
+            "label_zh": "都市介面"
+          },
+          {
+            "group": "urban_relationship",
+            "criterion": "campus_openness",
+            "label_zh": "校園開放性"
+          },
+          {
+            "group": "urban_relationship",
+            "criterion": "community_connection",
+            "label_zh": "社區連結"
+          },
+          {
+            "group": "urban_relationship",
+            "criterion": "public_accessibility",
+            "label_zh": "公共可達性"
+          },
+          {
+            "group": "environmental_condition",
+            "criterion": "natural_daylighting",
+            "label_zh": "自然採光"
+          },
+          {
+            "group": "environmental_condition",
+            "criterion": "natural_ventilation",
+            "label_zh": "自然通風"
+          }
+        ],
+        "temporal_transformation_layer": [
+          {
+            "group": "functional_transformation",
+            "criterion": "teaching_space",
+            "label_zh": "教學空間"
+          },
+          {
+            "group": "functional_transformation",
+            "criterion": "public_exchange",
+            "label_zh": "公共交流"
+          }
+        ],
+        "functional_layer": [
+          {
+            "group": "educational_function",
+            "criterion": "classroom",
+            "label_zh": "教室"
+          },
+          {
+            "group": "mixed_use_function",
+            "criterion": "community_shared",
+            "label_zh": "社區共享"
+          }
+        ],
+        "typology_layer": [
+          {
+            "group": "campus_renewal",
+            "criterion": "public_connectivity",
+            "label_zh": "Public Connectivity"
+          }
+        ]
+      },
+      "spatial_vocabulary": [
+        "Public ground floor",
+        "staggered circulation",
+        "open facade system",
+        "public ground",
+        "circulation",
+        "permeability",
+        "interaction"
+      ],
+      "semantic_relations": [
+        "Transparent facade -> connects visually with (Perceptual Relation) -> campus public realm"
+      ],
+      "transformation_summary": {
+        "from": "New campus building",
+        "to": "Teaching building"
+      }
+    },
+    {
+      "case_no": 8,
+      "id": "case_08_ncku_industrial_design_history_department",
+      "case_name": "NCKU Industrial Design & History Department",
+      "original_function": "Japanese military barracks",
+      "current_function": "University departments",
+      "region_country": "Taiwan",
+      "year": null,
+      "location": null,
+      "key_spatial_features": "Linear layout, continuous arcade corridor",
+      "keywords": [
+        "military reuse",
+        "arcade",
+        "linear plan",
+        "heritage"
+      ],
+      "typology_tags": [
+        "public_connectivity",
+        "historic_integration",
+        "linear_modular",
+        "barrack_conversion",
+        "corridor_type"
+      ],
+      "layer_tags": {
+        "architectural_layer": [
+          {
+            "group": "structural_system",
+            "criterion": "structural_regularity",
+            "label_zh": "結構規律性"
+          },
+          {
+            "group": "structural_system",
+            "criterion": "modular_degree",
+            "label_zh": "模組化程度"
+          },
+          {
+            "group": "spatial_organization",
+            "criterion": "plan_composition",
+            "label_zh": "平面構成"
+          },
+          {
+            "group": "spatial_organization",
+            "criterion": "circulation_system",
+            "label_zh": "動線系統"
+          },
+          {
+            "group": "spatial_organization",
+            "criterion": "atrium_courtyard_corridor",
+            "label_zh": "中庭／迴廊"
+          },
+          {
+            "group": "spatial_character",
+            "criterion": "industrial_historical_atmosphere",
+            "label_zh": "工業／歷史氛圍"
+          }
+        ],
+        "urban_context_layer": [
+          {
+            "group": "historical_context",
+            "criterion": "industrial_heritage",
+            "label_zh": "工業遺產"
+          },
+          {
+            "group": "historical_context",
+            "criterion": "military_heritage",
+            "label_zh": "軍事遺產"
+          },
+          {
+            "group": "historical_context",
+            "criterion": "campus_history",
+            "label_zh": "校園歷史"
+          },
+          {
+            "group": "historical_context",
+            "criterion": "local_memory",
+            "label_zh": "地方記憶"
+          }
+        ],
+        "temporal_transformation_layer": [
+          {
+            "group": "historical_evolution",
+            "criterion": "historical_layering",
+            "label_zh": "歷史疊加"
+          },
+          {
+            "group": "historical_evolution",
+            "criterion": "spatial_evolution",
+            "label_zh": "空間演變"
+          },
+          {
+            "group": "functional_transformation",
+            "criterion": "teaching_space",
+            "label_zh": "教學空間"
+          },
+          {
+            "group": "functional_transformation",
+            "criterion": "exhibition_performance",
+            "label_zh": "展演活動"
+          },
+          {
+            "group": "functional_transformation",
+            "criterion": "mixed_use",
+            "label_zh": "混合使用"
+          },
+          {
+            "group": "adaptive_capacity",
+            "criterion": "functional_convertibility",
+            "label_zh": "機能可轉換性"
+          },
+          {
+            "group": "adaptive_capacity",
+            "criterion": "long_term_sustainability",
+            "label_zh": "長期永續性"
+          }
+        ],
+        "functional_layer": [
+          {
+            "group": "educational_function",
+            "criterion": "classroom",
+            "label_zh": "教室"
+          },
+          {
+            "group": "educational_function",
+            "criterion": "studio",
+            "label_zh": "Studio"
+          },
+          {
+            "group": "educational_function",
+            "criterion": "workshop",
+            "label_zh": "Workshop"
+          },
+          {
+            "group": "public_function",
+            "criterion": "exhibition_space",
+            "label_zh": "展覽空間"
+          },
+          {
+            "group": "mixed_use_function",
+            "criterion": "administration",
+            "label_zh": "行政"
+          },
+          {
+            "group": "mixed_use_function",
+            "criterion": "performance",
+            "label_zh": "展演活動"
+          }
+        ],
+        "typology_layer": [
+          {
+            "group": "campus_renewal",
+            "criterion": "public_connectivity",
+            "label_zh": "Public Connectivity"
+          },
+          {
+            "group": "campus_renewal",
+            "criterion": "historic_integration",
+            "label_zh": "Historic Integration"
+          },
+          {
+            "group": "industrial_reuse",
+            "criterion": "linear_modular",
+            "label_zh": "Linear Modular"
+          },
+          {
+            "group": "military_reuse",
+            "criterion": "barrack_conversion",
+            "label_zh": "Barrack Conversion"
+          },
+          {
+            "group": "military_reuse",
+            "criterion": "corridor_type",
+            "label_zh": "Corridor Type"
+          }
+        ]
+      },
+      "spatial_vocabulary": [
+        "Linear layout",
+        "continuous arcade corridor",
+        "military reuse",
+        "arcade",
+        "linear plan",
+        "heritage"
+      ],
+      "semantic_relations": [
+        "Corridor -> connects (Circulation Relation) -> public or teaching spaces",
+        "Arcade corridor -> extends along (Circulation Relation) -> linear plan"
+      ],
+      "transformation_summary": {
+        "from": "Japanese military barracks",
+        "to": "University departments"
+      }
+    },
+    {
+      "case_no": 9,
+      "id": "case_09_scad_hong_kong_campus",
+      "case_name": "SCAD Hong Kong Campus",
+      "original_function": "North Kowloon Magistracy",
+      "current_function": "Art and design university campus",
+      "region_country": "Hong Kong",
+      "year": null,
+      "location": null,
+      "key_spatial_features": "Separate circulation systems, light-filled atrium, adaptive reuse of courtroom and jail",
+      "keywords": [
+        "court conversion",
+        "atrium",
+        "adaptive reuse",
+        "circulation"
+      ],
+      "typology_tags": [
+        "historic_integration",
+        "court",
+        "government_building"
+      ],
+      "layer_tags": {
+        "architectural_layer": [
+          {
+            "group": "structural_system",
+            "criterion": "floor_height_condition",
+            "label_zh": "層高條件"
+          },
+          {
+            "group": "spatial_organization",
+            "criterion": "plan_composition",
+            "label_zh": "平面構成"
+          },
+          {
+            "group": "spatial_organization",
+            "criterion": "circulation_system",
+            "label_zh": "動線系統"
+          },
+          {
+            "group": "spatial_organization",
+            "criterion": "atrium_courtyard_corridor",
+            "label_zh": "中庭／迴廊"
+          },
+          {
+            "group": "spatial_organization",
+            "criterion": "spatial_openness",
+            "label_zh": "空間開放性"
+          },
+          {
+            "group": "spatial_character",
+            "criterion": "industrial_historical_atmosphere",
+            "label_zh": "工業／歷史氛圍"
+          }
+        ],
+        "urban_context_layer": [
+          {
+            "group": "historical_context",
+            "criterion": "campus_history",
+            "label_zh": "校園歷史"
+          },
+          {
+            "group": "historical_context",
+            "criterion": "local_memory",
+            "label_zh": "地方記憶"
+          },
+          {
+            "group": "urban_relationship",
+            "criterion": "public_accessibility",
+            "label_zh": "公共可達性"
+          },
+          {
+            "group": "environmental_condition",
+            "criterion": "natural_daylighting",
+            "label_zh": "自然採光"
+          },
+          {
+            "group": "environmental_condition",
+            "criterion": "natural_ventilation",
+            "label_zh": "自然通風"
+          }
+        ],
+        "temporal_transformation_layer": [
+          {
+            "group": "historical_evolution",
+            "criterion": "historical_layering",
+            "label_zh": "歷史疊加"
+          },
+          {
+            "group": "historical_evolution",
+            "criterion": "spatial_evolution",
+            "label_zh": "空間演變"
+          },
+          {
+            "group": "functional_transformation",
+            "criterion": "teaching_space",
+            "label_zh": "教學空間"
+          },
+          {
+            "group": "functional_transformation",
+            "criterion": "exhibition_performance",
+            "label_zh": "展演活動"
+          },
+          {
+            "group": "adaptive_capacity",
+            "criterion": "functional_convertibility",
+            "label_zh": "機能可轉換性"
+          },
+          {
+            "group": "adaptive_capacity",
+            "criterion": "long_term_sustainability",
+            "label_zh": "長期永續性"
+          }
+        ],
+        "functional_layer": [
+          {
+            "group": "educational_function",
+            "criterion": "classroom",
+            "label_zh": "教室"
+          },
+          {
+            "group": "educational_function",
+            "criterion": "studio",
+            "label_zh": "Studio"
+          },
+          {
+            "group": "public_function",
+            "criterion": "atrium",
+            "label_zh": "中庭"
+          },
+          {
+            "group": "public_function",
+            "criterion": "exhibition_space",
+            "label_zh": "展覽空間"
+          },
+          {
+            "group": "mixed_use_function",
+            "criterion": "performance",
+            "label_zh": "展演活動"
+          },
+          {
+            "group": "mixed_use_function",
+            "criterion": "interdisciplinary_exchange",
+            "label_zh": "跨域交流"
+          }
+        ],
+        "typology_layer": [
+          {
+            "group": "campus_renewal",
+            "criterion": "historic_integration",
+            "label_zh": "Historic Integration"
+          },
+          {
+            "group": "institutional_reuse",
+            "criterion": "court",
+            "label_zh": "Court"
+          },
+          {
+            "group": "institutional_reuse",
+            "criterion": "government_building",
+            "label_zh": "Government Building"
+          }
+        ]
+      },
+      "spatial_vocabulary": [
+        "Separate circulation systems",
+        "light-filled atrium",
+        "adaptive reuse of courtroom and jail",
+        "court conversion",
+        "atrium",
+        "adaptive reuse",
+        "circulation"
+      ],
+      "semantic_relations": [
+        "Atrium -> brings daylight into (Environmental Relation) -> Art and design university campus",
+        "Separate circulation systems -> organize (Circulation Relation) -> reused institutional spaces"
+      ],
+      "transformation_summary": {
+        "from": "North Kowloon Magistracy",
+        "to": "Art and design university campus"
+      }
+    },
+    {
+      "case_no": 10,
+      "id": "case_10_scad_clark_hall",
+      "case_name": "SCAD Clark Hall",
+      "original_function": "Railroad complex",
+      "current_function": "University building",
+      "region_country": "USA",
+      "year": null,
+      "location": null,
+      "key_spatial_features": "Open industrial roof space with enclosed rooms, airy interior",
+      "keywords": [
+        "industrial reuse",
+        "openness",
+        "adaptive learning"
+      ],
+      "typology_tags": [
+        "public_connectivity",
+        "flexible_learning",
+        "large_span",
+        "linear_modular",
+        "factory_conversion"
+      ],
+      "layer_tags": {
+        "architectural_layer": [
+          {
+            "group": "structural_system",
+            "criterion": "large_span_space",
+            "label_zh": "大跨度空間"
+          },
+          {
+            "group": "structural_system",
+            "criterion": "modular_degree",
+            "label_zh": "模組化程度"
+          },
+          {
+            "group": "structural_system",
+            "criterion": "floor_height_condition",
+            "label_zh": "層高條件"
+          },
+          {
+            "group": "spatial_organization",
+            "criterion": "spatial_openness",
+            "label_zh": "空間開放性"
+          },
+          {
+            "group": "spatial_character",
+            "criterion": "publicness",
+            "label_zh": "公共性"
+          },
+          {
+            "group": "spatial_character",
+            "criterion": "industrial_historical_atmosphere",
+            "label_zh": "工業／歷史氛圍"
+          }
+        ],
+        "urban_context_layer": [
+          {
+            "group": "historical_context",
+            "criterion": "industrial_heritage",
+            "label_zh": "工業遺產"
+          },
+          {
+            "group": "historical_context",
+            "criterion": "campus_history",
+            "label_zh": "校園歷史"
+          },
+          {
+            "group": "urban_relationship",
+            "criterion": "campus_openness",
+            "label_zh": "校園開放性"
+          },
+          {
+            "group": "urban_relationship",
+            "criterion": "public_accessibility",
+            "label_zh": "公共可達性"
+          },
+          {
+            "group": "environmental_condition",
+            "criterion": "natural_ventilation",
+            "label_zh": "自然通風"
+          },
+          {
+            "group": "environmental_condition",
+            "criterion": "green_environment",
+            "label_zh": "綠化環境"
+          }
+        ],
+        "temporal_transformation_layer": [
+          {
+            "group": "historical_evolution",
+            "criterion": "spatial_evolution",
+            "label_zh": "空間演變"
+          },
+          {
+            "group": "functional_transformation",
+            "criterion": "teaching_space",
+            "label_zh": "教學空間"
+          },
+          {
+            "group": "adaptive_capacity",
+            "criterion": "structural_neutrality",
+            "label_zh": "結構中性"
+          },
+          {
+            "group": "adaptive_capacity",
+            "criterion": "functional_convertibility",
+            "label_zh": "機能可轉換性"
+          },
+          {
+            "group": "adaptive_capacity",
+            "criterion": "long_term_sustainability",
+            "label_zh": "長期永續性"
+          }
+        ],
+        "functional_layer": [
+          {
+            "group": "educational_function",
+            "criterion": "classroom",
+            "label_zh": "教室"
+          },
+          {
+            "group": "educational_function",
+            "criterion": "studio",
+            "label_zh": "Studio"
+          }
+        ],
+        "typology_layer": [
+          {
+            "group": "campus_renewal",
+            "criterion": "public_connectivity",
+            "label_zh": "Public Connectivity"
+          },
+          {
+            "group": "campus_renewal",
+            "criterion": "flexible_learning",
+            "label_zh": "Flexible Learning"
+          },
+          {
+            "group": "industrial_reuse",
+            "criterion": "large_span",
+            "label_zh": "Large-span"
+          },
+          {
+            "group": "industrial_reuse",
+            "criterion": "linear_modular",
+            "label_zh": "Linear Modular"
+          },
+          {
+            "group": "industrial_reuse",
+            "criterion": "factory_conversion",
+            "label_zh": "Factory Conversion"
+          }
+        ]
+      },
+      "spatial_vocabulary": [
+        "Open industrial roof space with enclosed rooms",
+        "airy interior",
+        "industrial reuse",
+        "openness",
+        "adaptive learning"
+      ],
+      "semantic_relations": [],
+      "transformation_summary": {
+        "from": "Railroad complex",
+        "to": "University building"
+      }
+    },
+    {
+      "case_no": 11,
+      "id": "case_11_scad_bradley_hall",
+      "case_name": "SCAD Bradley Hall",
+      "original_function": "U.S. Marine Hospital",
+      "current_function": "University building",
+      "region_country": "USA",
+      "year": null,
+      "location": null,
+      "key_spatial_features": "Double-loaded corridor preserved from hospital layout",
+      "keywords": [
+        "hospital reuse",
+        "corridor system",
+        "preservation"
+      ],
+      "typology_tags": [
+        "public_connectivity",
+        "historic_integration",
+        "corridor_type",
+        "hospital"
+      ],
+      "layer_tags": {
+        "architectural_layer": [
+          {
+            "group": "structural_system",
+            "criterion": "structural_regularity",
+            "label_zh": "結構規律性"
+          },
+          {
+            "group": "spatial_organization",
+            "criterion": "plan_composition",
+            "label_zh": "平面構成"
+          },
+          {
+            "group": "spatial_organization",
+            "criterion": "circulation_system",
+            "label_zh": "動線系統"
+          },
+          {
+            "group": "spatial_organization",
+            "criterion": "atrium_courtyard_corridor",
+            "label_zh": "中庭／迴廊"
+          },
+          {
+            "group": "spatial_character",
+            "criterion": "industrial_historical_atmosphere",
+            "label_zh": "工業／歷史氛圍"
+          }
+        ],
+        "urban_context_layer": [
+          {
+            "group": "historical_context",
+            "criterion": "campus_history",
+            "label_zh": "校園歷史"
+          },
+          {
+            "group": "historical_context",
+            "criterion": "local_memory",
+            "label_zh": "地方記憶"
+          }
+        ],
+        "temporal_transformation_layer": [
+          {
+            "group": "historical_evolution",
+            "criterion": "historical_layering",
+            "label_zh": "歷史疊加"
+          },
+          {
+            "group": "historical_evolution",
+            "criterion": "spatial_evolution",
+            "label_zh": "空間演變"
+          },
+          {
+            "group": "functional_transformation",
+            "criterion": "teaching_space",
+            "label_zh": "教學空間"
+          },
+          {
+            "group": "adaptive_capacity",
+            "criterion": "functional_convertibility",
+            "label_zh": "機能可轉換性"
+          },
+          {
+            "group": "adaptive_capacity",
+            "criterion": "long_term_sustainability",
+            "label_zh": "長期永續性"
+          }
+        ],
+        "functional_layer": [
+          {
+            "group": "educational_function",
+            "criterion": "classroom",
+            "label_zh": "教室"
+          },
+          {
+            "group": "educational_function",
+            "criterion": "studio",
+            "label_zh": "Studio"
+          }
+        ],
+        "typology_layer": [
+          {
+            "group": "campus_renewal",
+            "criterion": "public_connectivity",
+            "label_zh": "Public Connectivity"
+          },
+          {
+            "group": "campus_renewal",
+            "criterion": "historic_integration",
+            "label_zh": "Historic Integration"
+          },
+          {
+            "group": "military_reuse",
+            "criterion": "corridor_type",
+            "label_zh": "Corridor Type"
+          },
+          {
+            "group": "institutional_reuse",
+            "criterion": "hospital",
+            "label_zh": "Hospital"
+          }
+        ]
+      },
+      "spatial_vocabulary": [
+        "Double-loaded corridor preserved from hospital layout",
+        "hospital reuse",
+        "corridor system",
+        "preservation"
+      ],
+      "semantic_relations": [
+        "Corridor -> connects (Circulation Relation) -> public or teaching spaces",
+        "Preserved structure/layout -> anchors (Conceptual Relation) -> historic integration"
+      ],
+      "transformation_summary": {
+        "from": "U.S. Marine Hospital",
+        "to": "University building"
+      }
+    },
+    {
+      "case_no": 12,
+      "id": "case_12_scad_number_nine",
+      "case_name": "SCAD Number Nine",
+      "original_function": "Commercial strip center",
+      "current_function": "University facility",
+      "region_country": "USA",
+      "year": null,
+      "location": null,
+      "key_spatial_features": "Bright open interior, energy-efficient renovation",
+      "keywords": [
+        "commercial reuse",
+        "openness",
+        "sustainability"
+      ],
+      "typology_tags": [
+        "public_connectivity",
+        "historic_integration",
+        "commercial_building"
+      ],
+      "layer_tags": {
+        "architectural_layer": [
+          {
+            "group": "spatial_organization",
+            "criterion": "spatial_openness",
+            "label_zh": "空間開放性"
+          },
+          {
+            "group": "spatial_character",
+            "criterion": "publicness",
+            "label_zh": "公共性"
+          }
+        ],
+        "urban_context_layer": [
+          {
+            "group": "historical_context",
+            "criterion": "campus_history",
+            "label_zh": "校園歷史"
+          },
+          {
+            "group": "urban_relationship",
+            "criterion": "urban_interface",
+            "label_zh": "都市介面"
+          },
+          {
+            "group": "urban_relationship",
+            "criterion": "campus_openness",
+            "label_zh": "校園開放性"
+          },
+          {
+            "group": "urban_relationship",
+            "criterion": "public_accessibility",
+            "label_zh": "公共可達性"
+          },
+          {
+            "group": "environmental_condition",
+            "criterion": "natural_ventilation",
+            "label_zh": "自然通風"
+          }
+        ],
+        "temporal_transformation_layer": [
+          {
+            "group": "historical_evolution",
+            "criterion": "historical_layering",
+            "label_zh": "歷史疊加"
+          },
+          {
+            "group": "historical_evolution",
+            "criterion": "spatial_evolution",
+            "label_zh": "空間演變"
+          },
+          {
+            "group": "functional_transformation",
+            "criterion": "teaching_space",
+            "label_zh": "教學空間"
+          },
+          {
+            "group": "functional_transformation",
+            "criterion": "mixed_use",
+            "label_zh": "混合使用"
+          },
+          {
+            "group": "adaptive_capacity",
+            "criterion": "spatial_flexibility",
+            "label_zh": "空間彈性"
+          },
+          {
+            "group": "adaptive_capacity",
+            "criterion": "functional_convertibility",
+            "label_zh": "機能可轉換性"
+          },
+          {
+            "group": "adaptive_capacity",
+            "criterion": "long_term_sustainability",
+            "label_zh": "長期永續性"
+          }
+        ],
+        "functional_layer": [
+          {
+            "group": "educational_function",
+            "criterion": "classroom",
+            "label_zh": "教室"
+          },
+          {
+            "group": "educational_function",
+            "criterion": "studio",
+            "label_zh": "Studio"
+          },
+          {
+            "group": "mixed_use_function",
+            "criterion": "administration",
+            "label_zh": "行政"
+          }
+        ],
+        "typology_layer": [
+          {
+            "group": "campus_renewal",
+            "criterion": "public_connectivity",
+            "label_zh": "Public Connectivity"
+          },
+          {
+            "group": "campus_renewal",
+            "criterion": "historic_integration",
+            "label_zh": "Historic Integration"
+          },
+          {
+            "group": "institutional_reuse",
+            "criterion": "commercial_building",
+            "label_zh": "Commercial Building"
+          }
+        ]
+      },
+      "spatial_vocabulary": [
+        "Bright open interior",
+        "energy-efficient renovation",
+        "commercial reuse",
+        "openness",
+        "sustainability"
+      ],
+      "semantic_relations": [
+        "Open plan/interior -> supports (Functional Relation) -> flexible learning use"
+      ],
+      "transformation_summary": {
+        "from": "Commercial strip center",
+        "to": "University facility"
+      }
+    },
+    {
+      "case_no": 13,
+      "id": "case_13_scad_ruskin_hall",
+      "case_name": "SCAD Ruskin Hall",
+      "original_function": "Old Candler Hospital",
+      "current_function": "Student housing / university use",
+      "region_country": "USA",
+      "year": null,
+      "location": null,
+      "key_spatial_features": "Preserved hospital corridor structure, courtyard addition",
+      "keywords": [
+        "hospital reuse",
+        "courtyard",
+        "preservation"
+      ],
+      "typology_tags": [
+        "public_connectivity",
+        "historic_integration",
+        "corridor_type",
+        "courtyard_type",
+        "hospital",
+        "court",
+        "government_building"
+      ],
+      "layer_tags": {
+        "architectural_layer": [
+          {
+            "group": "structural_system",
+            "criterion": "structural_regularity",
+            "label_zh": "結構規律性"
+          },
+          {
+            "group": "spatial_organization",
+            "criterion": "plan_composition",
+            "label_zh": "平面構成"
+          },
+          {
+            "group": "spatial_organization",
+            "criterion": "circulation_system",
+            "label_zh": "動線系統"
+          },
+          {
+            "group": "spatial_organization",
+            "criterion": "atrium_courtyard_corridor",
+            "label_zh": "中庭／迴廊"
+          },
+          {
+            "group": "spatial_character",
+            "criterion": "industrial_historical_atmosphere",
+            "label_zh": "工業／歷史氛圍"
+          }
+        ],
+        "urban_context_layer": [
+          {
+            "group": "historical_context",
+            "criterion": "campus_history",
+            "label_zh": "校園歷史"
+          },
+          {
+            "group": "historical_context",
+            "criterion": "local_memory",
+            "label_zh": "地方記憶"
+          },
+          {
+            "group": "environmental_condition",
+            "criterion": "natural_ventilation",
+            "label_zh": "自然通風"
+          },
+          {
+            "group": "environmental_condition",
+            "criterion": "microclimate",
+            "label_zh": "微氣候"
+          },
+          {
+            "group": "environmental_condition",
+            "criterion": "green_environment",
+            "label_zh": "綠化環境"
+          }
+        ],
+        "temporal_transformation_layer": [
+          {
+            "group": "historical_evolution",
+            "criterion": "historical_layering",
+            "label_zh": "歷史疊加"
+          },
+          {
+            "group": "historical_evolution",
+            "criterion": "spatial_evolution",
+            "label_zh": "空間演變"
+          },
+          {
+            "group": "functional_transformation",
+            "criterion": "teaching_space",
+            "label_zh": "教學空間"
+          },
+          {
+            "group": "functional_transformation",
+            "criterion": "mixed_use",
+            "label_zh": "混合使用"
+          },
+          {
+            "group": "adaptive_capacity",
+            "criterion": "functional_convertibility",
+            "label_zh": "機能可轉換性"
+          },
+          {
+            "group": "adaptive_capacity",
+            "criterion": "long_term_sustainability",
+            "label_zh": "長期永續性"
+          }
+        ],
+        "functional_layer": [
+          {
+            "group": "educational_function",
+            "criterion": "classroom",
+            "label_zh": "教室"
+          },
+          {
+            "group": "educational_function",
+            "criterion": "studio",
+            "label_zh": "Studio"
+          }
+        ],
+        "typology_layer": [
+          {
+            "group": "campus_renewal",
+            "criterion": "public_connectivity",
+            "label_zh": "Public Connectivity"
+          },
+          {
+            "group": "campus_renewal",
+            "criterion": "historic_integration",
+            "label_zh": "Historic Integration"
+          },
+          {
+            "group": "military_reuse",
+            "criterion": "corridor_type",
+            "label_zh": "Corridor Type"
+          },
+          {
+            "group": "military_reuse",
+            "criterion": "courtyard_type",
+            "label_zh": "Courtyard Type"
+          },
+          {
+            "group": "institutional_reuse",
+            "criterion": "hospital",
+            "label_zh": "Hospital"
+          },
+          {
+            "group": "institutional_reuse",
+            "criterion": "court",
+            "label_zh": "Court"
+          },
+          {
+            "group": "institutional_reuse",
+            "criterion": "government_building",
+            "label_zh": "Government Building"
+          }
+        ]
+      },
+      "spatial_vocabulary": [
+        "Preserved hospital corridor structure",
+        "courtyard addition",
+        "hospital reuse",
+        "courtyard",
+        "preservation"
+      ],
+      "semantic_relations": [
+        "Corridor -> connects (Circulation Relation) -> public or teaching spaces",
+        "Courtyard/Cloister -> organizes (Spatial Relation) -> public campus movement",
+        "Preserved structure/layout -> anchors (Conceptual Relation) -> historic integration"
+      ],
+      "transformation_summary": {
+        "from": "Old Candler Hospital",
+        "to": "Student housing / university use"
+      }
+    },
+    {
+      "case_no": 14,
+      "id": "case_14_university_of_the_arts_london_granary_building",
+      "case_name": "University of the Arts London Granary Building",
+      "original_function": "Victorian grain warehouse",
+      "current_function": "Arts university building",
+      "region_country": "UK",
+      "year": null,
+      "location": null,
+      "key_spatial_features": "Exposed timber beams, skylights, industrial rhythm preserved",
+      "keywords": [
+        "warehouse reuse",
+        "timber",
+        "industrial heritage"
+      ],
+      "typology_tags": [
+        "historic_integration",
+        "large_span",
+        "linear_modular"
+      ],
+      "layer_tags": {
+        "architectural_layer": [
+          {
+            "group": "structural_system",
+            "criterion": "structural_regularity",
+            "label_zh": "結構規律性"
+          },
+          {
+            "group": "structural_system",
+            "criterion": "large_span_space",
+            "label_zh": "大跨度空間"
+          },
+          {
+            "group": "structural_system",
+            "criterion": "modular_degree",
+            "label_zh": "模組化程度"
+          },
+          {
+            "group": "structural_system",
+            "criterion": "floor_height_condition",
+            "label_zh": "層高條件"
+          },
+          {
+            "group": "spatial_character",
+            "criterion": "spatial_scale",
+            "label_zh": "空間尺度"
+          },
+          {
+            "group": "spatial_character",
+            "criterion": "industrial_historical_atmosphere",
+            "label_zh": "工業／歷史氛圍"
+          }
+        ],
+        "urban_context_layer": [
+          {
+            "group": "historical_context",
+            "criterion": "industrial_heritage",
+            "label_zh": "工業遺產"
+          },
+          {
+            "group": "historical_context",
+            "criterion": "campus_history",
+            "label_zh": "校園歷史"
+          },
+          {
+            "group": "historical_context",
+            "criterion": "local_memory",
+            "label_zh": "地方記憶"
+          },
+          {
+            "group": "environmental_condition",
+            "criterion": "natural_daylighting",
+            "label_zh": "自然採光"
+          }
+        ],
+        "temporal_transformation_layer": [
+          {
+            "group": "historical_evolution",
+            "criterion": "historical_layering",
+            "label_zh": "歷史疊加"
+          },
+          {
+            "group": "historical_evolution",
+            "criterion": "spatial_evolution",
+            "label_zh": "空間演變"
+          },
+          {
+            "group": "functional_transformation",
+            "criterion": "teaching_space",
+            "label_zh": "教學空間"
+          },
+          {
+            "group": "functional_transformation",
+            "criterion": "exhibition_performance",
+            "label_zh": "展演活動"
+          },
+          {
+            "group": "adaptive_capacity",
+            "criterion": "structural_neutrality",
+            "label_zh": "結構中性"
+          },
+          {
+            "group": "adaptive_capacity",
+            "criterion": "functional_convertibility",
+            "label_zh": "機能可轉換性"
+          },
+          {
+            "group": "adaptive_capacity",
+            "criterion": "long_term_sustainability",
+            "label_zh": "長期永續性"
+          }
+        ],
+        "functional_layer": [
+          {
+            "group": "educational_function",
+            "criterion": "classroom",
+            "label_zh": "教室"
+          },
+          {
+            "group": "educational_function",
+            "criterion": "studio",
+            "label_zh": "Studio"
+          },
+          {
+            "group": "public_function",
+            "criterion": "exhibition_space",
+            "label_zh": "展覽空間"
+          },
+          {
+            "group": "mixed_use_function",
+            "criterion": "performance",
+            "label_zh": "展演活動"
+          }
+        ],
+        "typology_layer": [
+          {
+            "group": "campus_renewal",
+            "criterion": "historic_integration",
+            "label_zh": "Historic Integration"
+          },
+          {
+            "group": "industrial_reuse",
+            "criterion": "large_span",
+            "label_zh": "Large-span"
+          },
+          {
+            "group": "industrial_reuse",
+            "criterion": "linear_modular",
+            "label_zh": "Linear Modular"
+          }
+        ]
+      },
+      "spatial_vocabulary": [
+        "Exposed timber beams",
+        "skylights",
+        "industrial rhythm preserved",
+        "warehouse reuse",
+        "timber",
+        "industrial heritage"
+      ],
+      "semantic_relations": [
+        "Skylights -> bring daylight into (Environmental Relation) -> Arts university building",
+        "Preserved structure/layout -> anchors (Conceptual Relation) -> historic integration"
+      ],
+      "transformation_summary": {
+        "from": "Victorian grain warehouse",
+        "to": "Arts university building"
+      }
+    },
+    {
+      "case_no": 15,
+      "id": "case_15_university_of_pittsburgh_ford_factory",
+      "case_name": "University of Pittsburgh Ford Factory",
+      "original_function": "Ford assembly plant",
+      "current_function": "University collaborative learning space",
+      "region_country": "USA",
+      "year": null,
+      "location": null,
+      "key_spatial_features": "Large industrial halls, atrium connections, daylight intervention",
+      "keywords": [
+        "factory reuse",
+        "atrium",
+        "collaborative learning"
+      ],
+      "typology_tags": [
+        "flexible_learning",
+        "large_span",
+        "linear_modular",
+        "factory_conversion"
+      ],
+      "layer_tags": {
+        "architectural_layer": [
+          {
+            "group": "structural_system",
+            "criterion": "large_span_space",
+            "label_zh": "大跨度空間"
+          },
+          {
+            "group": "structural_system",
+            "criterion": "floor_height_condition",
+            "label_zh": "層高條件"
+          },
+          {
+            "group": "spatial_organization",
+            "criterion": "plan_composition",
+            "label_zh": "平面構成"
+          },
+          {
+            "group": "spatial_organization",
+            "criterion": "atrium_courtyard_corridor",
+            "label_zh": "中庭／迴廊"
+          },
+          {
+            "group": "spatial_character",
+            "criterion": "spatial_scale",
+            "label_zh": "空間尺度"
+          },
+          {
+            "group": "spatial_character",
+            "criterion": "publicness",
+            "label_zh": "公共性"
+          },
+          {
+            "group": "spatial_character",
+            "criterion": "industrial_historical_atmosphere",
+            "label_zh": "工業／歷史氛圍"
+          }
+        ],
+        "urban_context_layer": [
+          {
+            "group": "historical_context",
+            "criterion": "industrial_heritage",
+            "label_zh": "工業遺產"
+          },
+          {
+            "group": "historical_context",
+            "criterion": "campus_history",
+            "label_zh": "校園歷史"
+          },
+          {
+            "group": "historical_context",
+            "criterion": "local_memory",
+            "label_zh": "地方記憶"
+          },
+          {
+            "group": "urban_relationship",
+            "criterion": "community_connection",
+            "label_zh": "社區連結"
+          },
+          {
+            "group": "environmental_condition",
+            "criterion": "natural_daylighting",
+            "label_zh": "自然採光"
+          },
+          {
+            "group": "environmental_condition",
+            "criterion": "natural_ventilation",
+            "label_zh": "自然通風"
+          }
+        ],
+        "temporal_transformation_layer": [
+          {
+            "group": "historical_evolution",
+            "criterion": "spatial_evolution",
+            "label_zh": "空間演變"
+          },
+          {
+            "group": "functional_transformation",
+            "criterion": "teaching_space",
+            "label_zh": "教學空間"
+          },
+          {
+            "group": "functional_transformation",
+            "criterion": "public_exchange",
+            "label_zh": "公共交流"
+          },
+          {
+            "group": "functional_transformation",
+            "criterion": "mixed_use",
+            "label_zh": "混合使用"
+          },
+          {
+            "group": "adaptive_capacity",
+            "criterion": "spatial_flexibility",
+            "label_zh": "空間彈性"
+          },
+          {
+            "group": "adaptive_capacity",
+            "criterion": "structural_neutrality",
+            "label_zh": "結構中性"
+          },
+          {
+            "group": "adaptive_capacity",
+            "criterion": "functional_convertibility",
+            "label_zh": "機能可轉換性"
+          },
+          {
+            "group": "adaptive_capacity",
+            "criterion": "long_term_sustainability",
+            "label_zh": "長期永續性"
+          }
+        ],
+        "functional_layer": [
+          {
+            "group": "educational_function",
+            "criterion": "classroom",
+            "label_zh": "教室"
+          },
+          {
+            "group": "educational_function",
+            "criterion": "workshop",
+            "label_zh": "Workshop"
+          },
+          {
+            "group": "public_function",
+            "criterion": "atrium",
+            "label_zh": "中庭"
+          },
+          {
+            "group": "mixed_use_function",
+            "criterion": "interdisciplinary_exchange",
+            "label_zh": "跨域交流"
+          }
+        ],
+        "typology_layer": [
+          {
+            "group": "campus_renewal",
+            "criterion": "flexible_learning",
+            "label_zh": "Flexible Learning"
+          },
+          {
+            "group": "industrial_reuse",
+            "criterion": "large_span",
+            "label_zh": "Large-span"
+          },
+          {
+            "group": "industrial_reuse",
+            "criterion": "linear_modular",
+            "label_zh": "Linear Modular"
+          },
+          {
+            "group": "industrial_reuse",
+            "criterion": "factory_conversion",
+            "label_zh": "Factory Conversion"
+          }
+        ]
+      },
+      "spatial_vocabulary": [
+        "Large industrial halls",
+        "atrium connections",
+        "daylight intervention",
+        "factory reuse",
+        "atrium",
+        "collaborative learning"
+      ],
+      "semantic_relations": [
+        "Atrium -> brings daylight into (Environmental Relation) -> University collaborative learning space",
+        "Large industrial halls -> accommodate (Functional Relation) -> collaborative learning space"
+      ],
+      "transformation_summary": {
+        "from": "Ford assembly plant",
+        "to": "University collaborative learning space"
+      }
+    },
+    {
+      "case_no": 16,
+      "id": "case_16_guilford_technical_community_college_advanced_manufacturing_campus",
+      "case_name": "Guilford Technical Community College Advanced Manufacturing Campus",
+      "original_function": "Industrial manufacturing facility",
+      "current_function": "Technical college campus",
+      "region_country": "USA",
+      "year": null,
+      "location": null,
+      "key_spatial_features": "Transparent workshop spaces, industrial scale preserved",
+      "keywords": [
+        "manufacturing reuse",
+        "transparency",
+        "industrial campus"
+      ],
+      "typology_tags": [
+        "flexible_learning",
+        "historic_integration",
+        "linear_modular",
+        "factory_conversion"
+      ],
+      "layer_tags": {
+        "architectural_layer": [
+          {
+            "group": "structural_system",
+            "criterion": "large_span_space",
+            "label_zh": "大跨度空間"
+          },
+          {
+            "group": "structural_system",
+            "criterion": "modular_degree",
+            "label_zh": "模組化程度"
+          },
+          {
+            "group": "structural_system",
+            "criterion": "floor_height_condition",
+            "label_zh": "層高條件"
+          },
+          {
+            "group": "spatial_organization",
+            "criterion": "spatial_openness",
+            "label_zh": "空間開放性"
+          },
+          {
+            "group": "spatial_character",
+            "criterion": "spatial_scale",
+            "label_zh": "空間尺度"
+          },
+          {
+            "group": "spatial_character",
+            "criterion": "publicness",
+            "label_zh": "公共性"
+          },
+          {
+            "group": "spatial_character",
+            "criterion": "industrial_historical_atmosphere",
+            "label_zh": "工業／歷史氛圍"
+          }
+        ],
+        "urban_context_layer": [
+          {
+            "group": "historical_context",
+            "criterion": "industrial_heritage",
+            "label_zh": "工業遺產"
+          },
+          {
+            "group": "historical_context",
+            "criterion": "campus_history",
+            "label_zh": "校園歷史"
+          },
+          {
+            "group": "historical_context",
+            "criterion": "local_memory",
+            "label_zh": "地方記憶"
+          },
+          {
+            "group": "urban_relationship",
+            "criterion": "campus_openness",
+            "label_zh": "校園開放性"
+          },
+          {
+            "group": "urban_relationship",
+            "criterion": "community_connection",
+            "label_zh": "社區連結"
+          },
+          {
+            "group": "environmental_condition",
+            "criterion": "natural_daylighting",
+            "label_zh": "自然採光"
+          }
+        ],
+        "temporal_transformation_layer": [
+          {
+            "group": "historical_evolution",
+            "criterion": "historical_layering",
+            "label_zh": "歷史疊加"
+          },
+          {
+            "group": "historical_evolution",
+            "criterion": "spatial_evolution",
+            "label_zh": "空間演變"
+          },
+          {
+            "group": "functional_transformation",
+            "criterion": "teaching_space",
+            "label_zh": "教學空間"
+          },
+          {
+            "group": "functional_transformation",
+            "criterion": "public_exchange",
+            "label_zh": "公共交流"
+          },
+          {
+            "group": "adaptive_capacity",
+            "criterion": "spatial_flexibility",
+            "label_zh": "空間彈性"
+          },
+          {
+            "group": "adaptive_capacity",
+            "criterion": "structural_neutrality",
+            "label_zh": "結構中性"
+          },
+          {
+            "group": "adaptive_capacity",
+            "criterion": "functional_convertibility",
+            "label_zh": "機能可轉換性"
+          },
+          {
+            "group": "adaptive_capacity",
+            "criterion": "long_term_sustainability",
+            "label_zh": "長期永續性"
+          }
+        ],
+        "functional_layer": [
+          {
+            "group": "educational_function",
+            "criterion": "workshop",
+            "label_zh": "Workshop"
+          },
+          {
+            "group": "mixed_use_function",
+            "criterion": "community_shared",
+            "label_zh": "社區共享"
+          }
+        ],
+        "typology_layer": [
+          {
+            "group": "campus_renewal",
+            "criterion": "flexible_learning",
+            "label_zh": "Flexible Learning"
+          },
+          {
+            "group": "campus_renewal",
+            "criterion": "historic_integration",
+            "label_zh": "Historic Integration"
+          },
+          {
+            "group": "industrial_reuse",
+            "criterion": "linear_modular",
+            "label_zh": "Linear Modular"
+          },
+          {
+            "group": "industrial_reuse",
+            "criterion": "factory_conversion",
+            "label_zh": "Factory Conversion"
+          }
+        ]
+      },
+      "spatial_vocabulary": [
+        "Transparent workshop spaces",
+        "industrial scale preserved",
+        "manufacturing reuse",
+        "transparency",
+        "industrial campus"
+      ],
+      "semantic_relations": [
+        "Workshop spaces -> expose (Functional Relation) -> technical learning activities",
+        "Preserved structure/layout -> anchors (Conceptual Relation) -> historic integration"
+      ],
+      "transformation_summary": {
+        "from": "Industrial manufacturing facility",
+        "to": "Technical college campus"
+      }
+    },
+    {
+      "case_no": 17,
+      "id": "case_17_tu_delft_bk_city",
+      "case_name": "TU Delft BK City",
+      "original_function": "Former chemistry faculty building",
+      "current_function": "Architecture faculty / built environment campus",
+      "region_country": "Netherlands",
+      "year": "2008/2009",
+      "location": "Delft",
+      "key_spatial_features": "Large historic campus building, long corridors, flexible studio spaces, reused lecture halls and public interior streets",
+      "keywords": [
+        "adaptive reuse",
+        "campus renewal",
+        "studio",
+        "corridor",
+        "historic integration",
+        "flexible learning"
+      ],
+      "typology_tags": [
+        "public_connectivity",
+        "flexible_learning",
+        "historic_integration",
+        "large_span",
+        "corridor_type"
+      ],
+      "layer_tags": {
+        "architectural_layer": [
+          {
+            "group": "structural_system",
+            "criterion": "structural_regularity",
+            "label_zh": "結構規律性"
+          },
+          {
+            "group": "structural_system",
+            "criterion": "large_span_space",
+            "label_zh": "大跨度空間"
+          },
+          {
+            "group": "spatial_organization",
+            "criterion": "circulation_system",
+            "label_zh": "動線系統"
+          },
+          {
+            "group": "spatial_organization",
+            "criterion": "atrium_courtyard_corridor",
+            "label_zh": "中庭／迴廊"
+          },
+          {
+            "group": "spatial_character",
+            "criterion": "spatial_scale",
+            "label_zh": "空間尺度"
+          },
+          {
+            "group": "spatial_character",
+            "criterion": "publicness",
+            "label_zh": "公共性"
+          },
+          {
+            "group": "spatial_character",
+            "criterion": "industrial_historical_atmosphere",
+            "label_zh": "工業／歷史氛圍"
+          }
+        ],
+        "urban_context_layer": [
+          {
+            "group": "historical_context",
+            "criterion": "campus_history",
+            "label_zh": "校園歷史"
+          },
+          {
+            "group": "historical_context",
+            "criterion": "local_memory",
+            "label_zh": "地方記憶"
+          },
+          {
+            "group": "urban_relationship",
+            "criterion": "urban_interface",
+            "label_zh": "都市介面"
+          },
+          {
+            "group": "urban_relationship",
+            "criterion": "public_accessibility",
+            "label_zh": "公共可達性"
+          }
+        ],
+        "temporal_transformation_layer": [
+          {
+            "group": "historical_evolution",
+            "criterion": "building_year",
+            "label_zh": "建築年代"
+          },
+          {
+            "group": "historical_evolution",
+            "criterion": "renovation_year",
+            "label_zh": "改建年代"
+          },
+          {
+            "group": "historical_evolution",
+            "criterion": "historical_layering",
+            "label_zh": "歷史疊加"
+          },
+          {
+            "group": "historical_evolution",
+            "criterion": "spatial_evolution",
+            "label_zh": "空間演變"
+          },
+          {
+            "group": "functional_transformation",
+            "criterion": "teaching_space",
+            "label_zh": "教學空間"
+          },
+          {
+            "group": "functional_transformation",
+            "criterion": "public_exchange",
+            "label_zh": "公共交流"
+          },
+          {
+            "group": "adaptive_capacity",
+            "criterion": "spatial_flexibility",
+            "label_zh": "空間彈性"
+          },
+          {
+            "group": "adaptive_capacity",
+            "criterion": "structural_neutrality",
+            "label_zh": "結構中性"
+          },
+          {
+            "group": "adaptive_capacity",
+            "criterion": "functional_convertibility",
+            "label_zh": "機能可轉換性"
+          },
+          {
+            "group": "adaptive_capacity",
+            "criterion": "long_term_sustainability",
+            "label_zh": "長期永續性"
+          }
+        ],
+        "functional_layer": [
+          {
+            "group": "educational_function",
+            "criterion": "classroom",
+            "label_zh": "教室"
+          },
+          {
+            "group": "educational_function",
+            "criterion": "studio",
+            "label_zh": "Studio"
+          },
+          {
+            "group": "educational_function",
+            "criterion": "lecture_hall",
+            "label_zh": "Lecture Hall"
+          },
+          {
+            "group": "mixed_use_function",
+            "criterion": "community_shared",
+            "label_zh": "社區共享"
+          }
+        ],
+        "typology_layer": [
+          {
+            "group": "campus_renewal",
+            "criterion": "public_connectivity",
+            "label_zh": "Public Connectivity"
+          },
+          {
+            "group": "campus_renewal",
+            "criterion": "flexible_learning",
+            "label_zh": "Flexible Learning"
+          },
+          {
+            "group": "campus_renewal",
+            "criterion": "historic_integration",
+            "label_zh": "Historic Integration"
+          },
+          {
+            "group": "industrial_reuse",
+            "criterion": "large_span",
+            "label_zh": "Large-span"
+          },
+          {
+            "group": "military_reuse",
+            "criterion": "corridor_type",
+            "label_zh": "Corridor Type"
+          }
+        ]
+      },
+      "spatial_vocabulary": [
+        "Large historic campus building",
+        "long corridors",
+        "flexible studio spaces",
+        "reused lecture halls and public interior streets",
+        "adaptive reuse",
+        "campus renewal",
+        "studio",
+        "corridor",
+        "historic integration",
+        "flexible learning"
+      ],
+      "semantic_relations": [
+        "Corridor -> connects (Circulation Relation) -> public or teaching spaces"
+      ],
+      "transformation_summary": {
+        "from": "Former chemistry faculty building",
+        "to": "Architecture faculty / built environment campus"
+      }
+    },
+    {
+      "case_no": 18,
+      "id": "case_18_university_of_toronto_daniels_building",
+      "case_name": "University of Toronto Daniels Building",
+      "original_function": "Knox College / theological college",
+      "current_function": "Architecture, landscape and design faculty",
+      "region_country": "Canada",
+      "year": "2017",
+      "location": "Toronto",
+      "key_spatial_features": "Gothic heritage building integrated with contemporary addition, circular urban site, studios, library, public programming spaces",
+      "keywords": [
+        "heritage reuse",
+        "architecture school",
+        "studio",
+        "public programming",
+        "historic integration",
+        "campus gateway"
+      ],
+      "typology_tags": [
+        "public_connectivity",
+        "flexible_learning",
+        "historic_integration"
+      ],
+      "layer_tags": {
+        "architectural_layer": [
+          {
+            "group": "spatial_character",
+            "criterion": "publicness",
+            "label_zh": "公共性"
+          },
+          {
+            "group": "spatial_character",
+            "criterion": "industrial_historical_atmosphere",
+            "label_zh": "工業／歷史氛圍"
+          }
+        ],
+        "urban_context_layer": [
+          {
+            "group": "historical_context",
+            "criterion": "campus_history",
+            "label_zh": "校園歷史"
+          },
+          {
+            "group": "historical_context",
+            "criterion": "local_memory",
+            "label_zh": "地方記憶"
+          },
+          {
+            "group": "urban_relationship",
+            "criterion": "public_accessibility",
+            "label_zh": "公共可達性"
+          },
+          {
+            "group": "environmental_condition",
+            "criterion": "green_environment",
+            "label_zh": "綠化環境"
+          }
+        ],
+        "temporal_transformation_layer": [
+          {
+            "group": "historical_evolution",
+            "criterion": "building_year",
+            "label_zh": "建築年代"
+          },
+          {
+            "group": "historical_evolution",
+            "criterion": "renovation_year",
+            "label_zh": "改建年代"
+          },
+          {
+            "group": "historical_evolution",
+            "criterion": "historical_layering",
+            "label_zh": "歷史疊加"
+          },
+          {
+            "group": "historical_evolution",
+            "criterion": "spatial_evolution",
+            "label_zh": "空間演變"
+          },
+          {
+            "group": "functional_transformation",
+            "criterion": "teaching_space",
+            "label_zh": "教學空間"
+          },
+          {
+            "group": "functional_transformation",
+            "criterion": "public_exchange",
+            "label_zh": "公共交流"
+          },
+          {
+            "group": "functional_transformation",
+            "criterion": "exhibition_performance",
+            "label_zh": "展演活動"
+          },
+          {
+            "group": "adaptive_capacity",
+            "criterion": "functional_convertibility",
+            "label_zh": "機能可轉換性"
+          },
+          {
+            "group": "adaptive_capacity",
+            "criterion": "long_term_sustainability",
+            "label_zh": "長期永續性"
+          }
+        ],
+        "functional_layer": [
+          {
+            "group": "educational_function",
+            "criterion": "classroom",
+            "label_zh": "教室"
+          },
+          {
+            "group": "educational_function",
+            "criterion": "studio",
+            "label_zh": "Studio"
+          },
+          {
+            "group": "public_function",
+            "criterion": "exhibition_space",
+            "label_zh": "展覽空間"
+          },
+          {
+            "group": "mixed_use_function",
+            "criterion": "community_shared",
+            "label_zh": "社區共享"
+          },
+          {
+            "group": "mixed_use_function",
+            "criterion": "performance",
+            "label_zh": "展演活動"
+          }
+        ],
+        "typology_layer": [
+          {
+            "group": "campus_renewal",
+            "criterion": "public_connectivity",
+            "label_zh": "Public Connectivity"
+          },
+          {
+            "group": "campus_renewal",
+            "criterion": "flexible_learning",
+            "label_zh": "Flexible Learning"
+          },
+          {
+            "group": "campus_renewal",
+            "criterion": "historic_integration",
+            "label_zh": "Historic Integration"
+          }
+        ]
+      },
+      "spatial_vocabulary": [
+        "Gothic heritage building integrated with contemporary addition",
+        "circular urban site",
+        "studios",
+        "library",
+        "public programming spaces",
+        "heritage reuse",
+        "architecture school",
+        "studio",
+        "public programming",
+        "historic integration",
+        "campus gateway"
+      ],
+      "semantic_relations": [],
+      "transformation_summary": {
+        "from": "Knox College / theological college",
+        "to": "Architecture, landscape and design faculty"
+      }
+    },
+    {
+      "case_no": 19,
+      "id": "case_19_duke_university_smith_warehouse",
+      "case_name": "Duke University Smith Warehouse",
+      "original_function": "Tobacco warehouse",
+      "current_function": "University arts spaces and offices",
+      "region_country": "USA",
+      "year": "2011",
+      "location": "Durham, North Carolina",
+      "key_spatial_features": "Industrial warehouse shell, large open floor plates, arts studios, office bays, campus-city interface",
+      "keywords": [
+        "industrial reuse",
+        "warehouse",
+        "arts campus",
+        "large-span",
+        "studio",
+        "public connectivity"
+      ],
+      "typology_tags": [
+        "public_connectivity",
+        "flexible_learning",
+        "large_span",
+        "factory_conversion"
+      ],
+      "layer_tags": {
+        "architectural_layer": [
+          {
+            "group": "structural_system",
+            "criterion": "large_span_space",
+            "label_zh": "大跨度空間"
+          },
+          {
+            "group": "structural_system",
+            "criterion": "floor_height_condition",
+            "label_zh": "層高條件"
+          },
+          {
+            "group": "spatial_organization",
+            "criterion": "spatial_openness",
+            "label_zh": "空間開放性"
+          },
+          {
+            "group": "spatial_character",
+            "criterion": "spatial_scale",
+            "label_zh": "空間尺度"
+          },
+          {
+            "group": "spatial_character",
+            "criterion": "publicness",
+            "label_zh": "公共性"
+          },
+          {
+            "group": "spatial_character",
+            "criterion": "industrial_historical_atmosphere",
+            "label_zh": "工業／歷史氛圍"
+          }
+        ],
+        "urban_context_layer": [
+          {
+            "group": "historical_context",
+            "criterion": "industrial_heritage",
+            "label_zh": "工業遺產"
+          },
+          {
+            "group": "historical_context",
+            "criterion": "campus_history",
+            "label_zh": "校園歷史"
+          },
+          {
+            "group": "historical_context",
+            "criterion": "local_memory",
+            "label_zh": "地方記憶"
+          },
+          {
+            "group": "urban_relationship",
+            "criterion": "campus_openness",
+            "label_zh": "校園開放性"
+          },
+          {
+            "group": "urban_relationship",
+            "criterion": "public_accessibility",
+            "label_zh": "公共可達性"
+          },
+          {
+            "group": "environmental_condition",
+            "criterion": "natural_ventilation",
+            "label_zh": "自然通風"
+          }
+        ],
+        "temporal_transformation_layer": [
+          {
+            "group": "historical_evolution",
+            "criterion": "building_year",
+            "label_zh": "建築年代"
+          },
+          {
+            "group": "historical_evolution",
+            "criterion": "renovation_year",
+            "label_zh": "改建年代"
+          },
+          {
+            "group": "historical_evolution",
+            "criterion": "spatial_evolution",
+            "label_zh": "空間演變"
+          },
+          {
+            "group": "functional_transformation",
+            "criterion": "teaching_space",
+            "label_zh": "教學空間"
+          },
+          {
+            "group": "functional_transformation",
+            "criterion": "public_exchange",
+            "label_zh": "公共交流"
+          },
+          {
+            "group": "functional_transformation",
+            "criterion": "exhibition_performance",
+            "label_zh": "展演活動"
+          },
+          {
+            "group": "adaptive_capacity",
+            "criterion": "structural_neutrality",
+            "label_zh": "結構中性"
+          },
+          {
+            "group": "adaptive_capacity",
+            "criterion": "functional_convertibility",
+            "label_zh": "機能可轉換性"
+          },
+          {
+            "group": "adaptive_capacity",
+            "criterion": "long_term_sustainability",
+            "label_zh": "長期永續性"
+          }
+        ],
+        "functional_layer": [
+          {
+            "group": "educational_function",
+            "criterion": "classroom",
+            "label_zh": "教室"
+          },
+          {
+            "group": "educational_function",
+            "criterion": "studio",
+            "label_zh": "Studio"
+          },
+          {
+            "group": "public_function",
+            "criterion": "exhibition_space",
+            "label_zh": "展覽空間"
+          },
+          {
+            "group": "mixed_use_function",
+            "criterion": "community_shared",
+            "label_zh": "社區共享"
+          },
+          {
+            "group": "mixed_use_function",
+            "criterion": "performance",
+            "label_zh": "展演活動"
+          }
+        ],
+        "typology_layer": [
+          {
+            "group": "campus_renewal",
+            "criterion": "public_connectivity",
+            "label_zh": "Public Connectivity"
+          },
+          {
+            "group": "campus_renewal",
+            "criterion": "flexible_learning",
+            "label_zh": "Flexible Learning"
+          },
+          {
+            "group": "industrial_reuse",
+            "criterion": "large_span",
+            "label_zh": "Large-span"
+          },
+          {
+            "group": "industrial_reuse",
+            "criterion": "factory_conversion",
+            "label_zh": "Factory Conversion"
+          }
+        ]
+      },
+      "spatial_vocabulary": [
+        "Industrial warehouse shell",
+        "large open floor plates",
+        "arts studios",
+        "office bays",
+        "campus-city interface",
+        "industrial reuse",
+        "warehouse",
+        "arts campus",
+        "large-span",
+        "studio",
+        "public connectivity"
+      ],
+      "semantic_relations": [],
+      "transformation_summary": {
+        "from": "Tobacco warehouse",
+        "to": "University arts spaces and offices"
+      }
+    },
+    {
+      "case_no": 20,
+      "id": "case_20_aalto_university_harald_herlin_learning_centre",
+      "case_name": "Aalto University Harald Herlin Learning Centre",
+      "original_function": "Helsinki University of Technology main library",
+      "current_function": "Learning centre / library services",
+      "region_country": "Finland",
+      "year": "2016",
+      "location": "Espoo",
+      "key_spatial_features": "Renovated Aalto-designed library, indirect daylight, fan-like plan, study and groupwork spaces, exhibition spaces, cafe",
+      "keywords": [
+        "library renewal",
+        "daylight",
+        "flexible learning",
+        "exhibition",
+        "campus publicness",
+        "historic integration"
+      ],
+      "typology_tags": [
+        "public_connectivity",
+        "flexible_learning",
+        "historic_integration"
+      ],
+      "layer_tags": {
+        "architectural_layer": [
+          {
+            "group": "spatial_character",
+            "criterion": "publicness",
+            "label_zh": "公共性"
+          },
+          {
+            "group": "spatial_character",
+            "criterion": "industrial_historical_atmosphere",
+            "label_zh": "工業／歷史氛圍"
+          }
+        ],
+        "urban_context_layer": [
+          {
+            "group": "historical_context",
+            "criterion": "campus_history",
+            "label_zh": "校園歷史"
+          },
+          {
+            "group": "historical_context",
+            "criterion": "local_memory",
+            "label_zh": "地方記憶"
+          },
+          {
+            "group": "urban_relationship",
+            "criterion": "public_accessibility",
+            "label_zh": "公共可達性"
+          },
+          {
+            "group": "environmental_condition",
+            "criterion": "natural_daylighting",
+            "label_zh": "自然採光"
+          }
+        ],
+        "temporal_transformation_layer": [
+          {
+            "group": "historical_evolution",
+            "criterion": "building_year",
+            "label_zh": "建築年代"
+          },
+          {
+            "group": "historical_evolution",
+            "criterion": "renovation_year",
+            "label_zh": "改建年代"
+          },
+          {
+            "group": "historical_evolution",
+            "criterion": "historical_layering",
+            "label_zh": "歷史疊加"
+          },
+          {
+            "group": "historical_evolution",
+            "criterion": "spatial_evolution",
+            "label_zh": "空間演變"
+          },
+          {
+            "group": "functional_transformation",
+            "criterion": "teaching_space",
+            "label_zh": "教學空間"
+          },
+          {
+            "group": "functional_transformation",
+            "criterion": "public_exchange",
+            "label_zh": "公共交流"
+          },
+          {
+            "group": "functional_transformation",
+            "criterion": "exhibition_performance",
+            "label_zh": "展演活動"
+          },
+          {
+            "group": "adaptive_capacity",
+            "criterion": "spatial_flexibility",
+            "label_zh": "空間彈性"
+          },
+          {
+            "group": "adaptive_capacity",
+            "criterion": "functional_convertibility",
+            "label_zh": "機能可轉換性"
+          },
+          {
+            "group": "adaptive_capacity",
+            "criterion": "long_term_sustainability",
+            "label_zh": "長期永續性"
+          }
+        ],
+        "functional_layer": [
+          {
+            "group": "educational_function",
+            "criterion": "classroom",
+            "label_zh": "教室"
+          },
+          {
+            "group": "educational_function",
+            "criterion": "studio",
+            "label_zh": "Studio"
+          },
+          {
+            "group": "public_function",
+            "criterion": "exhibition_space",
+            "label_zh": "展覽空間"
+          },
+          {
+            "group": "public_function",
+            "criterion": "cafe",
+            "label_zh": "Cafe"
+          },
+          {
+            "group": "mixed_use_function",
+            "criterion": "community_shared",
+            "label_zh": "社區共享"
+          },
+          {
+            "group": "mixed_use_function",
+            "criterion": "performance",
+            "label_zh": "展演活動"
+          }
+        ],
+        "typology_layer": [
+          {
+            "group": "campus_renewal",
+            "criterion": "public_connectivity",
+            "label_zh": "Public Connectivity"
+          },
+          {
+            "group": "campus_renewal",
+            "criterion": "flexible_learning",
+            "label_zh": "Flexible Learning"
+          },
+          {
+            "group": "campus_renewal",
+            "criterion": "historic_integration",
+            "label_zh": "Historic Integration"
+          }
+        ]
+      },
+      "spatial_vocabulary": [
+        "Renovated Aalto-designed library",
+        "indirect daylight",
+        "fan-like plan",
+        "study and groupwork spaces",
+        "exhibition spaces",
+        "cafe",
+        "library renewal",
+        "daylight",
+        "flexible learning",
+        "exhibition",
+        "campus publicness",
+        "historic integration"
+      ],
+      "semantic_relations": [],
+      "transformation_summary": {
+        "from": "Helsinki University of Technology main library",
+        "to": "Learning centre / library services"
+      }
+    }
+  ]
+}

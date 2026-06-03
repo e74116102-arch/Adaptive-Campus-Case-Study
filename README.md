@@ -1,104 +1,83 @@
-# 組員
-劉夏彤 謝瑋庭
-# 研究主題
-適應性校園案例研究
-# 資料架構
-再利用/持續性>照片/平面圖/圖說>文字
-# Knowledge Precedent
- 1. Architectural Layer（建築層）
-   - 1-1 Structural System（結構系統）
-      - 結構規律性
-      - 大跨度空間
-      - 模組化程度
-      └── 層高條件
+# Adaptive Campus Case Study
 
-   - 1-2 Spatial Organization（空間構成）
-      - 平面構成
-      - 動線系統
-      - 中庭／迴廊
-      └── 空間開放性
+這個資料夾是「校園再利用案例知識庫」專案。
 
-   - 1-3 Spatial Character（空間特質）
-      - 空間尺度
-      - 公共性
-      - 儀式性
-      └── 工業／歷史氛圍
+目標是把 `campus_cases.xlsx` 裡的校園案例，轉成可以給 My GPT / AI Co-Designer 使用的 JSON 知識資料。
 
- 2. Urban Context Layer（都市脈絡層）
-   - 2-1 Historical Context（歷史脈絡）
-      - 工業遺產
-      - 軍事遺產
-      - 校園歷史
-      └── 地方記憶
+## 最常用的檔案
 
-   - 2-2 Urban Relationship（都市關係）
-      - 都市介面
-      - 校園開放性
-      - 社區連結
-      └── 公共可達性
+| 檔案 | 用途 |
+|---|---|
+| `GPT_Site_Context_Analysis_Prompt.md` | 貼到 My GPT Instructions 的 prompt |
+| `json/campus_knowledge_precedents.json` | 20 筆案例的完整 JSON 知識庫 |
+| `json/case_overview.json` | 20 筆案例的精簡總覽 JSON |
+| `json/taxonomy.json` | Knowledge Precedent 分類架構 |
+| `json/cases/*.json` | 每個案例各自一份 JSON |
+| `campus_cases.xlsx` | 原始案例 Excel |
+| `scripts/extract_campus_precedents.py` | 從 Excel 重新產生 JSON 的腳本 |
+| `docs/FOLDER_STRUCTURE.md` | 完整資料夾架構說明 |
 
-   - 2-3 Environmental Condition（環境條件）
-      - 自然採光
-      - 自然通風
-      - 微氣候
-          └── 綠化環境
+## 資料夾架構
 
- 3. Temporal Transformation Layer（時間轉化層）
-   - 3-1 Historical Evolution（歷史演變）
-      - 建築年代
-      - 改建年代
-      - 歷史疊加
-      └── 空間演變
+```text
+Adaptive-Campus-Case-Study-main/
++-- README.md
++-- GPT_Site_Context_Analysis_Prompt.md
++-- campus_cases.xlsx
++-- classifiction structure.txt
++-- LICENSE
++-- docs/
+|   +-- FOLDER_STRUCTURE.md
++-- json/
+|   +-- campus_knowledge_precedents.json
+|   +-- case_overview.json
+|   +-- taxonomy.json
+|   +-- README.md
+|   +-- cases/
+|       +-- case_01_*.json
+|       +-- ...
+|       +-- case_20_*.json
++-- scripts/
+    +-- extract_campus_precedents.py
+    +-- README.md
+```
 
-   - 3-2 Functional Transformation（機能轉化）
-      - 教學空間
-      - 公共交流
-      - 展演活動
-      └── 混合使用
+## 工作流程
 
-   - 3-3 Adaptive Capacity（持續利用能力）
-      - 空間彈性
-      - 結構中性
-      - 機能可轉換性
-          └── 長期永續性
+1. 在 `campus_cases.xlsx` 補或改案例資料。
+2. 執行腳本重新產生 JSON：
 
- 4. Functional Layer（機能層）
-   - 4-1 Educational Function（教育機能）
-      - 教室
-      - Studio
-      - Workshop
-      └── Lecture Hall
+```powershell
+python scripts\extract_campus_precedents.py
+```
 
-   - 4-2 Public Function（公共機能）
-      - 中庭
-      - Lounge
-      - 展覽空間
-      └── Café
+3. 使用 `json/campus_knowledge_precedents.json` 作為 My GPT 的完整知識檔。
+4. 使用 `json/case_overview.json` 作為快速瀏覽或輕量上傳檔。
+5. 使用 `GPT_Site_Context_Analysis_Prompt.md` 作為 My GPT 的 Instructions。
 
-   - 4-3 Mixed-use Function（混合使用）
-      - 行政
-      - 社區共享
-      - 展演活動
-          └── 跨域交流
+## JSON 內容
 
- 5. Typology Layer（類型層）
-    - 5-1 Campus Renewal（校園更新）
-      - Public Connectivity
-      - Flexible Learning
-      └── Historic Integration
+每個案例都有兩個主要部分：
 
-    - 5-2 Industrial Reuse（工業再利用）
-      - Large-span
-      - Linear Modular
-      └── Factory Conversion
+- `knowledge_precedent`：依五層分類架構標記案例特徵。
+- `precedent_dna`：依期中簡報的 Precedent DNA 邏輯整理案例。
 
-    - 5-3 Military Reuse（軍事再利用）
-      - Barrack Conversion
-      - Corridor Type
-      └── Courtyard Type
+五層分類架構：
 
-    - 5-4 Institutional Reuse（機構再利用）
-      - Hospital
-      - Court
-      - Government Building
-           └── Commercial Building
+1. Architectural Layer（建築層）
+2. Urban Context Layer（都市脈絡層）
+3. Temporal Transformation Layer（時間轉化層）
+4. Functional Layer（機能層）
+5. Typology Layer（類型層）
+
+## 目前資料狀態
+
+- 目前 Excel 有 20 筆非空白案例。
+- 已產生 20 份個案 JSON。
+- 已產生 1 份精簡總覽 JSON：`json/case_overview.json`。
+- JSON 是從 Excel 以規則式萃取產生，不是完整文獻研究資料。
+- Excel 空白欄位會保留為 `null`，不會硬填資料。
+
+## 注意
+
+`classifiction structure.txt` 檔名原本就拼成 `classifiction`，目前先保留，避免改名造成路徑混亂。內容是 Knowledge Precedent 分類架構。
