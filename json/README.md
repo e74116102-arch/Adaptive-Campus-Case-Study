@@ -6,34 +6,34 @@
 
 | 檔案 / 資料夾 | 用途 |
 |---|---|
-| `campus_knowledge_precedents.json` | 所有案例的完整知識庫，內容最完整，建議上傳給 My GPT |
+| `campus_knowledge_precedents.json` | 所有案例的完整知識庫，可上傳給 My GPT |
 | `case_overview.json` | 所有案例的精簡總覽，適合快速瀏覽、索引、輕量上傳 |
 | `taxonomy.json` | Knowledge Precedent 五層分類架構 |
 | `cases/` | 每個案例各自一份 JSON |
 
 ## 使用建議
 
-如果你要給 My GPT 使用，優先上傳：
+給 My GPT 使用，優先上傳：
 
 ```text
 json/campus_knowledge_precedents.json
 ```
 
-如果 My GPT 只需要快速掌握案例清單、分類標籤、關鍵字和索引，可以上傳：
+如果 My GPT 只需要快速掌握案例清單、分類標籤、關鍵字和索引，建議上傳：
 
 ```text
 json/case_overview.json
 ```
 
-如果你只想看某一個案例，再打開：
+看特定案例：
 
 ```text
 json/cases/
 ```
 
-## `case_overview.json` 包含什麼
+## `case_overview.json`
 
-每筆案例包含：
+每筆資料包含以下包含：
 
 - case number
 - case id
@@ -49,8 +49,6 @@ json/cases/
 - five-layer taxonomy tags
 - spatial vocabulary
 - semantic relations
-
-另外也包含索引：
 
 - `by_region_country`
 - `by_typology`
