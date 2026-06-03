@@ -1,6 +1,6 @@
 # Folder Structure
 
-這份文件說明 `Adaptive-Campus-Case-Study-main` 裡每個檔案和資料夾的用途。
+ `Adaptive-Campus-Case-Study-main` 裡每個檔案和資料夾的用途。
 
 ## 總覽
 
@@ -82,9 +82,7 @@ Adaptive-Campus-Case-Study-main/
 
 ### `classifiction structure.txt`
 
-Knowledge Precedent 分類架構的人類可讀版本。
-
-注意：檔名原本拼成 `classifiction`，目前先不改名，避免造成路徑混亂。
+Knowledge Precedent 分類架構
 
 ### `LICENSE`
 
@@ -96,7 +94,7 @@ Knowledge Precedent 分類架構的人類可讀版本。
 
 目前包含：
 
-- `FOLDER_STRUCTURE.md`：你正在看的這份資料夾架構說明。
+- `FOLDER_STRUCTURE.md`：這份資料夾架構說明。
 
 ## `json/`
 
@@ -123,11 +121,10 @@ My GPT 如果只能上傳一個知識檔，優先用這個。
 - 快速瀏覽所有案例
 - 依國家、類型、關鍵字建立索引
 - 快速查看每案的 taxonomy tags、keywords、spatial vocabulary
-- 當完整知識庫太大時，作為輕量上傳檔
 
 ### `json/taxonomy.json`
 
-Knowledge Precedent 分類架構的機器可讀版本。
+Knowledge Precedent 分類架構
 
 用途：
 
@@ -165,7 +162,7 @@ Knowledge Precedent 分類架構的機器可讀版本。
 python scripts\extract_campus_precedents.py
 ```
 
-## 建議使用順序
+## 使用順序
 
 1. 先看 `README.md`
 2. 要知道整個資料夾怎麼分，看 `docs/FOLDER_STRUCTURE.md`
@@ -173,13 +170,3 @@ python scripts\extract_campus_precedents.py
 4. 要給 My GPT 的知識檔，用 `json/campus_knowledge_precedents.json`
 5. 要改案例資料，改 `campus_cases.xlsx`
 6. 改完 Excel 後，跑 `scripts/extract_campus_precedents.py`
-
-## 不建議直接改的檔案
-
-通常不要直接手改這些檔案，因為重新跑腳本會覆蓋它們：
-
-- `json/campus_knowledge_precedents.json`
-- `json/taxonomy.json`
-- `json/cases/*.json`
-
-如果要長期保留人工修正，應該先改 `campus_cases.xlsx` 或修改 `scripts/extract_campus_precedents.py` 的萃取邏輯。
