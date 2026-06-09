@@ -1,0 +1,877 @@
+{
+  "name": "Campus Adaptive Reuse Knowledge Precedent Taxonomy",
+  "description": "Five-layer taxonomy for campus adaptive reuse case extraction.",
+  "layers": [
+    {
+      "id": "1",
+      "key": "architectural_layer",
+      "label_en": "Architectural Layer",
+      "label_zh": "建築層",
+      "groups": [
+        {
+          "id": "1-1",
+          "key": "structural_system",
+          "label_en": "Structural System",
+          "label_zh": "結構系統",
+          "criteria": [
+            {
+              "key": "structural_regularity",
+              "label_zh": "結構規律性",
+              "terms": [
+                "structure",
+                "structural",
+                "beams",
+                "rhythm",
+                "linear",
+                "corridor",
+                "arcade",
+                "modular"
+              ]
+            },
+            {
+              "key": "large_span_space",
+              "label_zh": "大跨度空間",
+              "terms": [
+                "large",
+                "large-span",
+                "large span",
+                "industrial halls",
+                "warehouse",
+                "factory",
+                "assembly plant",
+                "manufacturing",
+                "open industrial roof"
+              ]
+            },
+            {
+              "key": "modular_degree",
+              "label_zh": "模組化程度",
+              "terms": [
+                "modular",
+                "linear",
+                "rhythm",
+                "classrooms",
+                "grid",
+                "enclosed rooms",
+                "workshop"
+              ]
+            },
+            {
+              "key": "floor_height_condition",
+              "label_zh": "層高條件",
+              "terms": [
+                "large industrial halls",
+                "large industrial",
+                "warehouse",
+                "factory",
+                "skylights",
+                "atrium",
+                "open industrial roof",
+                "industrial scale"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1-2",
+          "key": "spatial_organization",
+          "label_en": "Spatial Organization",
+          "label_zh": "空間構成",
+          "criteria": [
+            {
+              "key": "plan_composition",
+              "label_zh": "平面構成",
+              "terms": [
+                "open plan",
+                "linear layout",
+                "courtyard",
+                "cloister",
+                "atrium",
+                "double-loaded",
+                "public ground",
+                "sunken plaza",
+                "terraced",
+                "separate circulation"
+              ]
+            },
+            {
+              "key": "circulation_system",
+              "label_zh": "動線系統",
+              "terms": [
+                "corridor",
+                "circulation",
+                "arcade",
+                "skybridges",
+                "axis",
+                "ground floor",
+                "public ground",
+                "long corridor",
+                "staggered"
+              ]
+            },
+            {
+              "key": "atrium_courtyard_corridor",
+              "label_zh": "中庭／迴廊",
+              "terms": [
+                "atrium",
+                "courtyard",
+                "cloister",
+                "corridor",
+                "arcade"
+              ]
+            },
+            {
+              "key": "spatial_openness",
+              "label_zh": "空間開放性",
+              "terms": [
+                "open",
+                "openness",
+                "permeable",
+                "permeability",
+                "transparent",
+                "shared",
+                "public ground",
+                "light-filled",
+                "airy"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1-3",
+          "key": "spatial_character",
+          "label_en": "Spatial Character",
+          "label_zh": "空間特質",
+          "criteria": [
+            {
+              "key": "spatial_scale",
+              "label_zh": "空間尺度",
+              "terms": [
+                "large",
+                "industrial scale",
+                "monumentality",
+                "multi-level",
+                "terraced",
+                "warehouse",
+                "large industrial halls"
+              ]
+            },
+            {
+              "key": "publicness",
+              "label_zh": "公共性",
+              "terms": [
+                "public",
+                "shared",
+                "community",
+                "open",
+                "learning commons",
+                "collaborative",
+                "interdisciplinary"
+              ]
+            },
+            {
+              "key": "rituality",
+              "label_zh": "儀式性",
+              "terms": [
+                "ritual",
+                "monumentality",
+                "axis",
+                "cloister",
+                "courtyards and cloisters"
+              ]
+            },
+            {
+              "key": "industrial_historical_atmosphere",
+              "label_zh": "工業／歷史氛圍",
+              "terms": [
+                "historic",
+                "historical",
+                "heritage",
+                "victorian",
+                "industrial",
+                "factory",
+                "warehouse",
+                "hospital",
+                "court",
+                "barracks",
+                "preserved",
+                "stone",
+                "timber"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "key": "urban_context_layer",
+      "label_en": "Urban Context Layer",
+      "label_zh": "都市脈絡層",
+      "groups": [
+        {
+          "id": "2-1",
+          "key": "historical_context",
+          "label_en": "Historical Context",
+          "label_zh": "歷史脈絡",
+          "criteria": [
+            {
+              "key": "industrial_heritage",
+              "label_zh": "工業遺產",
+              "terms": [
+                "railroad",
+                "industrial",
+                "warehouse",
+                "factory",
+                "assembly plant",
+                "manufacturing",
+                "grain warehouse"
+              ]
+            },
+            {
+              "key": "military_heritage",
+              "label_zh": "軍事遺產",
+              "terms": [
+                "military",
+                "barracks"
+              ]
+            },
+            {
+              "key": "campus_history",
+              "label_zh": "校園歷史",
+              "terms": [
+                "historic academic",
+                "historic university",
+                "university complex",
+                "university",
+                "campus",
+                "academic building"
+              ]
+            },
+            {
+              "key": "local_memory",
+              "label_zh": "地方記憶",
+              "terms": [
+                "heritage",
+                "historic",
+                "historical",
+                "preserved",
+                "victorian",
+                "hospital",
+                "court",
+                "magistracy",
+                "barracks",
+                "old",
+                "warehouse",
+                "factory"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2-2",
+          "key": "urban_relationship",
+          "label_en": "Urban Relationship",
+          "label_zh": "都市關係",
+          "criteria": [
+            {
+              "key": "urban_interface",
+              "label_zh": "都市介面",
+              "terms": [
+                "transparent facade",
+                "facade",
+                "public ground",
+                "ground floor",
+                "strip center",
+                "street",
+                "indoor-outdoor"
+              ]
+            },
+            {
+              "key": "campus_openness",
+              "label_zh": "校園開放性",
+              "terms": [
+                "openness",
+                "open",
+                "permeable",
+                "permeability",
+                "transparent",
+                "public ground",
+                "shared"
+              ]
+            },
+            {
+              "key": "community_connection",
+              "label_zh": "社區連結",
+              "terms": [
+                "community",
+                "public interaction",
+                "common good",
+                "public ground",
+                "learning commons",
+                "collaborative",
+                "shared",
+                "interdisciplinary"
+              ]
+            },
+            {
+              "key": "public_accessibility",
+              "label_zh": "公共可達性",
+              "terms": [
+                "public",
+                "public ground",
+                "open",
+                "shared",
+                "long corridor connecting public spaces",
+                "separate circulation"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2-3",
+          "key": "environmental_condition",
+          "label_en": "Environmental Condition",
+          "label_zh": "環境條件",
+          "criteria": [
+            {
+              "key": "natural_daylighting",
+              "label_zh": "自然採光",
+              "terms": [
+                "daylight",
+                "daylighting",
+                "skylight",
+                "skylights",
+                "light-filled",
+                "transparent",
+                "open facade"
+              ]
+            },
+            {
+              "key": "natural_ventilation",
+              "label_zh": "自然通風",
+              "terms": [
+                "airy",
+                "open",
+                "atrium",
+                "courtyard",
+                "permeable"
+              ]
+            },
+            {
+              "key": "microclimate",
+              "label_zh": "微氣候",
+              "terms": [
+                "landscape roof",
+                "sunken plaza",
+                "courtyard",
+                "courtyards",
+                "terraced",
+                "indoor-outdoor",
+                "transparent facade"
+              ]
+            },
+            {
+              "key": "green_environment",
+              "label_zh": "綠化環境",
+              "terms": [
+                "landscape",
+                "landscape roof",
+                "roof",
+                "courtyard",
+                "courtyards",
+                "terraced landscape",
+                "green"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "key": "temporal_transformation_layer",
+      "label_en": "Temporal Transformation Layer",
+      "label_zh": "時間轉化層",
+      "groups": [
+        {
+          "id": "3-1",
+          "key": "historical_evolution",
+          "label_en": "Historical Evolution",
+          "label_zh": "歷史演變",
+          "criteria": [
+            {
+              "key": "building_year",
+              "label_zh": "建築年代",
+              "mode": "year"
+            },
+            {
+              "key": "renovation_year",
+              "label_zh": "改建年代",
+              "mode": "year"
+            },
+            {
+              "key": "historical_layering",
+              "label_zh": "歷史疊加",
+              "terms": [
+                "historic",
+                "historical",
+                "preserved",
+                "layered",
+                "renovation",
+                "adaptive reuse",
+                "heritage",
+                "victorian",
+                "old"
+              ]
+            },
+            {
+              "key": "spatial_evolution",
+              "label_zh": "空間演變",
+              "mode": "transformation"
+            }
+          ]
+        },
+        {
+          "id": "3-2",
+          "key": "functional_transformation",
+          "label_en": "Functional Transformation",
+          "label_zh": "機能轉化",
+          "criteria": [
+            {
+              "key": "teaching_space",
+              "label_zh": "教學空間",
+              "terms": [
+                "teaching",
+                "classroom",
+                "classrooms",
+                "university",
+                "learning",
+                "academic",
+                "college",
+                "departments",
+                "research"
+              ]
+            },
+            {
+              "key": "public_exchange",
+              "label_zh": "公共交流",
+              "terms": [
+                "public",
+                "shared",
+                "community",
+                "learning commons",
+                "collaborative",
+                "interdisciplinary",
+                "open shared"
+              ]
+            },
+            {
+              "key": "exhibition_performance",
+              "label_zh": "展演活動",
+              "terms": [
+                "art",
+                "arts",
+                "design",
+                "exhibition",
+                "performance",
+                "history department"
+              ]
+            },
+            {
+              "key": "mixed_use",
+              "label_zh": "混合使用",
+              "terms": [
+                "student housing / university use",
+                "teaching and research",
+                "departments",
+                "collaborative learning",
+                "public learning",
+                "university facility"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3-3",
+          "key": "adaptive_capacity",
+          "label_en": "Adaptive Capacity",
+          "label_zh": "持續利用能力",
+          "criteria": [
+            {
+              "key": "spatial_flexibility",
+              "label_zh": "空間彈性",
+              "terms": [
+                "flexible",
+                "modular",
+                "open plan",
+                "open interior",
+                "collaborative",
+                "workshop",
+                "permeable"
+              ]
+            },
+            {
+              "key": "structural_neutrality",
+              "label_zh": "結構中性",
+              "terms": [
+                "large industrial halls",
+                "warehouse",
+                "factory",
+                "open industrial roof",
+                "open plan",
+                "large",
+                "industrial scale"
+              ]
+            },
+            {
+              "key": "functional_convertibility",
+              "label_zh": "機能可轉換性",
+              "mode": "transformation"
+            },
+            {
+              "key": "long_term_sustainability",
+              "label_zh": "長期永續性",
+              "terms": [
+                "sustainability",
+                "energy-efficient",
+                "daylight",
+                "renovation",
+                "adaptive reuse",
+                "preserved",
+                "reuse"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "key": "functional_layer",
+      "label_en": "Functional Layer",
+      "label_zh": "機能層",
+      "groups": [
+        {
+          "id": "4-1",
+          "key": "educational_function",
+          "label_en": "Educational Function",
+          "label_zh": "教育機能",
+          "criteria": [
+            {
+              "key": "classroom",
+              "label_zh": "教室",
+              "terms": [
+                "classroom",
+                "classrooms",
+                "teaching",
+                "academic",
+                "university",
+                "learning"
+              ]
+            },
+            {
+              "key": "studio",
+              "label_zh": "Studio",
+              "terms": [
+                "studio",
+                "art",
+                "arts",
+                "design",
+                "industrial design",
+                "scad"
+              ]
+            },
+            {
+              "key": "workshop",
+              "label_zh": "Workshop",
+              "terms": [
+                "workshop",
+                "manufacturing",
+                "technical college",
+                "factory",
+                "industrial design"
+              ]
+            },
+            {
+              "key": "lecture_hall",
+              "label_zh": "Lecture Hall",
+              "terms": [
+                "lecture hall",
+                "lecture"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4-2",
+          "key": "public_function",
+          "label_en": "Public Function",
+          "label_zh": "公共機能",
+          "criteria": [
+            {
+              "key": "atrium",
+              "label_zh": "中庭",
+              "terms": [
+                "atrium"
+              ]
+            },
+            {
+              "key": "lounge",
+              "label_zh": "Lounge",
+              "terms": [
+                "lounge",
+                "shared spaces",
+                "learning commons",
+                "public spaces",
+                "common good"
+              ]
+            },
+            {
+              "key": "exhibition_space",
+              "label_zh": "展覽空間",
+              "terms": [
+                "exhibition",
+                "art",
+                "arts",
+                "design",
+                "history department"
+              ]
+            },
+            {
+              "key": "cafe",
+              "label_zh": "Cafe",
+              "terms": [
+                "cafe",
+                "café"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4-3",
+          "key": "mixed_use_function",
+          "label_en": "Mixed-use Function",
+          "label_zh": "混合使用",
+          "criteria": [
+            {
+              "key": "administration",
+              "label_zh": "行政",
+              "terms": [
+                "departments",
+                "university facility",
+                "campus facility"
+              ]
+            },
+            {
+              "key": "community_shared",
+              "label_zh": "社區共享",
+              "terms": [
+                "community",
+                "public",
+                "shared",
+                "common good",
+                "public interaction"
+              ]
+            },
+            {
+              "key": "performance",
+              "label_zh": "展演活動",
+              "terms": [
+                "performance",
+                "exhibition",
+                "art",
+                "arts",
+                "design"
+              ]
+            },
+            {
+              "key": "interdisciplinary_exchange",
+              "label_zh": "跨域交流",
+              "terms": [
+                "interdisciplinary",
+                "collaborative",
+                "learning commons",
+                "teaching and research",
+                "art and design"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "key": "typology_layer",
+      "label_en": "Typology Layer",
+      "label_zh": "類型層",
+      "groups": [
+        {
+          "id": "5-1",
+          "key": "campus_renewal",
+          "label_en": "Campus Renewal",
+          "label_zh": "校園更新",
+          "criteria": [
+            {
+              "key": "public_connectivity",
+              "label_zh": "Public Connectivity",
+              "terms": [
+                "public",
+                "shared",
+                "open",
+                "corridor",
+                "public ground",
+                "campus publicness"
+              ]
+            },
+            {
+              "key": "flexible_learning",
+              "label_zh": "Flexible Learning",
+              "terms": [
+                "flexible",
+                "modular",
+                "learning",
+                "classrooms",
+                "collaborative",
+                "studio",
+                "workshop"
+              ]
+            },
+            {
+              "key": "historic_integration",
+              "label_zh": "Historic Integration",
+              "terms": [
+                "historic",
+                "historical",
+                "heritage",
+                "preserved",
+                "adaptive reuse",
+                "renovation",
+                "victorian",
+                "old"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5-2",
+          "key": "industrial_reuse",
+          "label_en": "Industrial Reuse",
+          "label_zh": "工業再利用",
+          "criteria": [
+            {
+              "key": "large_span",
+              "label_zh": "Large-span",
+              "terms": [
+                "large",
+                "large-span",
+                "large span",
+                "industrial halls",
+                "warehouse",
+                "factory",
+                "open industrial roof"
+              ]
+            },
+            {
+              "key": "linear_modular",
+              "label_zh": "Linear Modular",
+              "terms": [
+                "linear",
+                "modular",
+                "rhythm",
+                "railroad",
+                "assembly plant",
+                "manufacturing"
+              ]
+            },
+            {
+              "key": "factory_conversion",
+              "label_zh": "Factory Conversion",
+              "terms": [
+                "factory",
+                "assembly plant",
+                "manufacturing",
+                "industrial manufacturing",
+                "industrial reuse"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5-3",
+          "key": "military_reuse",
+          "label_en": "Military Reuse",
+          "label_zh": "軍事再利用",
+          "criteria": [
+            {
+              "key": "barrack_conversion",
+              "label_zh": "Barrack Conversion",
+              "terms": [
+                "barracks",
+                "military barracks"
+              ]
+            },
+            {
+              "key": "corridor_type",
+              "label_zh": "Corridor Type",
+              "terms": [
+                "corridor",
+                "arcade"
+              ]
+            },
+            {
+              "key": "courtyard_type",
+              "label_zh": "Courtyard Type",
+              "terms": [
+                "courtyard"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5-4",
+          "key": "institutional_reuse",
+          "label_en": "Institutional Reuse",
+          "label_zh": "機構再利用",
+          "criteria": [
+            {
+              "key": "hospital",
+              "label_zh": "Hospital",
+              "terms": [
+                "hospital"
+              ]
+            },
+            {
+              "key": "court",
+              "label_zh": "Court",
+              "terms": [
+                "court",
+                "courtroom",
+                "magistracy",
+                "jail"
+              ]
+            },
+            {
+              "key": "government_building",
+              "label_zh": "Government Building",
+              "terms": [
+                "government",
+                "magistracy",
+                "court",
+                "jail"
+              ]
+            },
+            {
+              "key": "commercial_building",
+              "label_zh": "Commercial Building",
+              "terms": [
+                "commercial",
+                "strip center"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

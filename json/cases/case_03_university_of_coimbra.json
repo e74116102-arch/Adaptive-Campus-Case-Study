@@ -1,0 +1,1091 @@
+{
+  "id": "case_03_university_of_coimbra",
+  "case_name": "University of Coimbra",
+  "source": {
+    "file": "campus_cases.xlsx",
+    "sheet": "Campus Adaptive Reuse Cases",
+    "row": 4
+  },
+  "raw_fields": {
+    "original_function": "Historic university complex",
+    "current_function": "University campus",
+    "key_spatial_features": "Courtyards and cloisters, layered public spaces, ritual axis, terraced landscape",
+    "keywords": [
+      "courtyard",
+      "cloister",
+      "monumentality",
+      "historic layering"
+    ],
+    "region_country": "Portugal",
+    "year": null,
+    "location": null,
+    "continent": null,
+    "floor": null
+  },
+  "knowledge_precedent": {
+    "architectural_layer": {
+      "id": "1",
+      "label_en": "Architectural Layer",
+      "label_zh": "建築層",
+      "groups": {
+        "structural_system": {
+          "id": "1-1",
+          "label_en": "Structural System",
+          "label_zh": "結構系統",
+          "criteria": {
+            "structural_regularity": {
+              "label_zh": "結構規律性",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "large_span_space": {
+              "label_zh": "大跨度空間",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "modular_degree": {
+              "label_zh": "模組化程度",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "floor_height_condition": {
+              "label_zh": "層高條件",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            }
+          },
+          "present_tags": []
+        },
+        "spatial_organization": {
+          "id": "1-2",
+          "label_en": "Spatial Organization",
+          "label_zh": "空間構成",
+          "criteria": {
+            "plan_composition": {
+              "label_zh": "平面構成",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "key_spatial_features: Courtyards and cloisters",
+                "key_spatial_features: terraced landscape",
+                "keywords: courtyard",
+                "keywords: cloister"
+              ],
+              "inference": ""
+            },
+            "circulation_system": {
+              "label_zh": "動線系統",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "key_spatial_features: ritual axis"
+              ],
+              "inference": ""
+            },
+            "atrium_courtyard_corridor": {
+              "label_zh": "中庭／迴廊",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "key_spatial_features: Courtyards and cloisters",
+                "keywords: courtyard",
+                "keywords: cloister"
+              ],
+              "inference": ""
+            },
+            "spatial_openness": {
+              "label_zh": "空間開放性",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            }
+          },
+          "present_tags": [
+            {
+              "group": "spatial_organization",
+              "criterion": "plan_composition",
+              "label_zh": "平面構成"
+            },
+            {
+              "group": "spatial_organization",
+              "criterion": "circulation_system",
+              "label_zh": "動線系統"
+            },
+            {
+              "group": "spatial_organization",
+              "criterion": "atrium_courtyard_corridor",
+              "label_zh": "中庭／迴廊"
+            }
+          ]
+        },
+        "spatial_character": {
+          "id": "1-3",
+          "label_en": "Spatial Character",
+          "label_zh": "空間特質",
+          "criteria": {
+            "spatial_scale": {
+              "label_zh": "空間尺度",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "key_spatial_features: terraced landscape",
+                "keywords: monumentality"
+              ],
+              "inference": ""
+            },
+            "publicness": {
+              "label_zh": "公共性",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "key_spatial_features: layered public spaces"
+              ],
+              "inference": ""
+            },
+            "rituality": {
+              "label_zh": "儀式性",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "key_spatial_features: Courtyards and cloisters",
+                "key_spatial_features: ritual axis",
+                "keywords: cloister",
+                "keywords: monumentality"
+              ],
+              "inference": ""
+            },
+            "industrial_historical_atmosphere": {
+              "label_zh": "工業／歷史氛圍",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "original_function: Historic university complex",
+                "key_spatial_features: Courtyards and cloisters",
+                "keywords: courtyard",
+                "keywords: historic layering"
+              ],
+              "inference": ""
+            }
+          },
+          "present_tags": [
+            {
+              "group": "spatial_character",
+              "criterion": "spatial_scale",
+              "label_zh": "空間尺度"
+            },
+            {
+              "group": "spatial_character",
+              "criterion": "publicness",
+              "label_zh": "公共性"
+            },
+            {
+              "group": "spatial_character",
+              "criterion": "rituality",
+              "label_zh": "儀式性"
+            },
+            {
+              "group": "spatial_character",
+              "criterion": "industrial_historical_atmosphere",
+              "label_zh": "工業／歷史氛圍"
+            }
+          ]
+        }
+      },
+      "present_tags": [
+        {
+          "group": "spatial_organization",
+          "criterion": "plan_composition",
+          "label_zh": "平面構成"
+        },
+        {
+          "group": "spatial_organization",
+          "criterion": "circulation_system",
+          "label_zh": "動線系統"
+        },
+        {
+          "group": "spatial_organization",
+          "criterion": "atrium_courtyard_corridor",
+          "label_zh": "中庭／迴廊"
+        },
+        {
+          "group": "spatial_character",
+          "criterion": "spatial_scale",
+          "label_zh": "空間尺度"
+        },
+        {
+          "group": "spatial_character",
+          "criterion": "publicness",
+          "label_zh": "公共性"
+        },
+        {
+          "group": "spatial_character",
+          "criterion": "rituality",
+          "label_zh": "儀式性"
+        },
+        {
+          "group": "spatial_character",
+          "criterion": "industrial_historical_atmosphere",
+          "label_zh": "工業／歷史氛圍"
+        }
+      ]
+    },
+    "urban_context_layer": {
+      "id": "2",
+      "label_en": "Urban Context Layer",
+      "label_zh": "都市脈絡層",
+      "groups": {
+        "historical_context": {
+          "id": "2-1",
+          "label_en": "Historical Context",
+          "label_zh": "歷史脈絡",
+          "criteria": {
+            "industrial_heritage": {
+              "label_zh": "工業遺產",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "military_heritage": {
+              "label_zh": "軍事遺產",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "campus_history": {
+              "label_zh": "校園歷史",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "case: University of Coimbra",
+                "original_function: Historic university complex",
+                "current_function: University campus"
+              ],
+              "inference": ""
+            },
+            "local_memory": {
+              "label_zh": "地方記憶",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "original_function: Historic university complex",
+                "key_spatial_features: Courtyards and cloisters",
+                "keywords: courtyard",
+                "keywords: historic layering"
+              ],
+              "inference": ""
+            }
+          },
+          "present_tags": [
+            {
+              "group": "historical_context",
+              "criterion": "campus_history",
+              "label_zh": "校園歷史"
+            },
+            {
+              "group": "historical_context",
+              "criterion": "local_memory",
+              "label_zh": "地方記憶"
+            }
+          ]
+        },
+        "urban_relationship": {
+          "id": "2-2",
+          "label_en": "Urban Relationship",
+          "label_zh": "都市關係",
+          "criteria": {
+            "urban_interface": {
+              "label_zh": "都市介面",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "campus_openness": {
+              "label_zh": "校園開放性",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "community_connection": {
+              "label_zh": "社區連結",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "public_accessibility": {
+              "label_zh": "公共可達性",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "key_spatial_features: layered public spaces"
+              ],
+              "inference": ""
+            }
+          },
+          "present_tags": [
+            {
+              "group": "urban_relationship",
+              "criterion": "public_accessibility",
+              "label_zh": "公共可達性"
+            }
+          ]
+        },
+        "environmental_condition": {
+          "id": "2-3",
+          "label_en": "Environmental Condition",
+          "label_zh": "環境條件",
+          "criteria": {
+            "natural_daylighting": {
+              "label_zh": "自然採光",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "natural_ventilation": {
+              "label_zh": "自然通風",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "key_spatial_features: Courtyards and cloisters",
+                "keywords: courtyard"
+              ],
+              "inference": ""
+            },
+            "microclimate": {
+              "label_zh": "微氣候",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "key_spatial_features: Courtyards and cloisters",
+                "key_spatial_features: terraced landscape",
+                "keywords: courtyard"
+              ],
+              "inference": ""
+            },
+            "green_environment": {
+              "label_zh": "綠化環境",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "key_spatial_features: Courtyards and cloisters",
+                "key_spatial_features: terraced landscape",
+                "keywords: courtyard"
+              ],
+              "inference": ""
+            }
+          },
+          "present_tags": [
+            {
+              "group": "environmental_condition",
+              "criterion": "natural_ventilation",
+              "label_zh": "自然通風"
+            },
+            {
+              "group": "environmental_condition",
+              "criterion": "microclimate",
+              "label_zh": "微氣候"
+            },
+            {
+              "group": "environmental_condition",
+              "criterion": "green_environment",
+              "label_zh": "綠化環境"
+            }
+          ]
+        }
+      },
+      "present_tags": [
+        {
+          "group": "historical_context",
+          "criterion": "campus_history",
+          "label_zh": "校園歷史"
+        },
+        {
+          "group": "historical_context",
+          "criterion": "local_memory",
+          "label_zh": "地方記憶"
+        },
+        {
+          "group": "urban_relationship",
+          "criterion": "public_accessibility",
+          "label_zh": "公共可達性"
+        },
+        {
+          "group": "environmental_condition",
+          "criterion": "natural_ventilation",
+          "label_zh": "自然通風"
+        },
+        {
+          "group": "environmental_condition",
+          "criterion": "microclimate",
+          "label_zh": "微氣候"
+        },
+        {
+          "group": "environmental_condition",
+          "criterion": "green_environment",
+          "label_zh": "綠化環境"
+        }
+      ]
+    },
+    "temporal_transformation_layer": {
+      "id": "3",
+      "label_en": "Temporal Transformation Layer",
+      "label_zh": "時間轉化層",
+      "groups": {
+        "historical_evolution": {
+          "id": "3-1",
+          "label_en": "Historical Evolution",
+          "label_zh": "歷史演變",
+          "criteria": {
+            "building_year": {
+              "label_zh": "建築年代",
+              "present": false,
+              "confidence": "none",
+              "value": null,
+              "evidence": [],
+              "inference": "Excel Year 欄位目前空白。"
+            },
+            "renovation_year": {
+              "label_zh": "改建年代",
+              "present": false,
+              "confidence": "none",
+              "value": null,
+              "evidence": [],
+              "inference": "Excel Year 欄位目前空白。"
+            },
+            "historical_layering": {
+              "label_zh": "歷史疊加",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "original_function: Historic university complex",
+                "key_spatial_features: layered public spaces",
+                "keywords: historic layering"
+              ],
+              "inference": ""
+            },
+            "spatial_evolution": {
+              "label_zh": "空間演變",
+              "present": true,
+              "confidence": "medium",
+              "value": true,
+              "evidence": [
+                "original_function -> current_function: Historic university complex -> University campus"
+              ],
+              "inference": "由原機能與現機能不同推論為再利用／轉用案例。"
+            }
+          },
+          "present_tags": [
+            {
+              "group": "historical_evolution",
+              "criterion": "historical_layering",
+              "label_zh": "歷史疊加"
+            },
+            {
+              "group": "historical_evolution",
+              "criterion": "spatial_evolution",
+              "label_zh": "空間演變"
+            }
+          ]
+        },
+        "functional_transformation": {
+          "id": "3-2",
+          "label_en": "Functional Transformation",
+          "label_zh": "機能轉化",
+          "criteria": {
+            "teaching_space": {
+              "label_zh": "教學空間",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "case: University of Coimbra",
+                "original_function: Historic university complex",
+                "current_function: University campus"
+              ],
+              "inference": ""
+            },
+            "public_exchange": {
+              "label_zh": "公共交流",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "key_spatial_features: layered public spaces"
+              ],
+              "inference": ""
+            },
+            "exhibition_performance": {
+              "label_zh": "展演活動",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "mixed_use": {
+              "label_zh": "混合使用",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            }
+          },
+          "present_tags": [
+            {
+              "group": "functional_transformation",
+              "criterion": "teaching_space",
+              "label_zh": "教學空間"
+            },
+            {
+              "group": "functional_transformation",
+              "criterion": "public_exchange",
+              "label_zh": "公共交流"
+            }
+          ]
+        },
+        "adaptive_capacity": {
+          "id": "3-3",
+          "label_en": "Adaptive Capacity",
+          "label_zh": "持續利用能力",
+          "criteria": {
+            "spatial_flexibility": {
+              "label_zh": "空間彈性",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "structural_neutrality": {
+              "label_zh": "結構中性",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "functional_convertibility": {
+              "label_zh": "機能可轉換性",
+              "present": true,
+              "confidence": "medium",
+              "value": true,
+              "evidence": [
+                "original_function -> current_function: Historic university complex -> University campus"
+              ],
+              "inference": "由原機能與現機能不同推論為再利用／轉用案例。"
+            },
+            "long_term_sustainability": {
+              "label_zh": "長期永續性",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            }
+          },
+          "present_tags": [
+            {
+              "group": "adaptive_capacity",
+              "criterion": "functional_convertibility",
+              "label_zh": "機能可轉換性"
+            }
+          ]
+        }
+      },
+      "present_tags": [
+        {
+          "group": "historical_evolution",
+          "criterion": "historical_layering",
+          "label_zh": "歷史疊加"
+        },
+        {
+          "group": "historical_evolution",
+          "criterion": "spatial_evolution",
+          "label_zh": "空間演變"
+        },
+        {
+          "group": "functional_transformation",
+          "criterion": "teaching_space",
+          "label_zh": "教學空間"
+        },
+        {
+          "group": "functional_transformation",
+          "criterion": "public_exchange",
+          "label_zh": "公共交流"
+        },
+        {
+          "group": "adaptive_capacity",
+          "criterion": "functional_convertibility",
+          "label_zh": "機能可轉換性"
+        }
+      ]
+    },
+    "functional_layer": {
+      "id": "4",
+      "label_en": "Functional Layer",
+      "label_zh": "機能層",
+      "groups": {
+        "educational_function": {
+          "id": "4-1",
+          "label_en": "Educational Function",
+          "label_zh": "教育機能",
+          "criteria": {
+            "classroom": {
+              "label_zh": "教室",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "case: University of Coimbra",
+                "original_function: Historic university complex",
+                "current_function: University campus"
+              ],
+              "inference": ""
+            },
+            "studio": {
+              "label_zh": "Studio",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "workshop": {
+              "label_zh": "Workshop",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "lecture_hall": {
+              "label_zh": "Lecture Hall",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            }
+          },
+          "present_tags": [
+            {
+              "group": "educational_function",
+              "criterion": "classroom",
+              "label_zh": "教室"
+            }
+          ]
+        },
+        "public_function": {
+          "id": "4-2",
+          "label_en": "Public Function",
+          "label_zh": "公共機能",
+          "criteria": {
+            "atrium": {
+              "label_zh": "中庭",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "lounge": {
+              "label_zh": "Lounge",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "key_spatial_features: layered public spaces"
+              ],
+              "inference": ""
+            },
+            "exhibition_space": {
+              "label_zh": "展覽空間",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "cafe": {
+              "label_zh": "Cafe",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            }
+          },
+          "present_tags": [
+            {
+              "group": "public_function",
+              "criterion": "lounge",
+              "label_zh": "Lounge"
+            }
+          ]
+        },
+        "mixed_use_function": {
+          "id": "4-3",
+          "label_en": "Mixed-use Function",
+          "label_zh": "混合使用",
+          "criteria": {
+            "administration": {
+              "label_zh": "行政",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "community_shared": {
+              "label_zh": "社區共享",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "key_spatial_features: layered public spaces"
+              ],
+              "inference": ""
+            },
+            "performance": {
+              "label_zh": "展演活動",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "interdisciplinary_exchange": {
+              "label_zh": "跨域交流",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            }
+          },
+          "present_tags": [
+            {
+              "group": "mixed_use_function",
+              "criterion": "community_shared",
+              "label_zh": "社區共享"
+            }
+          ]
+        }
+      },
+      "present_tags": [
+        {
+          "group": "educational_function",
+          "criterion": "classroom",
+          "label_zh": "教室"
+        },
+        {
+          "group": "public_function",
+          "criterion": "lounge",
+          "label_zh": "Lounge"
+        },
+        {
+          "group": "mixed_use_function",
+          "criterion": "community_shared",
+          "label_zh": "社區共享"
+        }
+      ]
+    },
+    "typology_layer": {
+      "id": "5",
+      "label_en": "Typology Layer",
+      "label_zh": "類型層",
+      "groups": {
+        "campus_renewal": {
+          "id": "5-1",
+          "label_en": "Campus Renewal",
+          "label_zh": "校園更新",
+          "criteria": {
+            "public_connectivity": {
+              "label_zh": "Public Connectivity",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "key_spatial_features: layered public spaces"
+              ],
+              "inference": ""
+            },
+            "flexible_learning": {
+              "label_zh": "Flexible Learning",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "historic_integration": {
+              "label_zh": "Historic Integration",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "original_function: Historic university complex",
+                "keywords: historic layering"
+              ],
+              "inference": ""
+            }
+          },
+          "present_tags": [
+            {
+              "group": "campus_renewal",
+              "criterion": "public_connectivity",
+              "label_zh": "Public Connectivity"
+            },
+            {
+              "group": "campus_renewal",
+              "criterion": "historic_integration",
+              "label_zh": "Historic Integration"
+            }
+          ]
+        },
+        "industrial_reuse": {
+          "id": "5-2",
+          "label_en": "Industrial Reuse",
+          "label_zh": "工業再利用",
+          "criteria": {
+            "large_span": {
+              "label_zh": "Large-span",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "linear_modular": {
+              "label_zh": "Linear Modular",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "factory_conversion": {
+              "label_zh": "Factory Conversion",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            }
+          },
+          "present_tags": []
+        },
+        "military_reuse": {
+          "id": "5-3",
+          "label_en": "Military Reuse",
+          "label_zh": "軍事再利用",
+          "criteria": {
+            "barrack_conversion": {
+              "label_zh": "Barrack Conversion",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "corridor_type": {
+              "label_zh": "Corridor Type",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "courtyard_type": {
+              "label_zh": "Courtyard Type",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "key_spatial_features: Courtyards and cloisters",
+                "keywords: courtyard"
+              ],
+              "inference": ""
+            }
+          },
+          "present_tags": [
+            {
+              "group": "military_reuse",
+              "criterion": "courtyard_type",
+              "label_zh": "Courtyard Type"
+            }
+          ]
+        },
+        "institutional_reuse": {
+          "id": "5-4",
+          "label_en": "Institutional Reuse",
+          "label_zh": "機構再利用",
+          "criteria": {
+            "hospital": {
+              "label_zh": "Hospital",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "court": {
+              "label_zh": "Court",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "key_spatial_features: Courtyards and cloisters",
+                "keywords: courtyard"
+              ],
+              "inference": ""
+            },
+            "government_building": {
+              "label_zh": "Government Building",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "key_spatial_features: Courtyards and cloisters",
+                "keywords: courtyard"
+              ],
+              "inference": ""
+            },
+            "commercial_building": {
+              "label_zh": "Commercial Building",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            }
+          },
+          "present_tags": [
+            {
+              "group": "institutional_reuse",
+              "criterion": "court",
+              "label_zh": "Court"
+            },
+            {
+              "group": "institutional_reuse",
+              "criterion": "government_building",
+              "label_zh": "Government Building"
+            }
+          ]
+        }
+      },
+      "present_tags": [
+        {
+          "group": "campus_renewal",
+          "criterion": "public_connectivity",
+          "label_zh": "Public Connectivity"
+        },
+        {
+          "group": "campus_renewal",
+          "criterion": "historic_integration",
+          "label_zh": "Historic Integration"
+        },
+        {
+          "group": "military_reuse",
+          "criterion": "courtyard_type",
+          "label_zh": "Courtyard Type"
+        },
+        {
+          "group": "institutional_reuse",
+          "criterion": "court",
+          "label_zh": "Court"
+        },
+        {
+          "group": "institutional_reuse",
+          "criterion": "government_building",
+          "label_zh": "Government Building"
+        }
+      ]
+    }
+  },
+  "precedent_dna": {
+    "Gene_A": {
+      "location": "Portugal",
+      "site_conditions": null,
+      "functional_needs": "University campus",
+      "cultural_context": "Historic university complex"
+    },
+    "Gene_B": {
+      "issue": "校園更新或既有建築再利用需求。",
+      "concept": "以既有空間特徵轉化為教學、公共交流或跨域學習資源。",
+      "strategy": "依來源欄位中的結構、動線、開放性、歷史脈絡與機能轉化線索進行分類。"
+    },
+    "Gene_C1": [
+      "Courtyards and cloisters",
+      "layered public spaces",
+      "ritual axis",
+      "terraced landscape",
+      "courtyard",
+      "cloister",
+      "monumentality",
+      "historic layering"
+    ],
+    "Gene_C2": [
+      {
+        "subject": "Courtyard/Cloister",
+        "relation": "organizes",
+        "relation_type": "Spatial Relation",
+        "object": "public campus movement",
+        "evidence": "Courtyards and cloisters, layered public spaces, ritual axis, terraced landscape"
+      },
+      {
+        "subject": "Landscape roof/terrain",
+        "relation": "integrates",
+        "relation_type": "Environmental Relation",
+        "object": "green campus environment",
+        "evidence": "Courtyards and cloisters, layered public spaces, ritual axis, terraced landscape"
+      }
+    ],
+    "Gene_D": {
+      "user_behavior": null,
+      "media_feedback": null,
+      "designer_reflection": null
+    }
+  },
+  "notes": "Rule-based extraction from sparse spreadsheet data. Empty Excel fields are kept as null; inferred tags include evidence."
+}

@@ -1,0 +1,1053 @@
+{
+  "id": "case_20_aalto_university_harald_herlin_learning_centre",
+  "case_name": "Aalto University Harald Herlin Learning Centre",
+  "source": {
+    "file": "campus_cases.xlsx",
+    "sheet": "Campus Adaptive Reuse Cases",
+    "row": 21
+  },
+  "raw_fields": {
+    "original_function": "Helsinki University of Technology main library",
+    "current_function": "Learning centre / library services",
+    "key_spatial_features": "Renovated Aalto-designed library, indirect daylight, fan-like plan, study and groupwork spaces, exhibition spaces, cafe",
+    "keywords": [
+      "library renewal",
+      "daylight",
+      "flexible learning",
+      "exhibition",
+      "campus publicness",
+      "historic integration"
+    ],
+    "region_country": "Finland",
+    "year": "2016",
+    "location": "Espoo",
+    "continent": "Europe",
+    "floor": null
+  },
+  "knowledge_precedent": {
+    "architectural_layer": {
+      "id": "1",
+      "label_en": "Architectural Layer",
+      "label_zh": "建築層",
+      "groups": {
+        "structural_system": {
+          "id": "1-1",
+          "label_en": "Structural System",
+          "label_zh": "結構系統",
+          "criteria": {
+            "structural_regularity": {
+              "label_zh": "結構規律性",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "large_span_space": {
+              "label_zh": "大跨度空間",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "modular_degree": {
+              "label_zh": "模組化程度",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "floor_height_condition": {
+              "label_zh": "層高條件",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            }
+          },
+          "present_tags": []
+        },
+        "spatial_organization": {
+          "id": "1-2",
+          "label_en": "Spatial Organization",
+          "label_zh": "空間構成",
+          "criteria": {
+            "plan_composition": {
+              "label_zh": "平面構成",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "circulation_system": {
+              "label_zh": "動線系統",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "atrium_courtyard_corridor": {
+              "label_zh": "中庭／迴廊",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "spatial_openness": {
+              "label_zh": "空間開放性",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            }
+          },
+          "present_tags": []
+        },
+        "spatial_character": {
+          "id": "1-3",
+          "label_en": "Spatial Character",
+          "label_zh": "空間特質",
+          "criteria": {
+            "spatial_scale": {
+              "label_zh": "空間尺度",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "publicness": {
+              "label_zh": "公共性",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "keywords: campus publicness"
+              ],
+              "inference": ""
+            },
+            "rituality": {
+              "label_zh": "儀式性",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "industrial_historical_atmosphere": {
+              "label_zh": "工業／歷史氛圍",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "keywords: historic integration"
+              ],
+              "inference": ""
+            }
+          },
+          "present_tags": [
+            {
+              "group": "spatial_character",
+              "criterion": "publicness",
+              "label_zh": "公共性"
+            },
+            {
+              "group": "spatial_character",
+              "criterion": "industrial_historical_atmosphere",
+              "label_zh": "工業／歷史氛圍"
+            }
+          ]
+        }
+      },
+      "present_tags": [
+        {
+          "group": "spatial_character",
+          "criterion": "publicness",
+          "label_zh": "公共性"
+        },
+        {
+          "group": "spatial_character",
+          "criterion": "industrial_historical_atmosphere",
+          "label_zh": "工業／歷史氛圍"
+        }
+      ]
+    },
+    "urban_context_layer": {
+      "id": "2",
+      "label_en": "Urban Context Layer",
+      "label_zh": "都市脈絡層",
+      "groups": {
+        "historical_context": {
+          "id": "2-1",
+          "label_en": "Historical Context",
+          "label_zh": "歷史脈絡",
+          "criteria": {
+            "industrial_heritage": {
+              "label_zh": "工業遺產",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "military_heritage": {
+              "label_zh": "軍事遺產",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "campus_history": {
+              "label_zh": "校園歷史",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "case: Aalto University Harald Herlin Learning Centre",
+                "original_function: Helsinki University of Technology main library",
+                "keywords: campus publicness"
+              ],
+              "inference": ""
+            },
+            "local_memory": {
+              "label_zh": "地方記憶",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "keywords: historic integration"
+              ],
+              "inference": ""
+            }
+          },
+          "present_tags": [
+            {
+              "group": "historical_context",
+              "criterion": "campus_history",
+              "label_zh": "校園歷史"
+            },
+            {
+              "group": "historical_context",
+              "criterion": "local_memory",
+              "label_zh": "地方記憶"
+            }
+          ]
+        },
+        "urban_relationship": {
+          "id": "2-2",
+          "label_en": "Urban Relationship",
+          "label_zh": "都市關係",
+          "criteria": {
+            "urban_interface": {
+              "label_zh": "都市介面",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "campus_openness": {
+              "label_zh": "校園開放性",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "community_connection": {
+              "label_zh": "社區連結",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "public_accessibility": {
+              "label_zh": "公共可達性",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "keywords: campus publicness"
+              ],
+              "inference": ""
+            }
+          },
+          "present_tags": [
+            {
+              "group": "urban_relationship",
+              "criterion": "public_accessibility",
+              "label_zh": "公共可達性"
+            }
+          ]
+        },
+        "environmental_condition": {
+          "id": "2-3",
+          "label_en": "Environmental Condition",
+          "label_zh": "環境條件",
+          "criteria": {
+            "natural_daylighting": {
+              "label_zh": "自然採光",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "key_spatial_features: indirect daylight",
+                "keywords: daylight"
+              ],
+              "inference": ""
+            },
+            "natural_ventilation": {
+              "label_zh": "自然通風",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "microclimate": {
+              "label_zh": "微氣候",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "green_environment": {
+              "label_zh": "綠化環境",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            }
+          },
+          "present_tags": [
+            {
+              "group": "environmental_condition",
+              "criterion": "natural_daylighting",
+              "label_zh": "自然採光"
+            }
+          ]
+        }
+      },
+      "present_tags": [
+        {
+          "group": "historical_context",
+          "criterion": "campus_history",
+          "label_zh": "校園歷史"
+        },
+        {
+          "group": "historical_context",
+          "criterion": "local_memory",
+          "label_zh": "地方記憶"
+        },
+        {
+          "group": "urban_relationship",
+          "criterion": "public_accessibility",
+          "label_zh": "公共可達性"
+        },
+        {
+          "group": "environmental_condition",
+          "criterion": "natural_daylighting",
+          "label_zh": "自然採光"
+        }
+      ]
+    },
+    "temporal_transformation_layer": {
+      "id": "3",
+      "label_en": "Temporal Transformation Layer",
+      "label_zh": "時間轉化層",
+      "groups": {
+        "historical_evolution": {
+          "id": "3-1",
+          "label_en": "Historical Evolution",
+          "label_zh": "歷史演變",
+          "criteria": {
+            "building_year": {
+              "label_zh": "建築年代",
+              "present": true,
+              "confidence": "high",
+              "value": "2016",
+              "evidence": [
+                "year: 2016"
+              ],
+              "inference": ""
+            },
+            "renovation_year": {
+              "label_zh": "改建年代",
+              "present": true,
+              "confidence": "high",
+              "value": "2016",
+              "evidence": [
+                "year: 2016"
+              ],
+              "inference": ""
+            },
+            "historical_layering": {
+              "label_zh": "歷史疊加",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "keywords: historic integration"
+              ],
+              "inference": ""
+            },
+            "spatial_evolution": {
+              "label_zh": "空間演變",
+              "present": true,
+              "confidence": "medium",
+              "value": true,
+              "evidence": [
+                "original_function -> current_function: Helsinki University of Technology main library -> Learning centre / library services"
+              ],
+              "inference": "由原機能與現機能不同推論為再利用／轉用案例。"
+            }
+          },
+          "present_tags": [
+            {
+              "group": "historical_evolution",
+              "criterion": "building_year",
+              "label_zh": "建築年代"
+            },
+            {
+              "group": "historical_evolution",
+              "criterion": "renovation_year",
+              "label_zh": "改建年代"
+            },
+            {
+              "group": "historical_evolution",
+              "criterion": "historical_layering",
+              "label_zh": "歷史疊加"
+            },
+            {
+              "group": "historical_evolution",
+              "criterion": "spatial_evolution",
+              "label_zh": "空間演變"
+            }
+          ]
+        },
+        "functional_transformation": {
+          "id": "3-2",
+          "label_en": "Functional Transformation",
+          "label_zh": "機能轉化",
+          "criteria": {
+            "teaching_space": {
+              "label_zh": "教學空間",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "case: Aalto University Harald Herlin Learning Centre",
+                "original_function: Helsinki University of Technology main library",
+                "current_function: Learning centre / library services",
+                "keywords: flexible learning"
+              ],
+              "inference": ""
+            },
+            "public_exchange": {
+              "label_zh": "公共交流",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "keywords: campus publicness"
+              ],
+              "inference": ""
+            },
+            "exhibition_performance": {
+              "label_zh": "展演活動",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "key_spatial_features: Renovated Aalto-designed library",
+                "key_spatial_features: exhibition spaces",
+                "keywords: exhibition"
+              ],
+              "inference": ""
+            },
+            "mixed_use": {
+              "label_zh": "混合使用",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            }
+          },
+          "present_tags": [
+            {
+              "group": "functional_transformation",
+              "criterion": "teaching_space",
+              "label_zh": "教學空間"
+            },
+            {
+              "group": "functional_transformation",
+              "criterion": "public_exchange",
+              "label_zh": "公共交流"
+            },
+            {
+              "group": "functional_transformation",
+              "criterion": "exhibition_performance",
+              "label_zh": "展演活動"
+            }
+          ]
+        },
+        "adaptive_capacity": {
+          "id": "3-3",
+          "label_en": "Adaptive Capacity",
+          "label_zh": "持續利用能力",
+          "criteria": {
+            "spatial_flexibility": {
+              "label_zh": "空間彈性",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "keywords: flexible learning"
+              ],
+              "inference": ""
+            },
+            "structural_neutrality": {
+              "label_zh": "結構中性",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "functional_convertibility": {
+              "label_zh": "機能可轉換性",
+              "present": true,
+              "confidence": "medium",
+              "value": true,
+              "evidence": [
+                "original_function -> current_function: Helsinki University of Technology main library -> Learning centre / library services"
+              ],
+              "inference": "由原機能與現機能不同推論為再利用／轉用案例。"
+            },
+            "long_term_sustainability": {
+              "label_zh": "長期永續性",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "key_spatial_features: indirect daylight",
+                "keywords: daylight"
+              ],
+              "inference": ""
+            }
+          },
+          "present_tags": [
+            {
+              "group": "adaptive_capacity",
+              "criterion": "spatial_flexibility",
+              "label_zh": "空間彈性"
+            },
+            {
+              "group": "adaptive_capacity",
+              "criterion": "functional_convertibility",
+              "label_zh": "機能可轉換性"
+            },
+            {
+              "group": "adaptive_capacity",
+              "criterion": "long_term_sustainability",
+              "label_zh": "長期永續性"
+            }
+          ]
+        }
+      },
+      "present_tags": [
+        {
+          "group": "historical_evolution",
+          "criterion": "building_year",
+          "label_zh": "建築年代"
+        },
+        {
+          "group": "historical_evolution",
+          "criterion": "renovation_year",
+          "label_zh": "改建年代"
+        },
+        {
+          "group": "historical_evolution",
+          "criterion": "historical_layering",
+          "label_zh": "歷史疊加"
+        },
+        {
+          "group": "historical_evolution",
+          "criterion": "spatial_evolution",
+          "label_zh": "空間演變"
+        },
+        {
+          "group": "functional_transformation",
+          "criterion": "teaching_space",
+          "label_zh": "教學空間"
+        },
+        {
+          "group": "functional_transformation",
+          "criterion": "public_exchange",
+          "label_zh": "公共交流"
+        },
+        {
+          "group": "functional_transformation",
+          "criterion": "exhibition_performance",
+          "label_zh": "展演活動"
+        },
+        {
+          "group": "adaptive_capacity",
+          "criterion": "spatial_flexibility",
+          "label_zh": "空間彈性"
+        },
+        {
+          "group": "adaptive_capacity",
+          "criterion": "functional_convertibility",
+          "label_zh": "機能可轉換性"
+        },
+        {
+          "group": "adaptive_capacity",
+          "criterion": "long_term_sustainability",
+          "label_zh": "長期永續性"
+        }
+      ]
+    },
+    "functional_layer": {
+      "id": "4",
+      "label_en": "Functional Layer",
+      "label_zh": "機能層",
+      "groups": {
+        "educational_function": {
+          "id": "4-1",
+          "label_en": "Educational Function",
+          "label_zh": "教育機能",
+          "criteria": {
+            "classroom": {
+              "label_zh": "教室",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "case: Aalto University Harald Herlin Learning Centre",
+                "original_function: Helsinki University of Technology main library",
+                "current_function: Learning centre / library services",
+                "keywords: flexible learning"
+              ],
+              "inference": ""
+            },
+            "studio": {
+              "label_zh": "Studio",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "key_spatial_features: Renovated Aalto-designed library"
+              ],
+              "inference": ""
+            },
+            "workshop": {
+              "label_zh": "Workshop",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "lecture_hall": {
+              "label_zh": "Lecture Hall",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            }
+          },
+          "present_tags": [
+            {
+              "group": "educational_function",
+              "criterion": "classroom",
+              "label_zh": "教室"
+            },
+            {
+              "group": "educational_function",
+              "criterion": "studio",
+              "label_zh": "Studio"
+            }
+          ]
+        },
+        "public_function": {
+          "id": "4-2",
+          "label_en": "Public Function",
+          "label_zh": "公共機能",
+          "criteria": {
+            "atrium": {
+              "label_zh": "中庭",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "lounge": {
+              "label_zh": "Lounge",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "exhibition_space": {
+              "label_zh": "展覽空間",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "key_spatial_features: Renovated Aalto-designed library",
+                "key_spatial_features: exhibition spaces",
+                "keywords: exhibition"
+              ],
+              "inference": ""
+            },
+            "cafe": {
+              "label_zh": "Cafe",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "key_spatial_features: cafe"
+              ],
+              "inference": ""
+            }
+          },
+          "present_tags": [
+            {
+              "group": "public_function",
+              "criterion": "exhibition_space",
+              "label_zh": "展覽空間"
+            },
+            {
+              "group": "public_function",
+              "criterion": "cafe",
+              "label_zh": "Cafe"
+            }
+          ]
+        },
+        "mixed_use_function": {
+          "id": "4-3",
+          "label_en": "Mixed-use Function",
+          "label_zh": "混合使用",
+          "criteria": {
+            "administration": {
+              "label_zh": "行政",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "community_shared": {
+              "label_zh": "社區共享",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "keywords: campus publicness"
+              ],
+              "inference": ""
+            },
+            "performance": {
+              "label_zh": "展演活動",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "key_spatial_features: Renovated Aalto-designed library",
+                "key_spatial_features: exhibition spaces",
+                "keywords: exhibition"
+              ],
+              "inference": ""
+            },
+            "interdisciplinary_exchange": {
+              "label_zh": "跨域交流",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            }
+          },
+          "present_tags": [
+            {
+              "group": "mixed_use_function",
+              "criterion": "community_shared",
+              "label_zh": "社區共享"
+            },
+            {
+              "group": "mixed_use_function",
+              "criterion": "performance",
+              "label_zh": "展演活動"
+            }
+          ]
+        }
+      },
+      "present_tags": [
+        {
+          "group": "educational_function",
+          "criterion": "classroom",
+          "label_zh": "教室"
+        },
+        {
+          "group": "educational_function",
+          "criterion": "studio",
+          "label_zh": "Studio"
+        },
+        {
+          "group": "public_function",
+          "criterion": "exhibition_space",
+          "label_zh": "展覽空間"
+        },
+        {
+          "group": "public_function",
+          "criterion": "cafe",
+          "label_zh": "Cafe"
+        },
+        {
+          "group": "mixed_use_function",
+          "criterion": "community_shared",
+          "label_zh": "社區共享"
+        },
+        {
+          "group": "mixed_use_function",
+          "criterion": "performance",
+          "label_zh": "展演活動"
+        }
+      ]
+    },
+    "typology_layer": {
+      "id": "5",
+      "label_en": "Typology Layer",
+      "label_zh": "類型層",
+      "groups": {
+        "campus_renewal": {
+          "id": "5-1",
+          "label_en": "Campus Renewal",
+          "label_zh": "校園更新",
+          "criteria": {
+            "public_connectivity": {
+              "label_zh": "Public Connectivity",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "keywords: campus publicness"
+              ],
+              "inference": ""
+            },
+            "flexible_learning": {
+              "label_zh": "Flexible Learning",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "case: Aalto University Harald Herlin Learning Centre",
+                "current_function: Learning centre / library services",
+                "keywords: flexible learning"
+              ],
+              "inference": ""
+            },
+            "historic_integration": {
+              "label_zh": "Historic Integration",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "keywords: historic integration"
+              ],
+              "inference": ""
+            }
+          },
+          "present_tags": [
+            {
+              "group": "campus_renewal",
+              "criterion": "public_connectivity",
+              "label_zh": "Public Connectivity"
+            },
+            {
+              "group": "campus_renewal",
+              "criterion": "flexible_learning",
+              "label_zh": "Flexible Learning"
+            },
+            {
+              "group": "campus_renewal",
+              "criterion": "historic_integration",
+              "label_zh": "Historic Integration"
+            }
+          ]
+        },
+        "industrial_reuse": {
+          "id": "5-2",
+          "label_en": "Industrial Reuse",
+          "label_zh": "工業再利用",
+          "criteria": {
+            "large_span": {
+              "label_zh": "Large-span",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "linear_modular": {
+              "label_zh": "Linear Modular",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "factory_conversion": {
+              "label_zh": "Factory Conversion",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            }
+          },
+          "present_tags": []
+        },
+        "military_reuse": {
+          "id": "5-3",
+          "label_en": "Military Reuse",
+          "label_zh": "軍事再利用",
+          "criteria": {
+            "barrack_conversion": {
+              "label_zh": "Barrack Conversion",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "corridor_type": {
+              "label_zh": "Corridor Type",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "courtyard_type": {
+              "label_zh": "Courtyard Type",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            }
+          },
+          "present_tags": []
+        },
+        "institutional_reuse": {
+          "id": "5-4",
+          "label_en": "Institutional Reuse",
+          "label_zh": "機構再利用",
+          "criteria": {
+            "hospital": {
+              "label_zh": "Hospital",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "court": {
+              "label_zh": "Court",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "government_building": {
+              "label_zh": "Government Building",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "commercial_building": {
+              "label_zh": "Commercial Building",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            }
+          },
+          "present_tags": []
+        }
+      },
+      "present_tags": [
+        {
+          "group": "campus_renewal",
+          "criterion": "public_connectivity",
+          "label_zh": "Public Connectivity"
+        },
+        {
+          "group": "campus_renewal",
+          "criterion": "flexible_learning",
+          "label_zh": "Flexible Learning"
+        },
+        {
+          "group": "campus_renewal",
+          "criterion": "historic_integration",
+          "label_zh": "Historic Integration"
+        }
+      ]
+    }
+  },
+  "precedent_dna": {
+    "Gene_A": {
+      "location": "Espoo",
+      "site_conditions": null,
+      "functional_needs": "Learning centre / library services",
+      "cultural_context": "Helsinki University of Technology main library"
+    },
+    "Gene_B": {
+      "issue": "校園更新或既有建築再利用需求。",
+      "concept": "以既有空間特徵轉化為教學、公共交流或跨域學習資源。",
+      "strategy": "依來源欄位中的結構、動線、開放性、歷史脈絡與機能轉化線索進行分類。"
+    },
+    "Gene_C1": [
+      "Renovated Aalto-designed library",
+      "indirect daylight",
+      "fan-like plan",
+      "study and groupwork spaces",
+      "exhibition spaces",
+      "cafe",
+      "library renewal",
+      "daylight",
+      "flexible learning",
+      "exhibition",
+      "campus publicness",
+      "historic integration"
+    ],
+    "Gene_C2": [],
+    "Gene_D": {
+      "user_behavior": null,
+      "media_feedback": null,
+      "designer_reflection": null
+    }
+  },
+  "notes": "Rule-based extraction from sparse spreadsheet data. Empty Excel fields are kept as null; inferred tags include evidence."
+}
