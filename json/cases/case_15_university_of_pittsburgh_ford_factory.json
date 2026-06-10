@@ -31,6 +31,31 @@
       "usage_note": "Remote reference image; verify source permissions before redistribution."
     }
   ],
+  "adaptive_transformation_analysis": {
+    "adaptation_model": {
+      "what_changed": "Ford assembly plant was transformed into University collaborative learning space.",
+      "why_changed": "support contemporary pedagogy, flexible learning, and collaborative work; reuse robust large-scale structures for academic and creative programs",
+      "what_remained": "the memory and spatial identity of the former Ford assembly plant; heritage material or structural character",
+      "how_space_adapted": "Spatial features such as Large industrial halls, atrium connections, daylight intervention were used to accommodate University collaborative learning space.",
+      "evidence": "original_function: Ford assembly plant | current_function: University collaborative learning space | key_spatial_features: Large industrial halls, atrium connections, daylight intervention | keywords: factory reuse, atrium, collaborative learning"
+    },
+    "behavior": [
+      "informal_learning",
+      "group_discussion",
+      "knowledge_sharing",
+      "social_interaction"
+    ],
+    "organizational_driver": [
+      "cross_disciplinary_curriculum",
+      "project_based_learning"
+    ],
+    "transformation_driver": [
+      "pedagogical_change",
+      "technology_change",
+      "enrollment_growth",
+      "financial_pressure"
+    ]
+  },
   "knowledge_precedent": {
     "architectural_layer": {
       "id": "1",
@@ -1089,6 +1114,385 @@
           "group": "industrial_reuse",
           "criterion": "factory_conversion",
           "label_zh": "Factory Conversion"
+        }
+      ]
+    },
+    "adaptive_transformation_layer": {
+      "id": "6",
+      "label_en": "Adaptive Transformation Layer",
+      "label_zh": "適應轉型層",
+      "groups": {
+        "adaptation_model": {
+          "id": "6-1",
+          "label_en": "Adaptation Model",
+          "label_zh": "適應模式",
+          "criteria": {
+            "what_changed": {
+              "label_zh": "改變內容",
+              "present": true,
+              "confidence": "medium",
+              "value": "Ford assembly plant was transformed into University collaborative learning space.",
+              "evidence": [
+                "Ford assembly plant was transformed into University collaborative learning space."
+              ],
+              "inference": "Rule-based adaptation model synthesized from source fields."
+            },
+            "why_changed": {
+              "label_zh": "改變原因",
+              "present": true,
+              "confidence": "medium",
+              "value": "support contemporary pedagogy, flexible learning, and collaborative work; reuse robust large-scale structures for academic and creative programs",
+              "evidence": [
+                "support contemporary pedagogy, flexible learning, and collaborative work; reuse robust large-scale structures for academic and creative programs"
+              ],
+              "inference": "Rule-based adaptation model synthesized from source fields."
+            },
+            "what_remained": {
+              "label_zh": "保留內容",
+              "present": true,
+              "confidence": "medium",
+              "value": "the memory and spatial identity of the former Ford assembly plant; heritage material or structural character",
+              "evidence": [
+                "the memory and spatial identity of the former Ford assembly plant; heritage material or structural character"
+              ],
+              "inference": "Rule-based adaptation model synthesized from source fields."
+            },
+            "how_space_adapted": {
+              "label_zh": "空間如何適應",
+              "present": true,
+              "confidence": "medium",
+              "value": "Spatial features such as Large industrial halls, atrium connections, daylight intervention were used to accommodate University collaborative learning space.",
+              "evidence": [
+                "Spatial features such as Large industrial halls, atrium connections, daylight intervention were used to accommodate University collaborative learning space."
+              ],
+              "inference": "Rule-based adaptation model synthesized from source fields."
+            },
+            "evidence": {
+              "label_zh": "證據",
+              "present": true,
+              "confidence": "medium",
+              "value": "original_function: Ford assembly plant | current_function: University collaborative learning space | key_spatial_features: Large industrial halls, atrium connections, daylight intervention | keywords: factory reuse, atrium, collaborative learning",
+              "evidence": [
+                "original_function: Ford assembly plant | current_function: University collaborative learning space | key_spatial_features: Large industrial halls, atrium connections, daylight intervention | keywords: factory reuse, atrium, collaborative learning"
+              ],
+              "inference": "Rule-based adaptation model synthesized from source fields."
+            }
+          },
+          "present_tags": [
+            {
+              "group": "adaptation_model",
+              "criterion": "what_changed",
+              "label_zh": "改變內容"
+            },
+            {
+              "group": "adaptation_model",
+              "criterion": "why_changed",
+              "label_zh": "改變原因"
+            },
+            {
+              "group": "adaptation_model",
+              "criterion": "what_remained",
+              "label_zh": "保留內容"
+            },
+            {
+              "group": "adaptation_model",
+              "criterion": "how_space_adapted",
+              "label_zh": "空間如何適應"
+            },
+            {
+              "group": "adaptation_model",
+              "criterion": "evidence",
+              "label_zh": "證據"
+            }
+          ]
+        },
+        "behavior": {
+          "id": "6-2",
+          "label_en": "Spatial Behavior",
+          "label_zh": "空間行為",
+          "criteria": {
+            "informal_learning": {
+              "label_zh": "非正式學習",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "case: University of Pittsburgh Ford Factory",
+                "current_function: University collaborative learning space"
+              ],
+              "inference": ""
+            },
+            "group_discussion": {
+              "label_zh": "群體討論",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "current_function: University collaborative learning space",
+                "keywords: collaborative learning"
+              ],
+              "inference": ""
+            },
+            "knowledge_sharing": {
+              "label_zh": "知識分享",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "case: University of Pittsburgh Ford Factory",
+                "current_function: University collaborative learning space",
+                "keywords: collaborative learning"
+              ],
+              "inference": ""
+            },
+            "social_interaction": {
+              "label_zh": "社交互動",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "case: University of Pittsburgh Ford Factory",
+                "current_function: University collaborative learning space",
+                "key_spatial_features: atrium connections",
+                "keywords: atrium"
+              ],
+              "inference": ""
+            }
+          },
+          "present_tags": [
+            {
+              "group": "behavior",
+              "criterion": "informal_learning",
+              "label_zh": "非正式學習"
+            },
+            {
+              "group": "behavior",
+              "criterion": "group_discussion",
+              "label_zh": "群體討論"
+            },
+            {
+              "group": "behavior",
+              "criterion": "knowledge_sharing",
+              "label_zh": "知識分享"
+            },
+            {
+              "group": "behavior",
+              "criterion": "social_interaction",
+              "label_zh": "社交互動"
+            }
+          ]
+        },
+        "organizational_driver": {
+          "id": "6-3",
+          "label_en": "Organizational Driver",
+          "label_zh": "組織機制",
+          "criteria": {
+            "cross_disciplinary_curriculum": {
+              "label_zh": "跨域課程",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "current_function: University collaborative learning space",
+                "keywords: collaborative learning"
+              ],
+              "inference": ""
+            },
+            "project_based_learning": {
+              "label_zh": "專題式學習",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "current_function: University collaborative learning space",
+                "keywords: collaborative learning"
+              ],
+              "inference": ""
+            },
+            "shared_facility_management": {
+              "label_zh": "共享設施管理",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "community_engagement": {
+              "label_zh": "社群參與",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            }
+          },
+          "present_tags": [
+            {
+              "group": "organizational_driver",
+              "criterion": "cross_disciplinary_curriculum",
+              "label_zh": "跨域課程"
+            },
+            {
+              "group": "organizational_driver",
+              "criterion": "project_based_learning",
+              "label_zh": "專題式學習"
+            }
+          ]
+        },
+        "transformation_driver": {
+          "id": "6-4",
+          "label_en": "Transformation Driver",
+          "label_zh": "轉型動力",
+          "criteria": {
+            "pedagogical_change": {
+              "label_zh": "教學模式改變",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "current_function: University collaborative learning space",
+                "keywords: collaborative learning"
+              ],
+              "inference": ""
+            },
+            "technology_change": {
+              "label_zh": "技術需求改變",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "key_spatial_features: daylight intervention"
+              ],
+              "inference": ""
+            },
+            "enrollment_growth": {
+              "label_zh": "成長與擴充需求",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "key_spatial_features: Large industrial halls"
+              ],
+              "inference": ""
+            },
+            "financial_pressure": {
+              "label_zh": "資源與成本壓力",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "keywords: factory reuse"
+              ],
+              "inference": ""
+            },
+            "community_outreach": {
+              "label_zh": "公共與社區連結",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            }
+          },
+          "present_tags": [
+            {
+              "group": "transformation_driver",
+              "criterion": "pedagogical_change",
+              "label_zh": "教學模式改變"
+            },
+            {
+              "group": "transformation_driver",
+              "criterion": "technology_change",
+              "label_zh": "技術需求改變"
+            },
+            {
+              "group": "transformation_driver",
+              "criterion": "enrollment_growth",
+              "label_zh": "成長與擴充需求"
+            },
+            {
+              "group": "transformation_driver",
+              "criterion": "financial_pressure",
+              "label_zh": "資源與成本壓力"
+            }
+          ]
+        }
+      },
+      "present_tags": [
+        {
+          "group": "adaptation_model",
+          "criterion": "what_changed",
+          "label_zh": "改變內容"
+        },
+        {
+          "group": "adaptation_model",
+          "criterion": "why_changed",
+          "label_zh": "改變原因"
+        },
+        {
+          "group": "adaptation_model",
+          "criterion": "what_remained",
+          "label_zh": "保留內容"
+        },
+        {
+          "group": "adaptation_model",
+          "criterion": "how_space_adapted",
+          "label_zh": "空間如何適應"
+        },
+        {
+          "group": "adaptation_model",
+          "criterion": "evidence",
+          "label_zh": "證據"
+        },
+        {
+          "group": "behavior",
+          "criterion": "informal_learning",
+          "label_zh": "非正式學習"
+        },
+        {
+          "group": "behavior",
+          "criterion": "group_discussion",
+          "label_zh": "群體討論"
+        },
+        {
+          "group": "behavior",
+          "criterion": "knowledge_sharing",
+          "label_zh": "知識分享"
+        },
+        {
+          "group": "behavior",
+          "criterion": "social_interaction",
+          "label_zh": "社交互動"
+        },
+        {
+          "group": "organizational_driver",
+          "criterion": "cross_disciplinary_curriculum",
+          "label_zh": "跨域課程"
+        },
+        {
+          "group": "organizational_driver",
+          "criterion": "project_based_learning",
+          "label_zh": "專題式學習"
+        },
+        {
+          "group": "transformation_driver",
+          "criterion": "pedagogical_change",
+          "label_zh": "教學模式改變"
+        },
+        {
+          "group": "transformation_driver",
+          "criterion": "technology_change",
+          "label_zh": "技術需求改變"
+        },
+        {
+          "group": "transformation_driver",
+          "criterion": "enrollment_growth",
+          "label_zh": "成長與擴充需求"
+        },
+        {
+          "group": "transformation_driver",
+          "criterion": "financial_pressure",
+          "label_zh": "資源與成本壓力"
         }
       ]
     }

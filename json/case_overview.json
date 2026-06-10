@@ -341,6 +341,198 @@
       "exhibition": [
         "case_20_aalto_university_harald_herlin_learning_centre"
       ]
+    },
+    "by_behavior": {
+      "informal_learning": [
+        "case_01_lehigh_university_packer_hall",
+        "case_02_nottingham_trent_university",
+        "case_03_university_of_coimbra",
+        "case_04_national_cheng_kung_university_future_venue",
+        "case_05_feng_chia_university_common_good_hall",
+        "case_08_ncku_industrial_design_history_department",
+        "case_09_scad_hong_kong_campus",
+        "case_10_scad_clark_hall",
+        "case_11_scad_bradley_hall",
+        "case_12_scad_number_nine",
+        "case_13_scad_ruskin_hall",
+        "case_14_university_of_the_arts_london_granary_building",
+        "case_15_university_of_pittsburgh_ford_factory",
+        "case_16_guilford_technical_community_college_advanced_manufacturing_campus",
+        "case_17_tu_delft_bk_city",
+        "case_18_university_of_toronto_daniels_building",
+        "case_19_duke_university_smith_warehouse",
+        "case_20_aalto_university_harald_herlin_learning_centre"
+      ],
+      "group_discussion": [
+        "case_01_lehigh_university_packer_hall",
+        "case_02_nottingham_trent_university",
+        "case_05_feng_chia_university_common_good_hall",
+        "case_07_ntu_liberal_education_classroom_building",
+        "case_08_ncku_industrial_design_history_department",
+        "case_09_scad_hong_kong_campus",
+        "case_10_scad_clark_hall",
+        "case_15_university_of_pittsburgh_ford_factory",
+        "case_16_guilford_technical_community_college_advanced_manufacturing_campus",
+        "case_17_tu_delft_bk_city",
+        "case_18_university_of_toronto_daniels_building",
+        "case_19_duke_university_smith_warehouse",
+        "case_20_aalto_university_harald_herlin_learning_centre"
+      ],
+      "knowledge_sharing": [
+        "case_01_lehigh_university_packer_hall",
+        "case_02_nottingham_trent_university",
+        "case_03_university_of_coimbra",
+        "case_04_national_cheng_kung_university_future_venue",
+        "case_05_feng_chia_university_common_good_hall",
+        "case_07_ntu_liberal_education_classroom_building",
+        "case_08_ncku_industrial_design_history_department",
+        "case_09_scad_hong_kong_campus",
+        "case_10_scad_clark_hall",
+        "case_11_scad_bradley_hall",
+        "case_12_scad_number_nine",
+        "case_13_scad_ruskin_hall",
+        "case_14_university_of_the_arts_london_granary_building",
+        "case_15_university_of_pittsburgh_ford_factory",
+        "case_17_tu_delft_bk_city",
+        "case_18_university_of_toronto_daniels_building",
+        "case_19_duke_university_smith_warehouse",
+        "case_20_aalto_university_harald_herlin_learning_centre"
+      ],
+      "social_interaction": [
+        "case_01_lehigh_university_packer_hall",
+        "case_02_nottingham_trent_university",
+        "case_03_university_of_coimbra",
+        "case_04_national_cheng_kung_university_future_venue",
+        "case_05_feng_chia_university_common_good_hall",
+        "case_06_ntu_humanities_building",
+        "case_07_ntu_liberal_education_classroom_building",
+        "case_08_ncku_industrial_design_history_department",
+        "case_09_scad_hong_kong_campus",
+        "case_10_scad_clark_hall",
+        "case_11_scad_bradley_hall",
+        "case_12_scad_number_nine",
+        "case_13_scad_ruskin_hall",
+        "case_14_university_of_the_arts_london_granary_building",
+        "case_15_university_of_pittsburgh_ford_factory",
+        "case_16_guilford_technical_community_college_advanced_manufacturing_campus",
+        "case_17_tu_delft_bk_city",
+        "case_18_university_of_toronto_daniels_building",
+        "case_19_duke_university_smith_warehouse",
+        "case_20_aalto_university_harald_herlin_learning_centre"
+      ]
+    },
+    "by_organizational_driver": {
+      "shared_facility_management": [
+        "case_01_lehigh_university_packer_hall",
+        "case_03_university_of_coimbra",
+        "case_05_feng_chia_university_common_good_hall",
+        "case_06_ntu_humanities_building",
+        "case_10_scad_clark_hall",
+        "case_11_scad_bradley_hall",
+        "case_12_scad_number_nine",
+        "case_13_scad_ruskin_hall",
+        "case_14_university_of_the_arts_london_granary_building",
+        "case_17_tu_delft_bk_city",
+        "case_18_university_of_toronto_daniels_building",
+        "case_20_aalto_university_harald_herlin_learning_centre"
+      ],
+      "community_engagement": [
+        "case_01_lehigh_university_packer_hall",
+        "case_03_university_of_coimbra",
+        "case_04_national_cheng_kung_university_future_venue",
+        "case_05_feng_chia_university_common_good_hall",
+        "case_07_ntu_liberal_education_classroom_building",
+        "case_16_guilford_technical_community_college_advanced_manufacturing_campus",
+        "case_17_tu_delft_bk_city",
+        "case_18_university_of_toronto_daniels_building",
+        "case_19_duke_university_smith_warehouse",
+        "case_20_aalto_university_harald_herlin_learning_centre"
+      ],
+      "project_based_learning": [
+        "case_02_nottingham_trent_university",
+        "case_07_ntu_liberal_education_classroom_building",
+        "case_08_ncku_industrial_design_history_department",
+        "case_09_scad_hong_kong_campus",
+        "case_14_university_of_the_arts_london_granary_building",
+        "case_15_university_of_pittsburgh_ford_factory",
+        "case_16_guilford_technical_community_college_advanced_manufacturing_campus",
+        "case_17_tu_delft_bk_city",
+        "case_18_university_of_toronto_daniels_building",
+        "case_19_duke_university_smith_warehouse",
+        "case_20_aalto_university_harald_herlin_learning_centre"
+      ],
+      "cross_disciplinary_curriculum": [
+        "case_05_feng_chia_university_common_good_hall",
+        "case_08_ncku_industrial_design_history_department",
+        "case_09_scad_hong_kong_campus",
+        "case_15_university_of_pittsburgh_ford_factory",
+        "case_17_tu_delft_bk_city",
+        "case_18_university_of_toronto_daniels_building"
+      ]
+    },
+    "by_transformation_driver": {
+      "enrollment_growth": [
+        "case_01_lehigh_university_packer_hall",
+        "case_06_ntu_humanities_building",
+        "case_10_scad_clark_hall",
+        "case_11_scad_bradley_hall",
+        "case_12_scad_number_nine",
+        "case_14_university_of_the_arts_london_granary_building",
+        "case_15_university_of_pittsburgh_ford_factory",
+        "case_17_tu_delft_bk_city",
+        "case_19_duke_university_smith_warehouse",
+        "case_20_aalto_university_harald_herlin_learning_centre"
+      ],
+      "financial_pressure": [
+        "case_01_lehigh_university_packer_hall",
+        "case_02_nottingham_trent_university",
+        "case_08_ncku_industrial_design_history_department",
+        "case_09_scad_hong_kong_campus",
+        "case_10_scad_clark_hall",
+        "case_11_scad_bradley_hall",
+        "case_12_scad_number_nine",
+        "case_13_scad_ruskin_hall",
+        "case_14_university_of_the_arts_london_granary_building",
+        "case_15_university_of_pittsburgh_ford_factory",
+        "case_16_guilford_technical_community_college_advanced_manufacturing_campus",
+        "case_17_tu_delft_bk_city",
+        "case_18_university_of_toronto_daniels_building",
+        "case_19_duke_university_smith_warehouse"
+      ],
+      "community_outreach": [
+        "case_01_lehigh_university_packer_hall",
+        "case_03_university_of_coimbra",
+        "case_04_national_cheng_kung_university_future_venue",
+        "case_05_feng_chia_university_common_good_hall",
+        "case_07_ntu_liberal_education_classroom_building",
+        "case_16_guilford_technical_community_college_advanced_manufacturing_campus",
+        "case_17_tu_delft_bk_city",
+        "case_18_university_of_toronto_daniels_building",
+        "case_19_duke_university_smith_warehouse",
+        "case_20_aalto_university_harald_herlin_learning_centre"
+      ],
+      "pedagogical_change": [
+        "case_02_nottingham_trent_university",
+        "case_04_national_cheng_kung_university_future_venue",
+        "case_05_feng_chia_university_common_good_hall",
+        "case_07_ntu_liberal_education_classroom_building",
+        "case_10_scad_clark_hall",
+        "case_15_university_of_pittsburgh_ford_factory",
+        "case_16_guilford_technical_community_college_advanced_manufacturing_campus",
+        "case_17_tu_delft_bk_city",
+        "case_18_university_of_toronto_daniels_building",
+        "case_19_duke_university_smith_warehouse",
+        "case_20_aalto_university_harald_herlin_learning_centre"
+      ],
+      "technology_change": [
+        "case_02_nottingham_trent_university",
+        "case_08_ncku_industrial_design_history_department",
+        "case_12_scad_number_nine",
+        "case_14_university_of_the_arts_london_granary_building",
+        "case_15_university_of_pittsburgh_ford_factory",
+        "case_16_guilford_technical_community_college_advanced_manufacturing_campus",
+        "case_20_aalto_university_harald_herlin_learning_centre"
+      ]
     }
   },
   "cases": [
@@ -370,6 +562,30 @@
           "usage_note": "Remote reference image; verify source permissions before redistribution."
         }
       ],
+      "adaptive_transformation_analysis": {
+        "adaptation_model": {
+          "what_changed": "Historic academic building was transformed into University building.",
+          "why_changed": "retain historical value while introducing updated university functions; strengthen campus publicness and social exchange",
+          "what_remained": "the memory and spatial identity of the former Historic academic building; linear circulation logic; heritage material or structural character",
+          "how_space_adapted": "Spatial features such as Stone structure with new materials, long corridor connecting public spaces, open shared spaces were used to accommodate University building.",
+          "evidence": "original_function: Historic academic building | current_function: University building | key_spatial_features: Stone structure with new materials, long corridor connecting public spaces, open shared spaces | keywords: historic renovation, corridor, openness, campus publicness"
+        },
+        "behavior": [
+          "informal_learning",
+          "group_discussion",
+          "knowledge_sharing",
+          "social_interaction"
+        ],
+        "organizational_driver": [
+          "shared_facility_management",
+          "community_engagement"
+        ],
+        "transformation_driver": [
+          "enrollment_growth",
+          "financial_pressure",
+          "community_outreach"
+        ]
+      },
       "typology_tags": [
         "public_connectivity",
         "historic_integration",
@@ -505,6 +721,78 @@
             "criterion": "corridor_type",
             "label_zh": "Corridor Type"
           }
+        ],
+        "adaptive_transformation_layer": [
+          {
+            "group": "adaptation_model",
+            "criterion": "what_changed",
+            "label_zh": "改變內容"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "why_changed",
+            "label_zh": "改變原因"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "what_remained",
+            "label_zh": "保留內容"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "how_space_adapted",
+            "label_zh": "空間如何適應"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "evidence",
+            "label_zh": "證據"
+          },
+          {
+            "group": "behavior",
+            "criterion": "informal_learning",
+            "label_zh": "非正式學習"
+          },
+          {
+            "group": "behavior",
+            "criterion": "group_discussion",
+            "label_zh": "群體討論"
+          },
+          {
+            "group": "behavior",
+            "criterion": "knowledge_sharing",
+            "label_zh": "知識分享"
+          },
+          {
+            "group": "behavior",
+            "criterion": "social_interaction",
+            "label_zh": "社交互動"
+          },
+          {
+            "group": "organizational_driver",
+            "criterion": "shared_facility_management",
+            "label_zh": "共享設施管理"
+          },
+          {
+            "group": "organizational_driver",
+            "criterion": "community_engagement",
+            "label_zh": "社群參與"
+          },
+          {
+            "group": "transformation_driver",
+            "criterion": "enrollment_growth",
+            "label_zh": "成長與擴充需求"
+          },
+          {
+            "group": "transformation_driver",
+            "criterion": "financial_pressure",
+            "label_zh": "資源與成本壓力"
+          },
+          {
+            "group": "transformation_driver",
+            "criterion": "community_outreach",
+            "label_zh": "公共與社區連結"
+          }
         ]
       },
       "spatial_vocabulary": [
@@ -550,6 +838,29 @@
           "usage_note": "Remote reference image; verify source permissions before redistribution."
         }
       ],
+      "adaptive_transformation_analysis": {
+        "adaptation_model": {
+          "what_changed": "Historic Victorian building was transformed into Teaching and research space.",
+          "why_changed": "support contemporary pedagogy, flexible learning, and collaborative work; retain historical value while introducing updated university functions",
+          "what_remained": "the memory and spatial identity of the former Historic Victorian building; heritage material or structural character",
+          "how_space_adapted": "Spatial features such as Atrium daylighting, permeable spaces, modular classrooms, preserved Victorian structure were used to accommodate Teaching and research space.",
+          "evidence": "original_function: Historic Victorian building | current_function: Teaching and research space | key_spatial_features: Atrium daylighting, permeable spaces, modular classrooms, preserved Victorian structure | keywords: atrium, adaptive reuse, modular learning, daylight"
+        },
+        "behavior": [
+          "informal_learning",
+          "group_discussion",
+          "knowledge_sharing",
+          "social_interaction"
+        ],
+        "organizational_driver": [
+          "project_based_learning"
+        ],
+        "transformation_driver": [
+          "pedagogical_change",
+          "technology_change",
+          "financial_pressure"
+        ]
+      },
       "typology_tags": [
         "flexible_learning",
         "historic_integration",
@@ -690,6 +1001,73 @@
             "criterion": "linear_modular",
             "label_zh": "Linear Modular"
           }
+        ],
+        "adaptive_transformation_layer": [
+          {
+            "group": "adaptation_model",
+            "criterion": "what_changed",
+            "label_zh": "改變內容"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "why_changed",
+            "label_zh": "改變原因"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "what_remained",
+            "label_zh": "保留內容"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "how_space_adapted",
+            "label_zh": "空間如何適應"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "evidence",
+            "label_zh": "證據"
+          },
+          {
+            "group": "behavior",
+            "criterion": "informal_learning",
+            "label_zh": "非正式學習"
+          },
+          {
+            "group": "behavior",
+            "criterion": "group_discussion",
+            "label_zh": "群體討論"
+          },
+          {
+            "group": "behavior",
+            "criterion": "knowledge_sharing",
+            "label_zh": "知識分享"
+          },
+          {
+            "group": "behavior",
+            "criterion": "social_interaction",
+            "label_zh": "社交互動"
+          },
+          {
+            "group": "organizational_driver",
+            "criterion": "project_based_learning",
+            "label_zh": "專題式學習"
+          },
+          {
+            "group": "transformation_driver",
+            "criterion": "pedagogical_change",
+            "label_zh": "教學模式改變"
+          },
+          {
+            "group": "transformation_driver",
+            "criterion": "technology_change",
+            "label_zh": "技術需求改變"
+          },
+          {
+            "group": "transformation_driver",
+            "criterion": "financial_pressure",
+            "label_zh": "資源與成本壓力"
+          }
         ]
       },
       "spatial_vocabulary": [
@@ -737,6 +1115,27 @@
           "usage_note": "Remote reference image; verify source permissions before redistribution."
         }
       ],
+      "adaptive_transformation_analysis": {
+        "adaptation_model": {
+          "what_changed": "Historic university complex was transformed into University campus.",
+          "why_changed": "retain historical value while introducing updated university functions; strengthen campus publicness and social exchange",
+          "what_remained": "the memory and spatial identity of the former Historic university complex; courtyard or cloister organization",
+          "how_space_adapted": "Spatial features such as Courtyards and cloisters, layered public spaces, ritual axis, terraced landscape were used to accommodate University campus.",
+          "evidence": "original_function: Historic university complex | current_function: University campus | key_spatial_features: Courtyards and cloisters, layered public spaces, ritual axis, terraced landscape | keywords: courtyard, cloister, monumentality, historic layering"
+        },
+        "behavior": [
+          "informal_learning",
+          "knowledge_sharing",
+          "social_interaction"
+        ],
+        "organizational_driver": [
+          "shared_facility_management",
+          "community_engagement"
+        ],
+        "transformation_driver": [
+          "community_outreach"
+        ]
+      },
       "typology_tags": [
         "public_connectivity",
         "historic_integration",
@@ -884,6 +1283,63 @@
             "criterion": "government_building",
             "label_zh": "Government Building"
           }
+        ],
+        "adaptive_transformation_layer": [
+          {
+            "group": "adaptation_model",
+            "criterion": "what_changed",
+            "label_zh": "改變內容"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "why_changed",
+            "label_zh": "改變原因"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "what_remained",
+            "label_zh": "保留內容"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "how_space_adapted",
+            "label_zh": "空間如何適應"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "evidence",
+            "label_zh": "證據"
+          },
+          {
+            "group": "behavior",
+            "criterion": "informal_learning",
+            "label_zh": "非正式學習"
+          },
+          {
+            "group": "behavior",
+            "criterion": "knowledge_sharing",
+            "label_zh": "知識分享"
+          },
+          {
+            "group": "behavior",
+            "criterion": "social_interaction",
+            "label_zh": "社交互動"
+          },
+          {
+            "group": "organizational_driver",
+            "criterion": "shared_facility_management",
+            "label_zh": "共享設施管理"
+          },
+          {
+            "group": "organizational_driver",
+            "criterion": "community_engagement",
+            "label_zh": "社群參與"
+          },
+          {
+            "group": "transformation_driver",
+            "criterion": "community_outreach",
+            "label_zh": "公共與社區連結"
+          }
         ]
       },
       "spatial_vocabulary": [
@@ -931,6 +1387,27 @@
           "usage_note": "Remote reference image; verify source permissions before redistribution."
         }
       ],
+      "adaptive_transformation_analysis": {
+        "adaptation_model": {
+          "what_changed": "The campus asset was configured or renewed to support University learning space.",
+          "why_changed": "support contemporary pedagogy, flexible learning, and collaborative work; strengthen campus publicness and social exchange",
+          "what_remained": "the campus role and spatial continuity of the existing setting",
+          "how_space_adapted": "Spatial features such as Transparent facade, indoor-outdoor continuity, flexible furniture, open plan were used to accommodate University learning space.",
+          "evidence": "original_function: Contemporary campus building | current_function: University learning space | key_spatial_features: Transparent facade, indoor-outdoor continuity, flexible furniture, open plan | keywords: transparency, flexibility, openness, public interaction"
+        },
+        "behavior": [
+          "informal_learning",
+          "knowledge_sharing",
+          "social_interaction"
+        ],
+        "organizational_driver": [
+          "community_engagement"
+        ],
+        "transformation_driver": [
+          "pedagogical_change",
+          "community_outreach"
+        ]
+      },
       "typology_tags": [
         "public_connectivity",
         "flexible_learning"
@@ -1040,6 +1517,63 @@
             "criterion": "flexible_learning",
             "label_zh": "Flexible Learning"
           }
+        ],
+        "adaptive_transformation_layer": [
+          {
+            "group": "adaptation_model",
+            "criterion": "what_changed",
+            "label_zh": "改變內容"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "why_changed",
+            "label_zh": "改變原因"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "what_remained",
+            "label_zh": "保留內容"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "how_space_adapted",
+            "label_zh": "空間如何適應"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "evidence",
+            "label_zh": "證據"
+          },
+          {
+            "group": "behavior",
+            "criterion": "informal_learning",
+            "label_zh": "非正式學習"
+          },
+          {
+            "group": "behavior",
+            "criterion": "knowledge_sharing",
+            "label_zh": "知識分享"
+          },
+          {
+            "group": "behavior",
+            "criterion": "social_interaction",
+            "label_zh": "社交互動"
+          },
+          {
+            "group": "organizational_driver",
+            "criterion": "community_engagement",
+            "label_zh": "社群參與"
+          },
+          {
+            "group": "transformation_driver",
+            "criterion": "pedagogical_change",
+            "label_zh": "教學模式改變"
+          },
+          {
+            "group": "transformation_driver",
+            "criterion": "community_outreach",
+            "label_zh": "公共與社區連結"
+          }
         ]
       },
       "spatial_vocabulary": [
@@ -1087,6 +1621,30 @@
           "usage_note": "Remote reference image; verify source permissions before redistribution."
         }
       ],
+      "adaptive_transformation_analysis": {
+        "adaptation_model": {
+          "what_changed": "The campus asset was configured or renewed to support University public learning space.",
+          "why_changed": "support contemporary pedagogy, flexible learning, and collaborative work; strengthen campus publicness and social exchange",
+          "what_remained": "the campus role and spatial continuity of the existing setting",
+          "how_space_adapted": "Spatial features such as Landscape roof, flowing terrain-like form, transparent facade, interdisciplinary exchange spaces were used to accommodate University public learning space.",
+          "evidence": "original_function: New campus building | current_function: University public learning space | key_spatial_features: Landscape roof, flowing terrain-like form, transparent facade, interdisciplinary exchange spaces | keywords: landscape architecture, fluidity, permeability, learning commons"
+        },
+        "behavior": [
+          "informal_learning",
+          "group_discussion",
+          "knowledge_sharing",
+          "social_interaction"
+        ],
+        "organizational_driver": [
+          "cross_disciplinary_curriculum",
+          "shared_facility_management",
+          "community_engagement"
+        ],
+        "transformation_driver": [
+          "pedagogical_change",
+          "community_outreach"
+        ]
+      },
       "typology_tags": [
         "public_connectivity",
         "flexible_learning"
@@ -1196,6 +1754,78 @@
             "criterion": "flexible_learning",
             "label_zh": "Flexible Learning"
           }
+        ],
+        "adaptive_transformation_layer": [
+          {
+            "group": "adaptation_model",
+            "criterion": "what_changed",
+            "label_zh": "改變內容"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "why_changed",
+            "label_zh": "改變原因"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "what_remained",
+            "label_zh": "保留內容"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "how_space_adapted",
+            "label_zh": "空間如何適應"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "evidence",
+            "label_zh": "證據"
+          },
+          {
+            "group": "behavior",
+            "criterion": "informal_learning",
+            "label_zh": "非正式學習"
+          },
+          {
+            "group": "behavior",
+            "criterion": "group_discussion",
+            "label_zh": "群體討論"
+          },
+          {
+            "group": "behavior",
+            "criterion": "knowledge_sharing",
+            "label_zh": "知識分享"
+          },
+          {
+            "group": "behavior",
+            "criterion": "social_interaction",
+            "label_zh": "社交互動"
+          },
+          {
+            "group": "organizational_driver",
+            "criterion": "cross_disciplinary_curriculum",
+            "label_zh": "跨域課程"
+          },
+          {
+            "group": "organizational_driver",
+            "criterion": "shared_facility_management",
+            "label_zh": "共享設施管理"
+          },
+          {
+            "group": "organizational_driver",
+            "criterion": "community_engagement",
+            "label_zh": "社群參與"
+          },
+          {
+            "group": "transformation_driver",
+            "criterion": "pedagogical_change",
+            "label_zh": "教學模式改變"
+          },
+          {
+            "group": "transformation_driver",
+            "criterion": "community_outreach",
+            "label_zh": "公共與社區連結"
+          }
         ]
       },
       "spatial_vocabulary": [
@@ -1243,6 +1873,24 @@
           "usage_note": "Remote reference image; verify source permissions before redistribution."
         }
       ],
+      "adaptive_transformation_analysis": {
+        "adaptation_model": {
+          "what_changed": "The campus asset was configured or renewed to support Humanities campus facility.",
+          "why_changed": "strengthen campus publicness and social exchange",
+          "what_remained": "courtyard or cloister organization",
+          "how_space_adapted": "Spatial features such as Sunken plaza, skybridges, courtyards, layered circulation were used to accommodate Humanities campus facility.",
+          "evidence": "original_function: New campus building | current_function: Humanities campus facility | key_spatial_features: Sunken plaza, skybridges, courtyards, layered circulation | keywords: sunken plaza, circulation, openness, multi-level space"
+        },
+        "behavior": [
+          "social_interaction"
+        ],
+        "organizational_driver": [
+          "shared_facility_management"
+        ],
+        "transformation_driver": [
+          "enrollment_growth"
+        ]
+      },
       "typology_tags": [
         "public_connectivity",
         "courtyard_type",
@@ -1359,6 +2007,48 @@
             "criterion": "government_building",
             "label_zh": "Government Building"
           }
+        ],
+        "adaptive_transformation_layer": [
+          {
+            "group": "adaptation_model",
+            "criterion": "what_changed",
+            "label_zh": "改變內容"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "why_changed",
+            "label_zh": "改變原因"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "what_remained",
+            "label_zh": "保留內容"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "how_space_adapted",
+            "label_zh": "空間如何適應"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "evidence",
+            "label_zh": "證據"
+          },
+          {
+            "group": "behavior",
+            "criterion": "social_interaction",
+            "label_zh": "社交互動"
+          },
+          {
+            "group": "organizational_driver",
+            "criterion": "shared_facility_management",
+            "label_zh": "共享設施管理"
+          },
+          {
+            "group": "transformation_driver",
+            "criterion": "enrollment_growth",
+            "label_zh": "成長與擴充需求"
+          }
         ]
       },
       "spatial_vocabulary": [
@@ -1406,6 +2096,28 @@
           "usage_note": "Remote reference image; verify source permissions before redistribution."
         }
       ],
+      "adaptive_transformation_analysis": {
+        "adaptation_model": {
+          "what_changed": "The campus asset was configured or renewed to support Teaching building.",
+          "why_changed": "support contemporary pedagogy, flexible learning, and collaborative work; strengthen campus publicness and social exchange",
+          "what_remained": "the campus role and spatial continuity of the existing setting",
+          "how_space_adapted": "Spatial features such as Public ground floor, staggered circulation, open facade system were used to accommodate Teaching building.",
+          "evidence": "original_function: New campus building | current_function: Teaching building | key_spatial_features: Public ground floor, staggered circulation, open facade system | keywords: public ground, circulation, permeability, interaction"
+        },
+        "behavior": [
+          "group_discussion",
+          "knowledge_sharing",
+          "social_interaction"
+        ],
+        "organizational_driver": [
+          "project_based_learning",
+          "community_engagement"
+        ],
+        "transformation_driver": [
+          "pedagogical_change",
+          "community_outreach"
+        ]
+      },
       "typology_tags": [
         "public_connectivity"
       ],
@@ -1499,6 +2211,68 @@
             "criterion": "public_connectivity",
             "label_zh": "Public Connectivity"
           }
+        ],
+        "adaptive_transformation_layer": [
+          {
+            "group": "adaptation_model",
+            "criterion": "what_changed",
+            "label_zh": "改變內容"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "why_changed",
+            "label_zh": "改變原因"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "what_remained",
+            "label_zh": "保留內容"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "how_space_adapted",
+            "label_zh": "空間如何適應"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "evidence",
+            "label_zh": "證據"
+          },
+          {
+            "group": "behavior",
+            "criterion": "group_discussion",
+            "label_zh": "群體討論"
+          },
+          {
+            "group": "behavior",
+            "criterion": "knowledge_sharing",
+            "label_zh": "知識分享"
+          },
+          {
+            "group": "behavior",
+            "criterion": "social_interaction",
+            "label_zh": "社交互動"
+          },
+          {
+            "group": "organizational_driver",
+            "criterion": "project_based_learning",
+            "label_zh": "專題式學習"
+          },
+          {
+            "group": "organizational_driver",
+            "criterion": "community_engagement",
+            "label_zh": "社群參與"
+          },
+          {
+            "group": "transformation_driver",
+            "criterion": "pedagogical_change",
+            "label_zh": "教學模式改變"
+          },
+          {
+            "group": "transformation_driver",
+            "criterion": "community_outreach",
+            "label_zh": "公共與社區連結"
+          }
         ]
       },
       "spatial_vocabulary": [
@@ -1544,6 +2318,29 @@
           "usage_note": "Remote reference image; verify source permissions before redistribution."
         }
       ],
+      "adaptive_transformation_analysis": {
+        "adaptation_model": {
+          "what_changed": "Japanese military barracks was transformed into University departments.",
+          "why_changed": "retain historical value while introducing updated university functions; reuse robust large-scale structures for academic and creative programs",
+          "what_remained": "the memory and spatial identity of the former Japanese military barracks; linear circulation logic; heritage material or structural character",
+          "how_space_adapted": "Spatial features such as Linear layout, continuous arcade corridor were used to accommodate University departments.",
+          "evidence": "original_function: Japanese military barracks | current_function: University departments | key_spatial_features: Linear layout, continuous arcade corridor | keywords: military reuse, arcade, linear plan, heritage"
+        },
+        "behavior": [
+          "informal_learning",
+          "group_discussion",
+          "knowledge_sharing",
+          "social_interaction"
+        ],
+        "organizational_driver": [
+          "cross_disciplinary_curriculum",
+          "project_based_learning"
+        ],
+        "transformation_driver": [
+          "technology_change",
+          "financial_pressure"
+        ]
+      },
       "typology_tags": [
         "public_connectivity",
         "historic_integration",
@@ -1701,6 +2498,73 @@
             "criterion": "corridor_type",
             "label_zh": "Corridor Type"
           }
+        ],
+        "adaptive_transformation_layer": [
+          {
+            "group": "adaptation_model",
+            "criterion": "what_changed",
+            "label_zh": "改變內容"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "why_changed",
+            "label_zh": "改變原因"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "what_remained",
+            "label_zh": "保留內容"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "how_space_adapted",
+            "label_zh": "空間如何適應"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "evidence",
+            "label_zh": "證據"
+          },
+          {
+            "group": "behavior",
+            "criterion": "informal_learning",
+            "label_zh": "非正式學習"
+          },
+          {
+            "group": "behavior",
+            "criterion": "group_discussion",
+            "label_zh": "群體討論"
+          },
+          {
+            "group": "behavior",
+            "criterion": "knowledge_sharing",
+            "label_zh": "知識分享"
+          },
+          {
+            "group": "behavior",
+            "criterion": "social_interaction",
+            "label_zh": "社交互動"
+          },
+          {
+            "group": "organizational_driver",
+            "criterion": "cross_disciplinary_curriculum",
+            "label_zh": "跨域課程"
+          },
+          {
+            "group": "organizational_driver",
+            "criterion": "project_based_learning",
+            "label_zh": "專題式學習"
+          },
+          {
+            "group": "transformation_driver",
+            "criterion": "technology_change",
+            "label_zh": "技術需求改變"
+          },
+          {
+            "group": "transformation_driver",
+            "criterion": "financial_pressure",
+            "label_zh": "資源與成本壓力"
+          }
         ]
       },
       "spatial_vocabulary": [
@@ -1746,6 +2610,28 @@
           "usage_note": "Remote reference image; verify source permissions before redistribution."
         }
       ],
+      "adaptive_transformation_analysis": {
+        "adaptation_model": {
+          "what_changed": "North Kowloon Magistracy was transformed into Art and design university campus.",
+          "why_changed": "retain historical value while introducing updated university functions",
+          "what_remained": "the memory and spatial identity of the former North Kowloon Magistracy",
+          "how_space_adapted": "Spatial features such as Separate circulation systems, light-filled atrium, adaptive reuse of courtroom and jail were used to accommodate Art and design university campus.",
+          "evidence": "original_function: North Kowloon Magistracy | current_function: Art and design university campus | key_spatial_features: Separate circulation systems, light-filled atrium, adaptive reuse of courtroom and jail | keywords: court conversion, atrium, adaptive reuse, circulation"
+        },
+        "behavior": [
+          "informal_learning",
+          "group_discussion",
+          "knowledge_sharing",
+          "social_interaction"
+        ],
+        "organizational_driver": [
+          "cross_disciplinary_curriculum",
+          "project_based_learning"
+        ],
+        "transformation_driver": [
+          "financial_pressure"
+        ]
+      },
       "typology_tags": [
         "historic_integration",
         "court",
@@ -1891,6 +2777,68 @@
             "criterion": "government_building",
             "label_zh": "Government Building"
           }
+        ],
+        "adaptive_transformation_layer": [
+          {
+            "group": "adaptation_model",
+            "criterion": "what_changed",
+            "label_zh": "改變內容"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "why_changed",
+            "label_zh": "改變原因"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "what_remained",
+            "label_zh": "保留內容"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "how_space_adapted",
+            "label_zh": "空間如何適應"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "evidence",
+            "label_zh": "證據"
+          },
+          {
+            "group": "behavior",
+            "criterion": "informal_learning",
+            "label_zh": "非正式學習"
+          },
+          {
+            "group": "behavior",
+            "criterion": "group_discussion",
+            "label_zh": "群體討論"
+          },
+          {
+            "group": "behavior",
+            "criterion": "knowledge_sharing",
+            "label_zh": "知識分享"
+          },
+          {
+            "group": "behavior",
+            "criterion": "social_interaction",
+            "label_zh": "社交互動"
+          },
+          {
+            "group": "organizational_driver",
+            "criterion": "cross_disciplinary_curriculum",
+            "label_zh": "跨域課程"
+          },
+          {
+            "group": "organizational_driver",
+            "criterion": "project_based_learning",
+            "label_zh": "專題式學習"
+          },
+          {
+            "group": "transformation_driver",
+            "criterion": "financial_pressure",
+            "label_zh": "資源與成本壓力"
+          }
         ]
       },
       "spatial_vocabulary": [
@@ -1936,6 +2884,29 @@
           "usage_note": "Remote reference image; verify source permissions before redistribution."
         }
       ],
+      "adaptive_transformation_analysis": {
+        "adaptation_model": {
+          "what_changed": "Railroad complex was transformed into University building.",
+          "why_changed": "support contemporary pedagogy, flexible learning, and collaborative work; strengthen campus publicness and social exchange; reuse robust large-scale structures for academic and creative programs",
+          "what_remained": "the memory and spatial identity of the former Railroad complex; heritage material or structural character",
+          "how_space_adapted": "Spatial features such as Open industrial roof space with enclosed rooms, airy interior were used to accommodate University building.",
+          "evidence": "original_function: Railroad complex | current_function: University building | key_spatial_features: Open industrial roof space with enclosed rooms, airy interior | keywords: industrial reuse, openness, adaptive learning"
+        },
+        "behavior": [
+          "informal_learning",
+          "group_discussion",
+          "knowledge_sharing",
+          "social_interaction"
+        ],
+        "organizational_driver": [
+          "shared_facility_management"
+        ],
+        "transformation_driver": [
+          "pedagogical_change",
+          "enrollment_growth",
+          "financial_pressure"
+        ]
+      },
       "typology_tags": [
         "public_connectivity",
         "flexible_learning",
@@ -2073,6 +3044,73 @@
             "criterion": "factory_conversion",
             "label_zh": "Factory Conversion"
           }
+        ],
+        "adaptive_transformation_layer": [
+          {
+            "group": "adaptation_model",
+            "criterion": "what_changed",
+            "label_zh": "改變內容"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "why_changed",
+            "label_zh": "改變原因"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "what_remained",
+            "label_zh": "保留內容"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "how_space_adapted",
+            "label_zh": "空間如何適應"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "evidence",
+            "label_zh": "證據"
+          },
+          {
+            "group": "behavior",
+            "criterion": "informal_learning",
+            "label_zh": "非正式學習"
+          },
+          {
+            "group": "behavior",
+            "criterion": "group_discussion",
+            "label_zh": "群體討論"
+          },
+          {
+            "group": "behavior",
+            "criterion": "knowledge_sharing",
+            "label_zh": "知識分享"
+          },
+          {
+            "group": "behavior",
+            "criterion": "social_interaction",
+            "label_zh": "社交互動"
+          },
+          {
+            "group": "organizational_driver",
+            "criterion": "shared_facility_management",
+            "label_zh": "共享設施管理"
+          },
+          {
+            "group": "transformation_driver",
+            "criterion": "pedagogical_change",
+            "label_zh": "教學模式改變"
+          },
+          {
+            "group": "transformation_driver",
+            "criterion": "enrollment_growth",
+            "label_zh": "成長與擴充需求"
+          },
+          {
+            "group": "transformation_driver",
+            "criterion": "financial_pressure",
+            "label_zh": "資源與成本壓力"
+          }
         ]
       },
       "spatial_vocabulary": [
@@ -2113,6 +3151,27 @@
           "usage_note": "Remote reference image; verify source permissions before redistribution."
         }
       ],
+      "adaptive_transformation_analysis": {
+        "adaptation_model": {
+          "what_changed": "U.S. Marine Hospital was transformed into University building.",
+          "why_changed": "retain historical value while introducing updated university functions",
+          "what_remained": "the memory and spatial identity of the former U.S. Marine Hospital; linear circulation logic; heritage material or structural character",
+          "how_space_adapted": "Spatial features such as Double-loaded corridor preserved from hospital layout were used to accommodate University building.",
+          "evidence": "original_function: U.S. Marine Hospital | current_function: University building | key_spatial_features: Double-loaded corridor preserved from hospital layout | keywords: hospital reuse, corridor system, preservation"
+        },
+        "behavior": [
+          "informal_learning",
+          "knowledge_sharing",
+          "social_interaction"
+        ],
+        "organizational_driver": [
+          "shared_facility_management"
+        ],
+        "transformation_driver": [
+          "enrollment_growth",
+          "financial_pressure"
+        ]
+      },
       "typology_tags": [
         "public_connectivity",
         "historic_integration",
@@ -2219,6 +3278,63 @@
             "criterion": "hospital",
             "label_zh": "Hospital"
           }
+        ],
+        "adaptive_transformation_layer": [
+          {
+            "group": "adaptation_model",
+            "criterion": "what_changed",
+            "label_zh": "改變內容"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "why_changed",
+            "label_zh": "改變原因"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "what_remained",
+            "label_zh": "保留內容"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "how_space_adapted",
+            "label_zh": "空間如何適應"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "evidence",
+            "label_zh": "證據"
+          },
+          {
+            "group": "behavior",
+            "criterion": "informal_learning",
+            "label_zh": "非正式學習"
+          },
+          {
+            "group": "behavior",
+            "criterion": "knowledge_sharing",
+            "label_zh": "知識分享"
+          },
+          {
+            "group": "behavior",
+            "criterion": "social_interaction",
+            "label_zh": "社交互動"
+          },
+          {
+            "group": "organizational_driver",
+            "criterion": "shared_facility_management",
+            "label_zh": "共享設施管理"
+          },
+          {
+            "group": "transformation_driver",
+            "criterion": "enrollment_growth",
+            "label_zh": "成長與擴充需求"
+          },
+          {
+            "group": "transformation_driver",
+            "criterion": "financial_pressure",
+            "label_zh": "資源與成本壓力"
+          }
         ]
       },
       "spatial_vocabulary": [
@@ -2261,6 +3377,28 @@
           "usage_note": "Remote reference image; verify source permissions before redistribution."
         }
       ],
+      "adaptive_transformation_analysis": {
+        "adaptation_model": {
+          "what_changed": "Commercial strip center was transformed into University facility.",
+          "why_changed": "retain historical value while introducing updated university functions; strengthen campus publicness and social exchange",
+          "what_remained": "the memory and spatial identity of the former Commercial strip center",
+          "how_space_adapted": "Spatial features such as Bright open interior, energy-efficient renovation were used to accommodate University facility.",
+          "evidence": "original_function: Commercial strip center | current_function: University facility | key_spatial_features: Bright open interior, energy-efficient renovation | keywords: commercial reuse, openness, sustainability"
+        },
+        "behavior": [
+          "informal_learning",
+          "knowledge_sharing",
+          "social_interaction"
+        ],
+        "organizational_driver": [
+          "shared_facility_management"
+        ],
+        "transformation_driver": [
+          "technology_change",
+          "enrollment_growth",
+          "financial_pressure"
+        ]
+      },
       "typology_tags": [
         "public_connectivity",
         "historic_integration",
@@ -2376,6 +3514,68 @@
             "criterion": "commercial_building",
             "label_zh": "Commercial Building"
           }
+        ],
+        "adaptive_transformation_layer": [
+          {
+            "group": "adaptation_model",
+            "criterion": "what_changed",
+            "label_zh": "改變內容"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "why_changed",
+            "label_zh": "改變原因"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "what_remained",
+            "label_zh": "保留內容"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "how_space_adapted",
+            "label_zh": "空間如何適應"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "evidence",
+            "label_zh": "證據"
+          },
+          {
+            "group": "behavior",
+            "criterion": "informal_learning",
+            "label_zh": "非正式學習"
+          },
+          {
+            "group": "behavior",
+            "criterion": "knowledge_sharing",
+            "label_zh": "知識分享"
+          },
+          {
+            "group": "behavior",
+            "criterion": "social_interaction",
+            "label_zh": "社交互動"
+          },
+          {
+            "group": "organizational_driver",
+            "criterion": "shared_facility_management",
+            "label_zh": "共享設施管理"
+          },
+          {
+            "group": "transformation_driver",
+            "criterion": "technology_change",
+            "label_zh": "技術需求改變"
+          },
+          {
+            "group": "transformation_driver",
+            "criterion": "enrollment_growth",
+            "label_zh": "成長與擴充需求"
+          },
+          {
+            "group": "transformation_driver",
+            "criterion": "financial_pressure",
+            "label_zh": "資源與成本壓力"
+          }
         ]
       },
       "spatial_vocabulary": [
@@ -2418,6 +3618,26 @@
           "usage_note": "Remote reference image; verify source permissions before redistribution."
         }
       ],
+      "adaptive_transformation_analysis": {
+        "adaptation_model": {
+          "what_changed": "Old Candler Hospital was transformed into Student housing / university use.",
+          "why_changed": "retain historical value while introducing updated university functions",
+          "what_remained": "the memory and spatial identity of the former Old Candler Hospital; linear circulation logic; courtyard or cloister organization; heritage material or structural character",
+          "how_space_adapted": "Spatial features such as Preserved hospital corridor structure, courtyard addition were used to accommodate Student housing / university use.",
+          "evidence": "original_function: Old Candler Hospital | current_function: Student housing / university use | key_spatial_features: Preserved hospital corridor structure, courtyard addition | keywords: hospital reuse, courtyard, preservation"
+        },
+        "behavior": [
+          "informal_learning",
+          "knowledge_sharing",
+          "social_interaction"
+        ],
+        "organizational_driver": [
+          "shared_facility_management"
+        ],
+        "transformation_driver": [
+          "financial_pressure"
+        ]
+      },
       "typology_tags": [
         "public_connectivity",
         "historic_integration",
@@ -2562,6 +3782,58 @@
             "criterion": "government_building",
             "label_zh": "Government Building"
           }
+        ],
+        "adaptive_transformation_layer": [
+          {
+            "group": "adaptation_model",
+            "criterion": "what_changed",
+            "label_zh": "改變內容"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "why_changed",
+            "label_zh": "改變原因"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "what_remained",
+            "label_zh": "保留內容"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "how_space_adapted",
+            "label_zh": "空間如何適應"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "evidence",
+            "label_zh": "證據"
+          },
+          {
+            "group": "behavior",
+            "criterion": "informal_learning",
+            "label_zh": "非正式學習"
+          },
+          {
+            "group": "behavior",
+            "criterion": "knowledge_sharing",
+            "label_zh": "知識分享"
+          },
+          {
+            "group": "behavior",
+            "criterion": "social_interaction",
+            "label_zh": "社交互動"
+          },
+          {
+            "group": "organizational_driver",
+            "criterion": "shared_facility_management",
+            "label_zh": "共享設施管理"
+          },
+          {
+            "group": "transformation_driver",
+            "criterion": "financial_pressure",
+            "label_zh": "資源與成本壓力"
+          }
         ]
       },
       "spatial_vocabulary": [
@@ -2606,6 +3878,29 @@
           "usage_note": "Remote reference image; verify source permissions before redistribution."
         }
       ],
+      "adaptive_transformation_analysis": {
+        "adaptation_model": {
+          "what_changed": "Victorian grain warehouse was transformed into Arts university building.",
+          "why_changed": "retain historical value while introducing updated university functions; reuse robust large-scale structures for academic and creative programs",
+          "what_remained": "the memory and spatial identity of the former Victorian grain warehouse; heritage material or structural character",
+          "how_space_adapted": "Spatial features such as Exposed timber beams, skylights, industrial rhythm preserved were used to accommodate Arts university building.",
+          "evidence": "original_function: Victorian grain warehouse | current_function: Arts university building | key_spatial_features: Exposed timber beams, skylights, industrial rhythm preserved | keywords: warehouse reuse, timber, industrial heritage"
+        },
+        "behavior": [
+          "informal_learning",
+          "knowledge_sharing",
+          "social_interaction"
+        ],
+        "organizational_driver": [
+          "project_based_learning",
+          "shared_facility_management"
+        ],
+        "transformation_driver": [
+          "technology_change",
+          "enrollment_growth",
+          "financial_pressure"
+        ]
+      },
       "typology_tags": [
         "historic_integration",
         "large_span",
@@ -2741,6 +4036,73 @@
             "criterion": "linear_modular",
             "label_zh": "Linear Modular"
           }
+        ],
+        "adaptive_transformation_layer": [
+          {
+            "group": "adaptation_model",
+            "criterion": "what_changed",
+            "label_zh": "改變內容"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "why_changed",
+            "label_zh": "改變原因"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "what_remained",
+            "label_zh": "保留內容"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "how_space_adapted",
+            "label_zh": "空間如何適應"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "evidence",
+            "label_zh": "證據"
+          },
+          {
+            "group": "behavior",
+            "criterion": "informal_learning",
+            "label_zh": "非正式學習"
+          },
+          {
+            "group": "behavior",
+            "criterion": "knowledge_sharing",
+            "label_zh": "知識分享"
+          },
+          {
+            "group": "behavior",
+            "criterion": "social_interaction",
+            "label_zh": "社交互動"
+          },
+          {
+            "group": "organizational_driver",
+            "criterion": "project_based_learning",
+            "label_zh": "專題式學習"
+          },
+          {
+            "group": "organizational_driver",
+            "criterion": "shared_facility_management",
+            "label_zh": "共享設施管理"
+          },
+          {
+            "group": "transformation_driver",
+            "criterion": "technology_change",
+            "label_zh": "技術需求改變"
+          },
+          {
+            "group": "transformation_driver",
+            "criterion": "enrollment_growth",
+            "label_zh": "成長與擴充需求"
+          },
+          {
+            "group": "transformation_driver",
+            "criterion": "financial_pressure",
+            "label_zh": "資源與成本壓力"
+          }
         ]
       },
       "spatial_vocabulary": [
@@ -2785,6 +4147,31 @@
           "usage_note": "Remote reference image; verify source permissions before redistribution."
         }
       ],
+      "adaptive_transformation_analysis": {
+        "adaptation_model": {
+          "what_changed": "Ford assembly plant was transformed into University collaborative learning space.",
+          "why_changed": "support contemporary pedagogy, flexible learning, and collaborative work; reuse robust large-scale structures for academic and creative programs",
+          "what_remained": "the memory and spatial identity of the former Ford assembly plant; heritage material or structural character",
+          "how_space_adapted": "Spatial features such as Large industrial halls, atrium connections, daylight intervention were used to accommodate University collaborative learning space.",
+          "evidence": "original_function: Ford assembly plant | current_function: University collaborative learning space | key_spatial_features: Large industrial halls, atrium connections, daylight intervention | keywords: factory reuse, atrium, collaborative learning"
+        },
+        "behavior": [
+          "informal_learning",
+          "group_discussion",
+          "knowledge_sharing",
+          "social_interaction"
+        ],
+        "organizational_driver": [
+          "cross_disciplinary_curriculum",
+          "project_based_learning"
+        ],
+        "transformation_driver": [
+          "pedagogical_change",
+          "technology_change",
+          "enrollment_growth",
+          "financial_pressure"
+        ]
+      },
       "typology_tags": [
         "flexible_learning",
         "large_span",
@@ -2946,6 +4333,83 @@
             "criterion": "factory_conversion",
             "label_zh": "Factory Conversion"
           }
+        ],
+        "adaptive_transformation_layer": [
+          {
+            "group": "adaptation_model",
+            "criterion": "what_changed",
+            "label_zh": "改變內容"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "why_changed",
+            "label_zh": "改變原因"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "what_remained",
+            "label_zh": "保留內容"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "how_space_adapted",
+            "label_zh": "空間如何適應"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "evidence",
+            "label_zh": "證據"
+          },
+          {
+            "group": "behavior",
+            "criterion": "informal_learning",
+            "label_zh": "非正式學習"
+          },
+          {
+            "group": "behavior",
+            "criterion": "group_discussion",
+            "label_zh": "群體討論"
+          },
+          {
+            "group": "behavior",
+            "criterion": "knowledge_sharing",
+            "label_zh": "知識分享"
+          },
+          {
+            "group": "behavior",
+            "criterion": "social_interaction",
+            "label_zh": "社交互動"
+          },
+          {
+            "group": "organizational_driver",
+            "criterion": "cross_disciplinary_curriculum",
+            "label_zh": "跨域課程"
+          },
+          {
+            "group": "organizational_driver",
+            "criterion": "project_based_learning",
+            "label_zh": "專題式學習"
+          },
+          {
+            "group": "transformation_driver",
+            "criterion": "pedagogical_change",
+            "label_zh": "教學模式改變"
+          },
+          {
+            "group": "transformation_driver",
+            "criterion": "technology_change",
+            "label_zh": "技術需求改變"
+          },
+          {
+            "group": "transformation_driver",
+            "criterion": "enrollment_growth",
+            "label_zh": "成長與擴充需求"
+          },
+          {
+            "group": "transformation_driver",
+            "criterion": "financial_pressure",
+            "label_zh": "資源與成本壓力"
+          }
         ]
       },
       "spatial_vocabulary": [
@@ -2990,6 +4454,30 @@
           "usage_note": "Remote reference image; verify source permissions before redistribution."
         }
       ],
+      "adaptive_transformation_analysis": {
+        "adaptation_model": {
+          "what_changed": "Industrial manufacturing facility was transformed into Technical college campus.",
+          "why_changed": "support contemporary pedagogy, flexible learning, and collaborative work; retain historical value while introducing updated university functions; strengthen campus publicness and social exchange; reuse robust large-scale structures for academic and creative programs",
+          "what_remained": "the memory and spatial identity of the former Industrial manufacturing facility; heritage material or structural character",
+          "how_space_adapted": "Spatial features such as Transparent workshop spaces, industrial scale preserved were used to accommodate Technical college campus.",
+          "evidence": "original_function: Industrial manufacturing facility | current_function: Technical college campus | key_spatial_features: Transparent workshop spaces, industrial scale preserved | keywords: manufacturing reuse, transparency, industrial campus"
+        },
+        "behavior": [
+          "informal_learning",
+          "group_discussion",
+          "social_interaction"
+        ],
+        "organizational_driver": [
+          "project_based_learning",
+          "community_engagement"
+        ],
+        "transformation_driver": [
+          "pedagogical_change",
+          "technology_change",
+          "financial_pressure",
+          "community_outreach"
+        ]
+      },
       "typology_tags": [
         "flexible_learning",
         "historic_integration",
@@ -3141,6 +4629,78 @@
             "criterion": "factory_conversion",
             "label_zh": "Factory Conversion"
           }
+        ],
+        "adaptive_transformation_layer": [
+          {
+            "group": "adaptation_model",
+            "criterion": "what_changed",
+            "label_zh": "改變內容"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "why_changed",
+            "label_zh": "改變原因"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "what_remained",
+            "label_zh": "保留內容"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "how_space_adapted",
+            "label_zh": "空間如何適應"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "evidence",
+            "label_zh": "證據"
+          },
+          {
+            "group": "behavior",
+            "criterion": "informal_learning",
+            "label_zh": "非正式學習"
+          },
+          {
+            "group": "behavior",
+            "criterion": "group_discussion",
+            "label_zh": "群體討論"
+          },
+          {
+            "group": "behavior",
+            "criterion": "social_interaction",
+            "label_zh": "社交互動"
+          },
+          {
+            "group": "organizational_driver",
+            "criterion": "project_based_learning",
+            "label_zh": "專題式學習"
+          },
+          {
+            "group": "organizational_driver",
+            "criterion": "community_engagement",
+            "label_zh": "社群參與"
+          },
+          {
+            "group": "transformation_driver",
+            "criterion": "pedagogical_change",
+            "label_zh": "教學模式改變"
+          },
+          {
+            "group": "transformation_driver",
+            "criterion": "technology_change",
+            "label_zh": "技術需求改變"
+          },
+          {
+            "group": "transformation_driver",
+            "criterion": "financial_pressure",
+            "label_zh": "資源與成本壓力"
+          },
+          {
+            "group": "transformation_driver",
+            "criterion": "community_outreach",
+            "label_zh": "公共與社區連結"
+          }
         ]
       },
       "spatial_vocabulary": [
@@ -3187,6 +4747,33 @@
           "usage_note": "Remote reference image; verify source permissions before redistribution."
         }
       ],
+      "adaptive_transformation_analysis": {
+        "adaptation_model": {
+          "what_changed": "Former chemistry faculty building was transformed into Architecture faculty / built environment campus.",
+          "why_changed": "support contemporary pedagogy, flexible learning, and collaborative work; retain historical value while introducing updated university functions; strengthen campus publicness and social exchange",
+          "what_remained": "the memory and spatial identity of the former Former chemistry faculty building; linear circulation logic",
+          "how_space_adapted": "Spatial features such as Large historic campus building, long corridors, flexible studio spaces, reused lecture halls and public interior streets were used to accommodate Architecture faculty / built environment campus.",
+          "evidence": "original_function: Former chemistry faculty building | current_function: Architecture faculty / built environment campus | key_spatial_features: Large historic campus building, long corridors, flexible studio spaces, reused lecture halls and public interior streets | keywords: adaptive reuse, campus renewal, studio, corridor, historic integration, flexible learning"
+        },
+        "behavior": [
+          "informal_learning",
+          "group_discussion",
+          "knowledge_sharing",
+          "social_interaction"
+        ],
+        "organizational_driver": [
+          "cross_disciplinary_curriculum",
+          "project_based_learning",
+          "shared_facility_management",
+          "community_engagement"
+        ],
+        "transformation_driver": [
+          "pedagogical_change",
+          "enrollment_growth",
+          "financial_pressure",
+          "community_outreach"
+        ]
+      },
       "typology_tags": [
         "public_connectivity",
         "flexible_learning",
@@ -3354,6 +4941,93 @@
             "criterion": "corridor_type",
             "label_zh": "Corridor Type"
           }
+        ],
+        "adaptive_transformation_layer": [
+          {
+            "group": "adaptation_model",
+            "criterion": "what_changed",
+            "label_zh": "改變內容"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "why_changed",
+            "label_zh": "改變原因"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "what_remained",
+            "label_zh": "保留內容"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "how_space_adapted",
+            "label_zh": "空間如何適應"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "evidence",
+            "label_zh": "證據"
+          },
+          {
+            "group": "behavior",
+            "criterion": "informal_learning",
+            "label_zh": "非正式學習"
+          },
+          {
+            "group": "behavior",
+            "criterion": "group_discussion",
+            "label_zh": "群體討論"
+          },
+          {
+            "group": "behavior",
+            "criterion": "knowledge_sharing",
+            "label_zh": "知識分享"
+          },
+          {
+            "group": "behavior",
+            "criterion": "social_interaction",
+            "label_zh": "社交互動"
+          },
+          {
+            "group": "organizational_driver",
+            "criterion": "cross_disciplinary_curriculum",
+            "label_zh": "跨域課程"
+          },
+          {
+            "group": "organizational_driver",
+            "criterion": "project_based_learning",
+            "label_zh": "專題式學習"
+          },
+          {
+            "group": "organizational_driver",
+            "criterion": "shared_facility_management",
+            "label_zh": "共享設施管理"
+          },
+          {
+            "group": "organizational_driver",
+            "criterion": "community_engagement",
+            "label_zh": "社群參與"
+          },
+          {
+            "group": "transformation_driver",
+            "criterion": "pedagogical_change",
+            "label_zh": "教學模式改變"
+          },
+          {
+            "group": "transformation_driver",
+            "criterion": "enrollment_growth",
+            "label_zh": "成長與擴充需求"
+          },
+          {
+            "group": "transformation_driver",
+            "criterion": "financial_pressure",
+            "label_zh": "資源與成本壓力"
+          },
+          {
+            "group": "transformation_driver",
+            "criterion": "community_outreach",
+            "label_zh": "公共與社區連結"
+          }
         ]
       },
       "spatial_vocabulary": [
@@ -3404,6 +5078,32 @@
           "usage_note": "Remote reference image; verify source permissions before redistribution."
         }
       ],
+      "adaptive_transformation_analysis": {
+        "adaptation_model": {
+          "what_changed": "Knox College / theological college was transformed into Architecture, landscape and design faculty.",
+          "why_changed": "support contemporary pedagogy, flexible learning, and collaborative work; retain historical value while introducing updated university functions; strengthen campus publicness and social exchange",
+          "what_remained": "the memory and spatial identity of the former Knox College / theological college; heritage material or structural character",
+          "how_space_adapted": "Spatial features such as Gothic heritage building integrated with contemporary addition, circular urban site, studios, library, public programming spaces were used to accommodate Architecture, landscape and design faculty.",
+          "evidence": "original_function: Knox College / theological college | current_function: Architecture, landscape and design faculty | key_spatial_features: Gothic heritage building integrated with contemporary addition, circular urban site, studios, library, public programming spaces | keywords: heritage reuse, architecture school, studio, public programming, historic integration, campus gateway"
+        },
+        "behavior": [
+          "informal_learning",
+          "group_discussion",
+          "knowledge_sharing",
+          "social_interaction"
+        ],
+        "organizational_driver": [
+          "cross_disciplinary_curriculum",
+          "project_based_learning",
+          "shared_facility_management",
+          "community_engagement"
+        ],
+        "transformation_driver": [
+          "pedagogical_change",
+          "financial_pressure",
+          "community_outreach"
+        ]
+      },
       "typology_tags": [
         "public_connectivity",
         "flexible_learning",
@@ -3534,6 +5234,88 @@
             "criterion": "historic_integration",
             "label_zh": "Historic Integration"
           }
+        ],
+        "adaptive_transformation_layer": [
+          {
+            "group": "adaptation_model",
+            "criterion": "what_changed",
+            "label_zh": "改變內容"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "why_changed",
+            "label_zh": "改變原因"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "what_remained",
+            "label_zh": "保留內容"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "how_space_adapted",
+            "label_zh": "空間如何適應"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "evidence",
+            "label_zh": "證據"
+          },
+          {
+            "group": "behavior",
+            "criterion": "informal_learning",
+            "label_zh": "非正式學習"
+          },
+          {
+            "group": "behavior",
+            "criterion": "group_discussion",
+            "label_zh": "群體討論"
+          },
+          {
+            "group": "behavior",
+            "criterion": "knowledge_sharing",
+            "label_zh": "知識分享"
+          },
+          {
+            "group": "behavior",
+            "criterion": "social_interaction",
+            "label_zh": "社交互動"
+          },
+          {
+            "group": "organizational_driver",
+            "criterion": "cross_disciplinary_curriculum",
+            "label_zh": "跨域課程"
+          },
+          {
+            "group": "organizational_driver",
+            "criterion": "project_based_learning",
+            "label_zh": "專題式學習"
+          },
+          {
+            "group": "organizational_driver",
+            "criterion": "shared_facility_management",
+            "label_zh": "共享設施管理"
+          },
+          {
+            "group": "organizational_driver",
+            "criterion": "community_engagement",
+            "label_zh": "社群參與"
+          },
+          {
+            "group": "transformation_driver",
+            "criterion": "pedagogical_change",
+            "label_zh": "教學模式改變"
+          },
+          {
+            "group": "transformation_driver",
+            "criterion": "financial_pressure",
+            "label_zh": "資源與成本壓力"
+          },
+          {
+            "group": "transformation_driver",
+            "criterion": "community_outreach",
+            "label_zh": "公共與社區連結"
+          }
         ]
       },
       "spatial_vocabulary": [
@@ -3583,6 +5365,31 @@
           "usage_note": "Remote reference image; verify source permissions before redistribution."
         }
       ],
+      "adaptive_transformation_analysis": {
+        "adaptation_model": {
+          "what_changed": "Tobacco warehouse was transformed into University arts spaces and offices.",
+          "why_changed": "support contemporary pedagogy, flexible learning, and collaborative work; strengthen campus publicness and social exchange; reuse robust large-scale structures for academic and creative programs",
+          "what_remained": "the memory and spatial identity of the former Tobacco warehouse; heritage material or structural character",
+          "how_space_adapted": "Spatial features such as Industrial warehouse shell, large open floor plates, arts studios, office bays, campus-city interface were used to accommodate University arts spaces and offices.",
+          "evidence": "original_function: Tobacco warehouse | current_function: University arts spaces and offices | key_spatial_features: Industrial warehouse shell, large open floor plates, arts studios, office bays, campus-city interface | keywords: industrial reuse, warehouse, arts campus, large-span, studio, public connectivity"
+        },
+        "behavior": [
+          "informal_learning",
+          "group_discussion",
+          "knowledge_sharing",
+          "social_interaction"
+        ],
+        "organizational_driver": [
+          "project_based_learning",
+          "community_engagement"
+        ],
+        "transformation_driver": [
+          "pedagogical_change",
+          "enrollment_growth",
+          "financial_pressure",
+          "community_outreach"
+        ]
+      },
       "typology_tags": [
         "public_connectivity",
         "flexible_learning",
@@ -3749,6 +5556,83 @@
             "criterion": "factory_conversion",
             "label_zh": "Factory Conversion"
           }
+        ],
+        "adaptive_transformation_layer": [
+          {
+            "group": "adaptation_model",
+            "criterion": "what_changed",
+            "label_zh": "改變內容"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "why_changed",
+            "label_zh": "改變原因"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "what_remained",
+            "label_zh": "保留內容"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "how_space_adapted",
+            "label_zh": "空間如何適應"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "evidence",
+            "label_zh": "證據"
+          },
+          {
+            "group": "behavior",
+            "criterion": "informal_learning",
+            "label_zh": "非正式學習"
+          },
+          {
+            "group": "behavior",
+            "criterion": "group_discussion",
+            "label_zh": "群體討論"
+          },
+          {
+            "group": "behavior",
+            "criterion": "knowledge_sharing",
+            "label_zh": "知識分享"
+          },
+          {
+            "group": "behavior",
+            "criterion": "social_interaction",
+            "label_zh": "社交互動"
+          },
+          {
+            "group": "organizational_driver",
+            "criterion": "project_based_learning",
+            "label_zh": "專題式學習"
+          },
+          {
+            "group": "organizational_driver",
+            "criterion": "community_engagement",
+            "label_zh": "社群參與"
+          },
+          {
+            "group": "transformation_driver",
+            "criterion": "pedagogical_change",
+            "label_zh": "教學模式改變"
+          },
+          {
+            "group": "transformation_driver",
+            "criterion": "enrollment_growth",
+            "label_zh": "成長與擴充需求"
+          },
+          {
+            "group": "transformation_driver",
+            "criterion": "financial_pressure",
+            "label_zh": "資源與成本壓力"
+          },
+          {
+            "group": "transformation_driver",
+            "criterion": "community_outreach",
+            "label_zh": "公共與社區連結"
+          }
         ]
       },
       "spatial_vocabulary": [
@@ -3798,6 +5682,32 @@
           "usage_note": "Remote reference image; verify source permissions before redistribution."
         }
       ],
+      "adaptive_transformation_analysis": {
+        "adaptation_model": {
+          "what_changed": "Helsinki University of Technology main library was transformed into Learning centre / library services.",
+          "why_changed": "support contemporary pedagogy, flexible learning, and collaborative work; retain historical value while introducing updated university functions; strengthen campus publicness and social exchange",
+          "what_remained": "the memory and spatial identity of the former Helsinki University of Technology main library",
+          "how_space_adapted": "Spatial features such as Renovated Aalto-designed library, indirect daylight, fan-like plan, study and groupwork spaces, exhibition spaces, cafe were used to accommodate Learning centre / library services.",
+          "evidence": "original_function: Helsinki University of Technology main library | current_function: Learning centre / library services | key_spatial_features: Renovated Aalto-designed library, indirect daylight, fan-like plan, study and groupwork spaces, exhibition spaces, cafe | keywords: library renewal, daylight, flexible learning, exhibition, campus publicness, historic integration"
+        },
+        "behavior": [
+          "informal_learning",
+          "group_discussion",
+          "knowledge_sharing",
+          "social_interaction"
+        ],
+        "organizational_driver": [
+          "project_based_learning",
+          "shared_facility_management",
+          "community_engagement"
+        ],
+        "transformation_driver": [
+          "pedagogical_change",
+          "technology_change",
+          "enrollment_growth",
+          "community_outreach"
+        ]
+      },
       "typology_tags": [
         "public_connectivity",
         "flexible_learning",
@@ -3937,6 +5847,88 @@
             "group": "campus_renewal",
             "criterion": "historic_integration",
             "label_zh": "Historic Integration"
+          }
+        ],
+        "adaptive_transformation_layer": [
+          {
+            "group": "adaptation_model",
+            "criterion": "what_changed",
+            "label_zh": "改變內容"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "why_changed",
+            "label_zh": "改變原因"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "what_remained",
+            "label_zh": "保留內容"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "how_space_adapted",
+            "label_zh": "空間如何適應"
+          },
+          {
+            "group": "adaptation_model",
+            "criterion": "evidence",
+            "label_zh": "證據"
+          },
+          {
+            "group": "behavior",
+            "criterion": "informal_learning",
+            "label_zh": "非正式學習"
+          },
+          {
+            "group": "behavior",
+            "criterion": "group_discussion",
+            "label_zh": "群體討論"
+          },
+          {
+            "group": "behavior",
+            "criterion": "knowledge_sharing",
+            "label_zh": "知識分享"
+          },
+          {
+            "group": "behavior",
+            "criterion": "social_interaction",
+            "label_zh": "社交互動"
+          },
+          {
+            "group": "organizational_driver",
+            "criterion": "project_based_learning",
+            "label_zh": "專題式學習"
+          },
+          {
+            "group": "organizational_driver",
+            "criterion": "shared_facility_management",
+            "label_zh": "共享設施管理"
+          },
+          {
+            "group": "organizational_driver",
+            "criterion": "community_engagement",
+            "label_zh": "社群參與"
+          },
+          {
+            "group": "transformation_driver",
+            "criterion": "pedagogical_change",
+            "label_zh": "教學模式改變"
+          },
+          {
+            "group": "transformation_driver",
+            "criterion": "technology_change",
+            "label_zh": "技術需求改變"
+          },
+          {
+            "group": "transformation_driver",
+            "criterion": "enrollment_growth",
+            "label_zh": "成長與擴充需求"
+          },
+          {
+            "group": "transformation_driver",
+            "criterion": "community_outreach",
+            "label_zh": "公共與社區連結"
           }
         ]
       },

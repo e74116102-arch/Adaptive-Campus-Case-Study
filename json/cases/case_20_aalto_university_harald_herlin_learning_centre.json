@@ -34,6 +34,32 @@
       "usage_note": "Remote reference image; verify source permissions before redistribution."
     }
   ],
+  "adaptive_transformation_analysis": {
+    "adaptation_model": {
+      "what_changed": "Helsinki University of Technology main library was transformed into Learning centre / library services.",
+      "why_changed": "support contemporary pedagogy, flexible learning, and collaborative work; retain historical value while introducing updated university functions; strengthen campus publicness and social exchange",
+      "what_remained": "the memory and spatial identity of the former Helsinki University of Technology main library",
+      "how_space_adapted": "Spatial features such as Renovated Aalto-designed library, indirect daylight, fan-like plan, study and groupwork spaces, exhibition spaces, cafe were used to accommodate Learning centre / library services.",
+      "evidence": "original_function: Helsinki University of Technology main library | current_function: Learning centre / library services | key_spatial_features: Renovated Aalto-designed library, indirect daylight, fan-like plan, study and groupwork spaces, exhibition spaces, cafe | keywords: library renewal, daylight, flexible learning, exhibition, campus publicness, historic integration"
+    },
+    "behavior": [
+      "informal_learning",
+      "group_discussion",
+      "knowledge_sharing",
+      "social_interaction"
+    ],
+    "organizational_driver": [
+      "project_based_learning",
+      "shared_facility_management",
+      "community_engagement"
+    ],
+    "transformation_driver": [
+      "pedagogical_change",
+      "technology_change",
+      "enrollment_growth",
+      "community_outreach"
+    ]
+  },
   "knowledge_precedent": {
     "architectural_layer": {
       "id": "1",
@@ -1022,6 +1048,412 @@
           "group": "campus_renewal",
           "criterion": "historic_integration",
           "label_zh": "Historic Integration"
+        }
+      ]
+    },
+    "adaptive_transformation_layer": {
+      "id": "6",
+      "label_en": "Adaptive Transformation Layer",
+      "label_zh": "適應轉型層",
+      "groups": {
+        "adaptation_model": {
+          "id": "6-1",
+          "label_en": "Adaptation Model",
+          "label_zh": "適應模式",
+          "criteria": {
+            "what_changed": {
+              "label_zh": "改變內容",
+              "present": true,
+              "confidence": "medium",
+              "value": "Helsinki University of Technology main library was transformed into Learning centre / library services.",
+              "evidence": [
+                "Helsinki University of Technology main library was transformed into Learning centre / library services."
+              ],
+              "inference": "Rule-based adaptation model synthesized from source fields."
+            },
+            "why_changed": {
+              "label_zh": "改變原因",
+              "present": true,
+              "confidence": "medium",
+              "value": "support contemporary pedagogy, flexible learning, and collaborative work; retain historical value while introducing updated university functions; strengthen campus publicness and social exchange",
+              "evidence": [
+                "support contemporary pedagogy, flexible learning, and collaborative work; retain historical value while introducing updated university functions; strengthen campus publicness and social exchange"
+              ],
+              "inference": "Rule-based adaptation model synthesized from source fields."
+            },
+            "what_remained": {
+              "label_zh": "保留內容",
+              "present": true,
+              "confidence": "medium",
+              "value": "the memory and spatial identity of the former Helsinki University of Technology main library",
+              "evidence": [
+                "the memory and spatial identity of the former Helsinki University of Technology main library"
+              ],
+              "inference": "Rule-based adaptation model synthesized from source fields."
+            },
+            "how_space_adapted": {
+              "label_zh": "空間如何適應",
+              "present": true,
+              "confidence": "medium",
+              "value": "Spatial features such as Renovated Aalto-designed library, indirect daylight, fan-like plan, study and groupwork spaces, exhibition spaces, cafe were used to accommodate Learning centre / library services.",
+              "evidence": [
+                "Spatial features such as Renovated Aalto-designed library, indirect daylight, fan-like plan, study and groupwork spaces, exhibition spaces, cafe were used to accommodate Learning centre / library services."
+              ],
+              "inference": "Rule-based adaptation model synthesized from source fields."
+            },
+            "evidence": {
+              "label_zh": "證據",
+              "present": true,
+              "confidence": "medium",
+              "value": "original_function: Helsinki University of Technology main library | current_function: Learning centre / library services | key_spatial_features: Renovated Aalto-designed library, indirect daylight, fan-like plan, study and groupwork spaces, exhibition spaces, cafe | keywords: library renewal, daylight, flexible learning, exhibition, campus publicness, historic integration",
+              "evidence": [
+                "original_function: Helsinki University of Technology main library | current_function: Learning centre / library services | key_spatial_features: Renovated Aalto-designed library, indirect daylight, fan-like plan, study and groupwork spaces, exhibition spaces, cafe | keywords: library renewal, daylight, flexible learning, exhibition, campus publicness, historic integration"
+              ],
+              "inference": "Rule-based adaptation model synthesized from source fields."
+            }
+          },
+          "present_tags": [
+            {
+              "group": "adaptation_model",
+              "criterion": "what_changed",
+              "label_zh": "改變內容"
+            },
+            {
+              "group": "adaptation_model",
+              "criterion": "why_changed",
+              "label_zh": "改變原因"
+            },
+            {
+              "group": "adaptation_model",
+              "criterion": "what_remained",
+              "label_zh": "保留內容"
+            },
+            {
+              "group": "adaptation_model",
+              "criterion": "how_space_adapted",
+              "label_zh": "空間如何適應"
+            },
+            {
+              "group": "adaptation_model",
+              "criterion": "evidence",
+              "label_zh": "證據"
+            }
+          ]
+        },
+        "behavior": {
+          "id": "6-2",
+          "label_en": "Spatial Behavior",
+          "label_zh": "空間行為",
+          "criteria": {
+            "informal_learning": {
+              "label_zh": "非正式學習",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "case: Aalto University Harald Herlin Learning Centre",
+                "original_function: Helsinki University of Technology main library",
+                "current_function: Learning centre / library services",
+                "key_spatial_features: Renovated Aalto-designed library",
+                "key_spatial_features: study and groupwork spaces",
+                "key_spatial_features: cafe",
+                "keywords: library renewal"
+              ],
+              "inference": ""
+            },
+            "group_discussion": {
+              "label_zh": "群體討論",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "key_spatial_features: Renovated Aalto-designed library",
+                "key_spatial_features: study and groupwork spaces"
+              ],
+              "inference": ""
+            },
+            "knowledge_sharing": {
+              "label_zh": "知識分享",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "case: Aalto University Harald Herlin Learning Centre",
+                "original_function: Helsinki University of Technology main library",
+                "current_function: Learning centre / library services",
+                "key_spatial_features: Renovated Aalto-designed library",
+                "key_spatial_features: exhibition spaces",
+                "keywords: library renewal",
+                "keywords: exhibition",
+                "keywords: campus publicness"
+              ],
+              "inference": ""
+            },
+            "social_interaction": {
+              "label_zh": "社交互動",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "case: Aalto University Harald Herlin Learning Centre",
+                "original_function: Helsinki University of Technology main library",
+                "key_spatial_features: cafe",
+                "keywords: campus publicness"
+              ],
+              "inference": ""
+            }
+          },
+          "present_tags": [
+            {
+              "group": "behavior",
+              "criterion": "informal_learning",
+              "label_zh": "非正式學習"
+            },
+            {
+              "group": "behavior",
+              "criterion": "group_discussion",
+              "label_zh": "群體討論"
+            },
+            {
+              "group": "behavior",
+              "criterion": "knowledge_sharing",
+              "label_zh": "知識分享"
+            },
+            {
+              "group": "behavior",
+              "criterion": "social_interaction",
+              "label_zh": "社交互動"
+            }
+          ]
+        },
+        "organizational_driver": {
+          "id": "6-3",
+          "label_en": "Organizational Driver",
+          "label_zh": "組織機制",
+          "criteria": {
+            "cross_disciplinary_curriculum": {
+              "label_zh": "跨域課程",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "project_based_learning": {
+              "label_zh": "專題式學習",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "key_spatial_features: Renovated Aalto-designed library"
+              ],
+              "inference": ""
+            },
+            "shared_facility_management": {
+              "label_zh": "共享設施管理",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "original_function: Helsinki University of Technology main library",
+                "current_function: Learning centre / library services",
+                "key_spatial_features: Renovated Aalto-designed library",
+                "keywords: library renewal"
+              ],
+              "inference": ""
+            },
+            "community_engagement": {
+              "label_zh": "社群參與",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "keywords: campus publicness"
+              ],
+              "inference": ""
+            }
+          },
+          "present_tags": [
+            {
+              "group": "organizational_driver",
+              "criterion": "project_based_learning",
+              "label_zh": "專題式學習"
+            },
+            {
+              "group": "organizational_driver",
+              "criterion": "shared_facility_management",
+              "label_zh": "共享設施管理"
+            },
+            {
+              "group": "organizational_driver",
+              "criterion": "community_engagement",
+              "label_zh": "社群參與"
+            }
+          ]
+        },
+        "transformation_driver": {
+          "id": "6-4",
+          "label_en": "Transformation Driver",
+          "label_zh": "轉型動力",
+          "criteria": {
+            "pedagogical_change": {
+              "label_zh": "教學模式改變",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "case: Aalto University Harald Herlin Learning Centre",
+                "current_function: Learning centre / library services",
+                "keywords: flexible learning"
+              ],
+              "inference": ""
+            },
+            "technology_change": {
+              "label_zh": "技術需求改變",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "original_function: Helsinki University of Technology main library",
+                "key_spatial_features: indirect daylight",
+                "keywords: daylight"
+              ],
+              "inference": ""
+            },
+            "enrollment_growth": {
+              "label_zh": "成長與擴充需求",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "case: Aalto University Harald Herlin Learning Centre",
+                "current_function: Learning centre / library services"
+              ],
+              "inference": ""
+            },
+            "financial_pressure": {
+              "label_zh": "資源與成本壓力",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "community_outreach": {
+              "label_zh": "公共與社區連結",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "keywords: campus publicness"
+              ],
+              "inference": ""
+            }
+          },
+          "present_tags": [
+            {
+              "group": "transformation_driver",
+              "criterion": "pedagogical_change",
+              "label_zh": "教學模式改變"
+            },
+            {
+              "group": "transformation_driver",
+              "criterion": "technology_change",
+              "label_zh": "技術需求改變"
+            },
+            {
+              "group": "transformation_driver",
+              "criterion": "enrollment_growth",
+              "label_zh": "成長與擴充需求"
+            },
+            {
+              "group": "transformation_driver",
+              "criterion": "community_outreach",
+              "label_zh": "公共與社區連結"
+            }
+          ]
+        }
+      },
+      "present_tags": [
+        {
+          "group": "adaptation_model",
+          "criterion": "what_changed",
+          "label_zh": "改變內容"
+        },
+        {
+          "group": "adaptation_model",
+          "criterion": "why_changed",
+          "label_zh": "改變原因"
+        },
+        {
+          "group": "adaptation_model",
+          "criterion": "what_remained",
+          "label_zh": "保留內容"
+        },
+        {
+          "group": "adaptation_model",
+          "criterion": "how_space_adapted",
+          "label_zh": "空間如何適應"
+        },
+        {
+          "group": "adaptation_model",
+          "criterion": "evidence",
+          "label_zh": "證據"
+        },
+        {
+          "group": "behavior",
+          "criterion": "informal_learning",
+          "label_zh": "非正式學習"
+        },
+        {
+          "group": "behavior",
+          "criterion": "group_discussion",
+          "label_zh": "群體討論"
+        },
+        {
+          "group": "behavior",
+          "criterion": "knowledge_sharing",
+          "label_zh": "知識分享"
+        },
+        {
+          "group": "behavior",
+          "criterion": "social_interaction",
+          "label_zh": "社交互動"
+        },
+        {
+          "group": "organizational_driver",
+          "criterion": "project_based_learning",
+          "label_zh": "專題式學習"
+        },
+        {
+          "group": "organizational_driver",
+          "criterion": "shared_facility_management",
+          "label_zh": "共享設施管理"
+        },
+        {
+          "group": "organizational_driver",
+          "criterion": "community_engagement",
+          "label_zh": "社群參與"
+        },
+        {
+          "group": "transformation_driver",
+          "criterion": "pedagogical_change",
+          "label_zh": "教學模式改變"
+        },
+        {
+          "group": "transformation_driver",
+          "criterion": "technology_change",
+          "label_zh": "技術需求改變"
+        },
+        {
+          "group": "transformation_driver",
+          "criterion": "enrollment_growth",
+          "label_zh": "成長與擴充需求"
+        },
+        {
+          "group": "transformation_driver",
+          "criterion": "community_outreach",
+          "label_zh": "公共與社區連結"
         }
       ]
     }

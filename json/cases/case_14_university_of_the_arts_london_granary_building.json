@@ -31,6 +31,29 @@
       "usage_note": "Remote reference image; verify source permissions before redistribution."
     }
   ],
+  "adaptive_transformation_analysis": {
+    "adaptation_model": {
+      "what_changed": "Victorian grain warehouse was transformed into Arts university building.",
+      "why_changed": "retain historical value while introducing updated university functions; reuse robust large-scale structures for academic and creative programs",
+      "what_remained": "the memory and spatial identity of the former Victorian grain warehouse; heritage material or structural character",
+      "how_space_adapted": "Spatial features such as Exposed timber beams, skylights, industrial rhythm preserved were used to accommodate Arts university building.",
+      "evidence": "original_function: Victorian grain warehouse | current_function: Arts university building | key_spatial_features: Exposed timber beams, skylights, industrial rhythm preserved | keywords: warehouse reuse, timber, industrial heritage"
+    },
+    "behavior": [
+      "informal_learning",
+      "knowledge_sharing",
+      "social_interaction"
+    ],
+    "organizational_driver": [
+      "project_based_learning",
+      "shared_facility_management"
+    ],
+    "transformation_driver": [
+      "technology_change",
+      "enrollment_growth",
+      "financial_pressure"
+    ]
+  },
   "knowledge_precedent": {
     "architectural_layer": {
       "id": "1",
@@ -1020,6 +1043,357 @@
           "group": "industrial_reuse",
           "criterion": "linear_modular",
           "label_zh": "Linear Modular"
+        }
+      ]
+    },
+    "adaptive_transformation_layer": {
+      "id": "6",
+      "label_en": "Adaptive Transformation Layer",
+      "label_zh": "適應轉型層",
+      "groups": {
+        "adaptation_model": {
+          "id": "6-1",
+          "label_en": "Adaptation Model",
+          "label_zh": "適應模式",
+          "criteria": {
+            "what_changed": {
+              "label_zh": "改變內容",
+              "present": true,
+              "confidence": "medium",
+              "value": "Victorian grain warehouse was transformed into Arts university building.",
+              "evidence": [
+                "Victorian grain warehouse was transformed into Arts university building."
+              ],
+              "inference": "Rule-based adaptation model synthesized from source fields."
+            },
+            "why_changed": {
+              "label_zh": "改變原因",
+              "present": true,
+              "confidence": "medium",
+              "value": "retain historical value while introducing updated university functions; reuse robust large-scale structures for academic and creative programs",
+              "evidence": [
+                "retain historical value while introducing updated university functions; reuse robust large-scale structures for academic and creative programs"
+              ],
+              "inference": "Rule-based adaptation model synthesized from source fields."
+            },
+            "what_remained": {
+              "label_zh": "保留內容",
+              "present": true,
+              "confidence": "medium",
+              "value": "the memory and spatial identity of the former Victorian grain warehouse; heritage material or structural character",
+              "evidence": [
+                "the memory and spatial identity of the former Victorian grain warehouse; heritage material or structural character"
+              ],
+              "inference": "Rule-based adaptation model synthesized from source fields."
+            },
+            "how_space_adapted": {
+              "label_zh": "空間如何適應",
+              "present": true,
+              "confidence": "medium",
+              "value": "Spatial features such as Exposed timber beams, skylights, industrial rhythm preserved were used to accommodate Arts university building.",
+              "evidence": [
+                "Spatial features such as Exposed timber beams, skylights, industrial rhythm preserved were used to accommodate Arts university building."
+              ],
+              "inference": "Rule-based adaptation model synthesized from source fields."
+            },
+            "evidence": {
+              "label_zh": "證據",
+              "present": true,
+              "confidence": "medium",
+              "value": "original_function: Victorian grain warehouse | current_function: Arts university building | key_spatial_features: Exposed timber beams, skylights, industrial rhythm preserved | keywords: warehouse reuse, timber, industrial heritage",
+              "evidence": [
+                "original_function: Victorian grain warehouse | current_function: Arts university building | key_spatial_features: Exposed timber beams, skylights, industrial rhythm preserved | keywords: warehouse reuse, timber, industrial heritage"
+              ],
+              "inference": "Rule-based adaptation model synthesized from source fields."
+            }
+          },
+          "present_tags": [
+            {
+              "group": "adaptation_model",
+              "criterion": "what_changed",
+              "label_zh": "改變內容"
+            },
+            {
+              "group": "adaptation_model",
+              "criterion": "why_changed",
+              "label_zh": "改變原因"
+            },
+            {
+              "group": "adaptation_model",
+              "criterion": "what_remained",
+              "label_zh": "保留內容"
+            },
+            {
+              "group": "adaptation_model",
+              "criterion": "how_space_adapted",
+              "label_zh": "空間如何適應"
+            },
+            {
+              "group": "adaptation_model",
+              "criterion": "evidence",
+              "label_zh": "證據"
+            }
+          ]
+        },
+        "behavior": {
+          "id": "6-2",
+          "label_en": "Spatial Behavior",
+          "label_zh": "空間行為",
+          "criteria": {
+            "informal_learning": {
+              "label_zh": "非正式學習",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "case: University of the Arts London Granary Building",
+                "current_function: Arts university building"
+              ],
+              "inference": ""
+            },
+            "group_discussion": {
+              "label_zh": "群體討論",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "knowledge_sharing": {
+              "label_zh": "知識分享",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "case: University of the Arts London Granary Building",
+                "current_function: Arts university building",
+                "keywords: industrial heritage"
+              ],
+              "inference": ""
+            },
+            "social_interaction": {
+              "label_zh": "社交互動",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "case: University of the Arts London Granary Building",
+                "current_function: Arts university building"
+              ],
+              "inference": ""
+            }
+          },
+          "present_tags": [
+            {
+              "group": "behavior",
+              "criterion": "informal_learning",
+              "label_zh": "非正式學習"
+            },
+            {
+              "group": "behavior",
+              "criterion": "knowledge_sharing",
+              "label_zh": "知識分享"
+            },
+            {
+              "group": "behavior",
+              "criterion": "social_interaction",
+              "label_zh": "社交互動"
+            }
+          ]
+        },
+        "organizational_driver": {
+          "id": "6-3",
+          "label_en": "Organizational Driver",
+          "label_zh": "組織機制",
+          "criteria": {
+            "cross_disciplinary_curriculum": {
+              "label_zh": "跨域課程",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "project_based_learning": {
+              "label_zh": "專題式學習",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "case: University of the Arts London Granary Building",
+                "current_function: Arts university building"
+              ],
+              "inference": ""
+            },
+            "shared_facility_management": {
+              "label_zh": "共享設施管理",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "current_function: Arts university building"
+              ],
+              "inference": ""
+            },
+            "community_engagement": {
+              "label_zh": "社群參與",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            }
+          },
+          "present_tags": [
+            {
+              "group": "organizational_driver",
+              "criterion": "project_based_learning",
+              "label_zh": "專題式學習"
+            },
+            {
+              "group": "organizational_driver",
+              "criterion": "shared_facility_management",
+              "label_zh": "共享設施管理"
+            }
+          ]
+        },
+        "transformation_driver": {
+          "id": "6-4",
+          "label_en": "Transformation Driver",
+          "label_zh": "轉型動力",
+          "criteria": {
+            "pedagogical_change": {
+              "label_zh": "教學模式改變",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            },
+            "technology_change": {
+              "label_zh": "技術需求改變",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "key_spatial_features: skylights"
+              ],
+              "inference": ""
+            },
+            "enrollment_growth": {
+              "label_zh": "成長與擴充需求",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "current_function: Arts university building"
+              ],
+              "inference": ""
+            },
+            "financial_pressure": {
+              "label_zh": "資源與成本壓力",
+              "present": true,
+              "confidence": "high",
+              "value": true,
+              "evidence": [
+                "key_spatial_features: industrial rhythm preserved",
+                "keywords: warehouse reuse"
+              ],
+              "inference": ""
+            },
+            "community_outreach": {
+              "label_zh": "公共與社區連結",
+              "present": false,
+              "confidence": "none",
+              "value": false,
+              "evidence": [],
+              "inference": "來源欄位未出現可判定關鍵詞。"
+            }
+          },
+          "present_tags": [
+            {
+              "group": "transformation_driver",
+              "criterion": "technology_change",
+              "label_zh": "技術需求改變"
+            },
+            {
+              "group": "transformation_driver",
+              "criterion": "enrollment_growth",
+              "label_zh": "成長與擴充需求"
+            },
+            {
+              "group": "transformation_driver",
+              "criterion": "financial_pressure",
+              "label_zh": "資源與成本壓力"
+            }
+          ]
+        }
+      },
+      "present_tags": [
+        {
+          "group": "adaptation_model",
+          "criterion": "what_changed",
+          "label_zh": "改變內容"
+        },
+        {
+          "group": "adaptation_model",
+          "criterion": "why_changed",
+          "label_zh": "改變原因"
+        },
+        {
+          "group": "adaptation_model",
+          "criterion": "what_remained",
+          "label_zh": "保留內容"
+        },
+        {
+          "group": "adaptation_model",
+          "criterion": "how_space_adapted",
+          "label_zh": "空間如何適應"
+        },
+        {
+          "group": "adaptation_model",
+          "criterion": "evidence",
+          "label_zh": "證據"
+        },
+        {
+          "group": "behavior",
+          "criterion": "informal_learning",
+          "label_zh": "非正式學習"
+        },
+        {
+          "group": "behavior",
+          "criterion": "knowledge_sharing",
+          "label_zh": "知識分享"
+        },
+        {
+          "group": "behavior",
+          "criterion": "social_interaction",
+          "label_zh": "社交互動"
+        },
+        {
+          "group": "organizational_driver",
+          "criterion": "project_based_learning",
+          "label_zh": "專題式學習"
+        },
+        {
+          "group": "organizational_driver",
+          "criterion": "shared_facility_management",
+          "label_zh": "共享設施管理"
+        },
+        {
+          "group": "transformation_driver",
+          "criterion": "technology_change",
+          "label_zh": "技術需求改變"
+        },
+        {
+          "group": "transformation_driver",
+          "criterion": "enrollment_growth",
+          "label_zh": "成長與擴充需求"
+        },
+        {
+          "group": "transformation_driver",
+          "criterion": "financial_pressure",
+          "label_zh": "資源與成本壓力"
         }
       ]
     }

@@ -589,6 +589,64 @@ TAXONOMY: list[dict[str, Any]] = [
             },
         ],
     },
+    {
+        "id": "6",
+        "key": "adaptive_transformation_layer",
+        "label_en": "Adaptive Transformation Layer",
+        "label_zh": "適應轉型層",
+        "groups": [
+            {
+                "id": "6-1",
+                "key": "adaptation_model",
+                "label_en": "Adaptation Model",
+                "label_zh": "適應模式",
+                "criteria": [
+                    {"key": "what_changed", "label_zh": "改變內容", "mode": "adaptation_model"},
+                    {"key": "why_changed", "label_zh": "改變原因", "mode": "adaptation_model"},
+                    {"key": "what_remained", "label_zh": "保留內容", "mode": "adaptation_model"},
+                    {"key": "how_space_adapted", "label_zh": "空間如何適應", "mode": "adaptation_model"},
+                    {"key": "evidence", "label_zh": "證據", "mode": "adaptation_model"},
+                ],
+            },
+            {
+                "id": "6-2",
+                "key": "behavior",
+                "label_en": "Spatial Behavior",
+                "label_zh": "空間行為",
+                "criteria": [
+                    {"key": "informal_learning", "label_zh": "非正式學習", "terms": ["university", "learning commons", "public learning", "adaptive learning", "study", "groupwork", "library", "lounge", "shared spaces", "open shared", "open plan", "open interior", "airy interior", "studio", "workshop", "cafe", "corridor", "arcade"]},
+                    {"key": "group_discussion", "label_zh": "群體討論", "terms": ["groupwork", "collaborative", "studio", "workshop", "classroom", "classrooms", "seminar", "public exchange", "interdisciplinary", "open shared", "enclosed rooms", "departments", "architecture", "design", "technical college"]},
+                    {"key": "knowledge_sharing", "label_zh": "知識分享", "terms": ["university", "exhibition", "public programming", "learning commons", "library", "shared", "public", "interdisciplinary", "collaborative", "teaching and research", "art", "arts", "design", "departments", "heritage"]},
+                    {"key": "social_interaction", "label_zh": "社交互動", "terms": ["university", "public", "community", "shared", "lounge", "cafe", "atrium", "courtyard", "corridor", "arcade", "openness", "open interior", "public ground", "campus-city interface", "campus gateway", "common good"]},
+                ],
+            },
+            {
+                "id": "6-3",
+                "key": "organizational_driver",
+                "label_en": "Organizational Driver",
+                "label_zh": "組織機制",
+                "criteria": [
+                    {"key": "cross_disciplinary_curriculum", "label_zh": "跨域課程", "terms": ["interdisciplinary", "art and design", "architecture", "landscape and design", "built environment", "departments", "collaborative", "common good"]},
+                    {"key": "project_based_learning", "label_zh": "專題式學習", "terms": ["teaching and research", "modular learning", "classroom", "classrooms", "studio", "workshop", "design", "manufacturing", "technical college", "collaborative learning", "architecture school", "art", "arts"]},
+                    {"key": "shared_facility_management", "label_zh": "共享設施管理", "terms": ["shared", "learning commons", "library", "public spaces", "campus facility", "university facility", "university building", "student housing / university use", "university use", "common good", "public interior streets"]},
+                    {"key": "community_engagement", "label_zh": "社群參與", "terms": ["community", "public", "public programming", "campus-city interface", "campus gateway", "public interaction", "common good", "public ground"]},
+                ],
+            },
+            {
+                "id": "6-4",
+                "key": "transformation_driver",
+                "label_en": "Transformation Driver",
+                "label_zh": "轉型動力",
+                "criteria": [
+                    {"key": "pedagogical_change", "label_zh": "教學模式改變", "terms": ["learning", "teaching", "classroom", "classrooms", "studio", "workshop", "collaborative", "flexible learning", "architecture faculty", "technical college"]},
+                    {"key": "technology_change", "label_zh": "技術需求改變", "terms": ["technical", "technology", "manufacturing", "advanced manufacturing", "workshop", "industrial design", "daylight", "skylights", "energy-efficient"]},
+                    {"key": "enrollment_growth", "label_zh": "成長與擴充需求", "terms": ["campus renewal", "university facility", "university building", "learning centre", "large", "large-span", "campus facility", "public connectivity"]},
+                    {"key": "financial_pressure", "label_zh": "資源與成本壓力", "terms": ["reuse", "adaptive reuse", "renovation", "preserved", "sustainability", "energy-efficient", "existing campus assets", "factory reuse", "warehouse reuse", "heritage reuse"]},
+                    {"key": "community_outreach", "label_zh": "公共與社區連結", "terms": ["public", "community", "public programming", "campus-city interface", "campus gateway", "public ground", "public interaction", "common good"]},
+                ],
+            },
+        ],
+    },
 ]
 
 
@@ -720,6 +778,81 @@ def transformation_node(case: dict[str, Any], label_zh: str) -> dict[str, Any]:
     }
 
 
+def combined_source_text(case: dict[str, Any]) -> str:
+    return normalize(" ".join(phrase for _, phrase in source_phrases(case)))
+
+
+def contains_any(text: str, terms: list[str]) -> bool:
+    return any(normalize(term) in text for term in terms)
+
+
+def build_adaptation_model(case: dict[str, Any]) -> dict[str, str]:
+    original = case.get("original_function") or "Existing campus asset"
+    current = case.get("current_function") or "new campus use"
+    features = case.get("key_spatial_features") or ""
+    keywords = split_items(case.get("keywords", ""))
+    text = combined_source_text(case)
+
+    if is_reuse_transformation(case):
+        what_changed = f"{original} was transformed into {current}."
+    else:
+        what_changed = f"The campus asset was configured or renewed to support {current}."
+
+    reasons: list[str] = []
+    if contains_any(text, ["learning", "teaching", "classroom", "studio", "workshop", "collaborative", "flexible"]):
+        reasons.append("support contemporary pedagogy, flexible learning, and collaborative work")
+    if contains_any(text, ["historic", "heritage", "victorian", "preserved", "renovation", "adaptive reuse", "old"]):
+        reasons.append("retain historical value while introducing updated university functions")
+    if contains_any(text, ["public", "community", "open", "shared", "public ground", "campus-city", "campus gateway"]):
+        reasons.append("strengthen campus publicness and social exchange")
+    if contains_any(text, ["industrial", "warehouse", "factory", "manufacturing", "large-span", "large industrial"]):
+        reasons.append("reuse robust large-scale structures for academic and creative programs")
+    why_changed = "; ".join(reasons) or "respond to updated campus program needs and long-term spatial adaptability"
+
+    remained: list[str] = []
+    if is_reuse_transformation(case):
+        remained.append(f"the memory and spatial identity of the former {original}")
+    if contains_any(text, ["corridor", "arcade"]):
+        remained.append("linear circulation logic")
+    if contains_any(text, ["courtyard", "cloister"]):
+        remained.append("courtyard or cloister organization")
+    if contains_any(text, ["industrial", "warehouse", "factory", "timber", "stone", "gothic", "victorian", "preserved"]):
+        remained.append("heritage material or structural character")
+    what_remained = "; ".join(remained) or "the campus role and spatial continuity of the existing setting"
+
+    if features:
+        how_space_adapted = f"Spatial features such as {features} were used to accommodate {current}."
+    else:
+        how_space_adapted = f"The space was reprogrammed to accommodate {current}."
+
+    evidence_parts = [
+        f"original_function: {case.get('original_function')}" if case.get("original_function") else "",
+        f"current_function: {case.get('current_function')}" if case.get("current_function") else "",
+        f"key_spatial_features: {features}" if features else "",
+        f"keywords: {', '.join(keywords)}" if keywords else "",
+    ]
+
+    return {
+        "what_changed": what_changed,
+        "why_changed": why_changed,
+        "what_remained": what_remained,
+        "how_space_adapted": how_space_adapted,
+        "evidence": " | ".join(part for part in evidence_parts if part),
+    }
+
+
+def adaptation_model_node(case: dict[str, Any], key: str, label_zh: str) -> dict[str, Any]:
+    value = build_adaptation_model(case).get(key, "")
+    return {
+        "label_zh": label_zh,
+        "present": bool(value),
+        "confidence": "medium" if value else "none",
+        "value": value or None,
+        "evidence": [value] if value else [],
+        "inference": "Rule-based adaptation model synthesized from source fields." if value else "",
+    }
+
+
 def criterion_node(case: dict[str, Any], criterion: dict[str, Any]) -> dict[str, Any]:
     key = criterion["key"]
     label_zh = criterion.get("label_zh", key)
@@ -727,6 +860,8 @@ def criterion_node(case: dict[str, Any], criterion: dict[str, Any]) -> dict[str,
         return year_node(case, key, label_zh)
     if criterion.get("mode") == "transformation":
         return transformation_node(case, label_zh)
+    if criterion.get("mode") == "adaptation_model":
+        return adaptation_model_node(case, key, label_zh)
 
     evidence = find_evidence(case, criterion.get("terms", []))
     present = bool(evidence)
@@ -858,9 +993,41 @@ def case_images_for(case_id: str) -> list[dict[str, str]]:
     return [image.copy() for image in CASE_IMAGE_REFERENCES.get(case_id, [])]
 
 
+def sixth_layer_group_criteria(group_key: str) -> list[dict[str, Any]]:
+    for layer in TAXONOMY:
+        if layer.get("key") != "adaptive_transformation_layer":
+            continue
+        for group in layer.get("groups", []):
+            if group.get("key") == group_key:
+                return group.get("criteria", [])
+    return []
+
+
+def active_sixth_layer_values(case: dict[str, Any], group_key: str) -> list[str]:
+    values: list[str] = []
+    for criterion in sixth_layer_group_criteria(group_key):
+        if criterion.get("mode"):
+            continue
+        if find_evidence(case, criterion.get("terms", [])):
+            values.append(criterion["key"])
+    return values
+
+
+def build_adaptive_transformation_analysis(case: dict[str, Any]) -> dict[str, Any]:
+    return {
+        "adaptation_model": build_adaptation_model(case),
+        "behavior": active_sixth_layer_values(case, "behavior"),
+        "organizational_driver": active_sixth_layer_values(case, "organizational_driver"),
+        "transformation_driver": active_sixth_layer_values(case, "transformation_driver"),
+    }
+
+
 def build_case(case: dict[str, Any], index: int) -> dict[str, Any]:
     case_name = case.get("case", "")
     case_id = f"case_{index:02d}_{slugify(case_name)}"
+    knowledge_precedent = build_knowledge_precedent(case)
+    precedent_dna = build_precedent_dna(case)
+    adaptive_transformation_analysis = build_adaptive_transformation_analysis(case)
     return {
         "id": case_id,
         "case_name": case_name,
@@ -881,8 +1048,9 @@ def build_case(case: dict[str, Any], index: int) -> dict[str, Any]:
             "floor": case.get("floor") or None,
         },
         "case_images": case_images_for(case_id),
-        "knowledge_precedent": build_knowledge_precedent(case),
-        "precedent_dna": build_precedent_dna(case),
+        "adaptive_transformation_analysis": adaptive_transformation_analysis,
+        "knowledge_precedent": knowledge_precedent,
+        "precedent_dna": precedent_dna,
         "notes": "Rule-based extraction from sparse spreadsheet data. Empty Excel fields are kept as null; inferred tags include evidence.",
     }
 
@@ -890,7 +1058,7 @@ def build_case(case: dict[str, Any], index: int) -> dict[str, Any]:
 def taxonomy_for_output() -> dict[str, Any]:
     return {
         "name": "Campus Adaptive Reuse Knowledge Precedent Taxonomy",
-        "description": "Five-layer taxonomy for campus adaptive reuse case extraction.",
+        "description": "Six-layer taxonomy for campus adaptive reuse case extraction, including adaptive transformation behavior and drivers.",
         "layers": TAXONOMY,
     }
 
@@ -932,9 +1100,13 @@ def build_case_overview(cases: list[dict[str, Any]]) -> dict[str, Any]:
     by_region_country: dict[str, list[str]] = {}
     by_typology: dict[str, list[str]] = {}
     by_keyword: dict[str, list[str]] = {}
+    by_behavior: dict[str, list[str]] = {}
+    by_organizational_driver: dict[str, list[str]] = {}
+    by_transformation_driver: dict[str, list[str]] = {}
 
     for index, case in enumerate(cases, start=1):
         raw = case["raw_fields"]
+        adaptive_analysis = case.get("adaptive_transformation_analysis", {})
         layer_tags = collect_layer_tags(case)
         typology_tags = layer_tags.get("typology_layer", [])
         typology_keys = [tag["criterion"] for tag in typology_tags]
@@ -945,6 +1117,12 @@ def build_case_overview(cases: list[dict[str, Any]]) -> dict[str, Any]:
             add_to_index(by_typology, tag, case_id)
         for keyword in raw.get("keywords", []):
             add_to_index(by_keyword, keyword, case_id)
+        for behavior in adaptive_analysis.get("behavior", []):
+            add_to_index(by_behavior, behavior, case_id)
+        for driver in adaptive_analysis.get("organizational_driver", []):
+            add_to_index(by_organizational_driver, driver, case_id)
+        for driver in adaptive_analysis.get("transformation_driver", []):
+            add_to_index(by_transformation_driver, driver, case_id)
 
         overview_cases.append(
             {
@@ -959,6 +1137,7 @@ def build_case_overview(cases: list[dict[str, Any]]) -> dict[str, Any]:
                 "key_spatial_features": raw.get("key_spatial_features"),
                 "keywords": raw.get("keywords", []),
                 "case_images": case.get("case_images", []),
+                "adaptive_transformation_analysis": adaptive_analysis,
                 "typology_tags": typology_keys,
                 "layer_tags": layer_tags,
                 "spatial_vocabulary": case["precedent_dna"].get("Gene_C1", []),
@@ -981,6 +1160,9 @@ def build_case_overview(cases: list[dict[str, Any]]) -> dict[str, Any]:
             "by_region_country": by_region_country,
             "by_typology": by_typology,
             "by_keyword": by_keyword,
+            "by_behavior": by_behavior,
+            "by_organizational_driver": by_organizational_driver,
+            "by_transformation_driver": by_transformation_driver,
         },
         "cases": overview_cases,
     }
@@ -1001,12 +1183,16 @@ def main() -> None:
             "name": "Adaptive Campus Case Study Knowledge Precedents",
             "source_file": "campus_cases.xlsx",
             "case_count": len(cases),
-            "extraction_method": "Rule-based extraction aligned with the midterm Precedent DNA workflow and the five-layer campus taxonomy.",
+            "extraction_method": "Rule-based extraction aligned with the midterm Precedent DNA workflow and the six-layer campus taxonomy.",
         },
         "taxonomy": taxonomy,
         "cases": cases,
     }
     (OUTPUT_DIR / "campus_knowledge_precedents.json").write_text(
+        json.dumps(database, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+    (ROOT / "campus_knowledge_precedents_MyGPT_upload.json").write_text(
         json.dumps(database, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
