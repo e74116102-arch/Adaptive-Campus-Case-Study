@@ -1,6 +1,6 @@
 {
   "name": "Campus Adaptive Reuse Knowledge Precedent Taxonomy",
-  "description": "Five-layer taxonomy for campus adaptive reuse case extraction.",
+  "description": "Six-layer taxonomy for campus adaptive reuse case extraction, including adaptive transformation behavior and drivers.",
   "layers": [
     {
       "id": "1",
@@ -867,6 +867,298 @@
               "terms": [
                 "commercial",
                 "strip center"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "key": "adaptive_transformation_layer",
+      "label_en": "Adaptive Transformation Layer",
+      "label_zh": "適應轉型層",
+      "groups": [
+        {
+          "id": "6-1",
+          "key": "adaptation_model",
+          "label_en": "Adaptation Model",
+          "label_zh": "適應模式",
+          "criteria": [
+            {
+              "key": "what_changed",
+              "label_zh": "改變內容",
+              "mode": "adaptation_model"
+            },
+            {
+              "key": "why_changed",
+              "label_zh": "改變原因",
+              "mode": "adaptation_model"
+            },
+            {
+              "key": "what_remained",
+              "label_zh": "保留內容",
+              "mode": "adaptation_model"
+            },
+            {
+              "key": "how_space_adapted",
+              "label_zh": "空間如何適應",
+              "mode": "adaptation_model"
+            },
+            {
+              "key": "evidence",
+              "label_zh": "證據",
+              "mode": "adaptation_model"
+            }
+          ]
+        },
+        {
+          "id": "6-2",
+          "key": "behavior",
+          "label_en": "Spatial Behavior",
+          "label_zh": "空間行為",
+          "criteria": [
+            {
+              "key": "informal_learning",
+              "label_zh": "非正式學習",
+              "terms": [
+                "university",
+                "learning commons",
+                "public learning",
+                "adaptive learning",
+                "study",
+                "groupwork",
+                "library",
+                "lounge",
+                "shared spaces",
+                "open shared",
+                "open plan",
+                "open interior",
+                "airy interior",
+                "studio",
+                "workshop",
+                "cafe",
+                "corridor",
+                "arcade"
+              ]
+            },
+            {
+              "key": "group_discussion",
+              "label_zh": "群體討論",
+              "terms": [
+                "groupwork",
+                "collaborative",
+                "studio",
+                "workshop",
+                "classroom",
+                "classrooms",
+                "seminar",
+                "public exchange",
+                "interdisciplinary",
+                "open shared",
+                "enclosed rooms",
+                "departments",
+                "architecture",
+                "design",
+                "technical college"
+              ]
+            },
+            {
+              "key": "knowledge_sharing",
+              "label_zh": "知識分享",
+              "terms": [
+                "university",
+                "exhibition",
+                "public programming",
+                "learning commons",
+                "library",
+                "shared",
+                "public",
+                "interdisciplinary",
+                "collaborative",
+                "teaching and research",
+                "art",
+                "arts",
+                "design",
+                "departments",
+                "heritage"
+              ]
+            },
+            {
+              "key": "social_interaction",
+              "label_zh": "社交互動",
+              "terms": [
+                "university",
+                "public",
+                "community",
+                "shared",
+                "lounge",
+                "cafe",
+                "atrium",
+                "courtyard",
+                "corridor",
+                "arcade",
+                "openness",
+                "open interior",
+                "public ground",
+                "campus-city interface",
+                "campus gateway",
+                "common good"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6-3",
+          "key": "organizational_driver",
+          "label_en": "Organizational Driver",
+          "label_zh": "組織機制",
+          "criteria": [
+            {
+              "key": "cross_disciplinary_curriculum",
+              "label_zh": "跨域課程",
+              "terms": [
+                "interdisciplinary",
+                "art and design",
+                "architecture",
+                "landscape and design",
+                "built environment",
+                "departments",
+                "collaborative",
+                "common good"
+              ]
+            },
+            {
+              "key": "project_based_learning",
+              "label_zh": "專題式學習",
+              "terms": [
+                "teaching and research",
+                "modular learning",
+                "classroom",
+                "classrooms",
+                "studio",
+                "workshop",
+                "design",
+                "manufacturing",
+                "technical college",
+                "collaborative learning",
+                "architecture school",
+                "art",
+                "arts"
+              ]
+            },
+            {
+              "key": "shared_facility_management",
+              "label_zh": "共享設施管理",
+              "terms": [
+                "shared",
+                "learning commons",
+                "library",
+                "public spaces",
+                "campus facility",
+                "university facility",
+                "university building",
+                "student housing / university use",
+                "university use",
+                "common good",
+                "public interior streets"
+              ]
+            },
+            {
+              "key": "community_engagement",
+              "label_zh": "社群參與",
+              "terms": [
+                "community",
+                "public",
+                "public programming",
+                "campus-city interface",
+                "campus gateway",
+                "public interaction",
+                "common good",
+                "public ground"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6-4",
+          "key": "transformation_driver",
+          "label_en": "Transformation Driver",
+          "label_zh": "轉型動力",
+          "criteria": [
+            {
+              "key": "pedagogical_change",
+              "label_zh": "教學模式改變",
+              "terms": [
+                "learning",
+                "teaching",
+                "classroom",
+                "classrooms",
+                "studio",
+                "workshop",
+                "collaborative",
+                "flexible learning",
+                "architecture faculty",
+                "technical college"
+              ]
+            },
+            {
+              "key": "technology_change",
+              "label_zh": "技術需求改變",
+              "terms": [
+                "technical",
+                "technology",
+                "manufacturing",
+                "advanced manufacturing",
+                "workshop",
+                "industrial design",
+                "daylight",
+                "skylights",
+                "energy-efficient"
+              ]
+            },
+            {
+              "key": "enrollment_growth",
+              "label_zh": "成長與擴充需求",
+              "terms": [
+                "campus renewal",
+                "university facility",
+                "university building",
+                "learning centre",
+                "large",
+                "large-span",
+                "campus facility",
+                "public connectivity"
+              ]
+            },
+            {
+              "key": "financial_pressure",
+              "label_zh": "資源與成本壓力",
+              "terms": [
+                "reuse",
+                "adaptive reuse",
+                "renovation",
+                "preserved",
+                "sustainability",
+                "energy-efficient",
+                "existing campus assets",
+                "factory reuse",
+                "warehouse reuse",
+                "heritage reuse"
+              ]
+            },
+            {
+              "key": "community_outreach",
+              "label_zh": "公共與社區連結",
+              "terms": [
+                "public",
+                "community",
+                "public programming",
+                "campus-city interface",
+                "campus gateway",
+                "public ground",
+                "public interaction",
+                "common good"
               ]
             }
           ]
