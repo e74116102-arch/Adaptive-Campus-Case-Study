@@ -24,6 +24,16 @@
     "continent": "North America",
     "floor": null
   },
+  "case_images": [
+    {
+      "label": "Primary case image",
+      "url": "https://schooldesigns.com/wp-content/uploads/2019/09/1411asu056b-1.jpg",
+      "source_url": "https://schooldesigns.com/Projects/duke-university-smith-warehouse-2/",
+      "source_name": "SchoolDesigns",
+      "source_type": "remote_reference",
+      "usage_note": "Remote reference image; verify source permissions before redistribution."
+    }
+  ],
   "knowledge_precedent": {
     "architectural_layer": {
       "id": "1",

@@ -22,6 +22,16 @@
     "continent": null,
     "floor": null
   },
+  "case_images": [
+    {
+      "label": "Primary case image",
+      "url": "https://web.ncku.edu.tw/var/file/0/1000/pictures/416/m/mczh-tw1920x800_small200439_664259522433.jpg",
+      "source_url": "https://web.ncku.edu.tw/p/406-1000-200439,r2663.php?Lang=zh-tw",
+      "source_name": "National Cheng Kung University",
+      "source_type": "remote_reference",
+      "usage_note": "Remote reference image; verify source permissions before redistribution."
+    }
+  ],
   "knowledge_precedent": {
     "architectural_layer": {
       "id": "1",

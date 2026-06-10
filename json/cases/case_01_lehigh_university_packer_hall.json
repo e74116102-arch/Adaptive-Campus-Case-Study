@@ -22,6 +22,16 @@
     "continent": null,
     "floor": null
   },
+  "case_images": [
+    {
+      "label": "Primary case image",
+      "url": "https://thebrownandwhite.com/wp-content/uploads/2018/09/University-Center-1.jpg",
+      "source_url": "https://thebrownandwhite.com/2018/09/16/uc-renovations-lehigh-packer-hall-path-to-prominence-university-center/",
+      "source_name": "The Brown and White",
+      "source_type": "remote_reference",
+      "usage_note": "Remote reference image; verify source permissions before redistribution."
+    }
+  ],
   "knowledge_precedent": {
     "architectural_layer": {
       "id": "1",

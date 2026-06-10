@@ -21,6 +21,16 @@
     "continent": null,
     "floor": null
   },
+  "case_images": [
+    {
+      "label": "Primary case image",
+      "url": "https://images.squarespace-cdn.com/content/v1/5d3202f82528ec00019477d6/1660831629512-8PK5Z6BV6REQBWISE9CH/YORK_TITLE.jpg",
+      "source_url": "https://www.hansensavannah.com/ren-scad-bradley",
+      "source_name": "Hansen Architects",
+      "source_type": "remote_reference",
+      "usage_note": "Remote reference image; verify source permissions before redistribution."
+    }
+  ],
   "knowledge_precedent": {
     "architectural_layer": {
       "id": "1",

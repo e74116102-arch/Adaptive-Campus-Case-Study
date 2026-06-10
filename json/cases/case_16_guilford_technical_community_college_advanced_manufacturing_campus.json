@@ -21,6 +21,16 @@
     "continent": null,
     "floor": null
   },
+  "case_images": [
+    {
+      "label": "Primary case image",
+      "url": "https://cplteam.com/wp-content/uploads/2022/11/Guilford-Technical-College-CAM-Exterior.jpg",
+      "source_url": "https://cplteam.com/blog/adaptive-reuse-reimagining-existing-campus-assets-in-creative-ways/",
+      "source_name": "CPL",
+      "source_type": "remote_reference",
+      "usage_note": "Remote reference image; verify source permissions before redistribution."
+    }
+  ],
   "knowledge_precedent": {
     "architectural_layer": {
       "id": "1",

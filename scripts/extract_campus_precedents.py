@@ -19,6 +19,210 @@ NS = {
 }
 
 
+CASE_IMAGE_REFERENCES: dict[str, list[dict[str, str]]] = {
+    "case_01_lehigh_university_packer_hall": [
+        {
+            "label": "Primary case image",
+            "url": "https://thebrownandwhite.com/wp-content/uploads/2018/09/University-Center-1.jpg",
+            "source_url": "https://thebrownandwhite.com/2018/09/16/uc-renovations-lehigh-packer-hall-path-to-prominence-university-center/",
+            "source_name": "The Brown and White",
+            "source_type": "remote_reference",
+            "usage_note": "Remote reference image; verify source permissions before redistribution.",
+        }
+    ],
+    "case_02_nottingham_trent_university": [
+        {
+            "label": "Primary case image",
+            "url": "https://architizer-prod.imgix.net/mediadata/projects/442011/de7a34bd.jpg?w=1680&q=60&auto=format,compress&cs=strip",
+            "source_url": "https://architizer.com/projects/newton-arkwright-buildings-nottingham-trent-university/",
+            "source_name": "Architizer",
+            "source_type": "remote_reference",
+            "usage_note": "Remote reference image; verify source permissions before redistribution.",
+        }
+    ],
+    "case_03_university_of_coimbra": [
+        {
+            "label": "Primary case image",
+            "url": "https://whc.unesco.org/uploads/thumbs/site_1387_0001-1200-630-20130603143340.jpg",
+            "source_url": "https://whc.unesco.org/en/list/1387/",
+            "source_name": "UNESCO World Heritage Centre",
+            "source_type": "remote_reference",
+            "usage_note": "Remote reference image; verify source permissions before redistribution.",
+        }
+    ],
+    "case_04_national_cheng_kung_university_future_venue": [
+        {
+            "label": "Primary case image",
+            "url": "https://web.ncku.edu.tw/var/file/0/1000/pictures/416/m/mczh-tw1920x800_small200439_664259522433.jpg",
+            "source_url": "https://web.ncku.edu.tw/p/406-1000-200439,r2663.php?Lang=zh-tw",
+            "source_name": "National Cheng Kung University",
+            "source_type": "remote_reference",
+            "usage_note": "Remote reference image; verify source permissions before redistribution.",
+        }
+    ],
+    "case_05_feng_chia_university_common_good_hall": [
+        {
+            "label": "Primary case image",
+            "url": "https://s3.ap-southeast-1.amazonaws.com/web-content.fcu.edu.tw/wp-content/uploads/sites/161/2025/02/24153506/%E5%85%B1%E5%96%84%E6%A8%93%E5%95%9F%E7%94%A8%E5%85%B8%E7%A6%AE-3.jpg",
+            "source_url": "https://www.fcu.edu.tw/virtuosihall/about/",
+            "source_name": "Feng Chia University",
+            "source_type": "remote_reference",
+            "usage_note": "Remote reference image; verify source permissions before redistribution.",
+        }
+    ],
+    "case_06_ntu_humanities_building": [
+        {
+            "label": "Primary case image",
+            "url": "https://static.wixstatic.com/media/1d8676_9efee203e4de4cb6b2ba032df5e40cb4~mv2.jpg/v1/fill/w_4272,h_2848,al_c,q_90/L1220594_W.jpg",
+            "source_url": "https://www.davision-design.com/portfolio-1-1/%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E5%A4%A7%E5%AD%B8%E4%BA%BA%E6%96%87%E9%A4%A8",
+            "source_name": "Da Vision Design",
+            "source_type": "remote_reference",
+            "usage_note": "Remote reference image; verify source permissions before redistribution.",
+        }
+    ],
+    "case_07_ntu_liberal_education_classroom_building": [
+        {
+            "label": "Primary case image",
+            "url": "https://icrvb3jy.xinmedia.com/solomo/article/B/A/B/BAB45791-3DDD-3D8E-DE26-947676C72B25.jpeg",
+            "source_url": "https://www.xinmedia.com/article/133942",
+            "source_name": "Xinmedia",
+            "source_type": "remote_reference",
+            "usage_note": "Remote reference image; verify source permissions before redistribution.",
+        }
+    ],
+    "case_08_ncku_industrial_design_history_department": [
+        {
+            "label": "Primary case image",
+            "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBJwxpQ0jzMLCPjit0ZTBC7CQMm4d5zvfWq8uN-N2AFcn0bKUyAbgE3pmSG-MqBU_95LSjT79IWrTykQ5Go4deR5fQbk_W_3OdBoWP2dpazUOkRX7Kyeo3Hpc-HNaIUoPZAcJIyklToQk/s1600/jk%253Bbj%2527k.jpg",
+            "source_url": "https://justabalcony.blogspot.com/2018/05/just-old_34.html",
+            "source_name": "Just Old",
+            "source_type": "remote_reference",
+            "usage_note": "Remote reference image; verify source permissions before redistribution.",
+        }
+    ],
+    "case_09_scad_hong_kong_campus": [
+        {
+            "label": "Primary case image",
+            "url": "https://zolimacitymag.com/wp-content/uploads/2019/05/1400_933.thumbnail.SCAD_zolima-citymag.webp",
+            "source_url": "https://zolimacitymag.com/hong-kongs-modern-heritage-part-v-scad-the-former-north-kowloon-magistracy/",
+            "source_name": "Zolima CityMag",
+            "source_type": "remote_reference",
+            "usage_note": "Remote reference image; verify source permissions before redistribution.",
+        }
+    ],
+    "case_10_scad_clark_hall": [
+        {
+            "label": "Primary case image",
+            "url": "https://www.scad.edu/sites/default/files/Facilities/Savannah/Eichberg%20Hall%20and%20Eichberg%20Extension/Eichberg-Hall-Exterior-Spring-2019-AF_005_SN_SOLARPANELS_v1.jpg",
+            "source_url": "https://www.scad.edu/life/buildings-and-facilities/clark-hall",
+            "source_name": "SCAD",
+            "source_type": "remote_reference",
+            "usage_note": "Remote reference image; verify source permissions before redistribution.",
+        }
+    ],
+    "case_11_scad_bradley_hall": [
+        {
+            "label": "Primary case image",
+            "url": "https://images.squarespace-cdn.com/content/v1/5d3202f82528ec00019477d6/1660831629512-8PK5Z6BV6REQBWISE9CH/YORK_TITLE.jpg",
+            "source_url": "https://www.hansensavannah.com/ren-scad-bradley",
+            "source_name": "Hansen Architects",
+            "source_type": "remote_reference",
+            "usage_note": "Remote reference image; verify source permissions before redistribution.",
+        }
+    ],
+    "case_12_scad_number_nine": [
+        {
+            "label": "Primary case image",
+            "url": "https://www.scad.edu/sites/default/files/Facilities/Savannah/Number-Nine/Number-Nine-exterior-Fall-2019-AS-2.jpg",
+            "source_url": "https://www.scad.edu/life/buildings-and-facilities/number-nine",
+            "source_name": "SCAD",
+            "source_type": "remote_reference",
+            "usage_note": "Remote reference image; verify source permissions before redistribution.",
+        }
+    ],
+    "case_13_scad_ruskin_hall": [
+        {
+            "label": "Primary case image",
+            "url": "https://www.lyncharch.com/wp-content/uploads/2021/04/portfolio-scad-ruskin-hall-01.jpg",
+            "source_url": "https://www.lyncharch.com/projects/scad-ruskin-hall",
+            "source_name": "Lynch Associates Architects",
+            "source_type": "remote_reference",
+            "usage_note": "Remote reference image; verify source permissions before redistribution.",
+        }
+    ],
+    "case_14_university_of_the_arts_london_granary_building": [
+        {
+            "label": "Primary case image",
+            "url": "https://fsn1.your-objectstorage.com/stantonwilliams/223/conversions/stanton-williams-central-saint-martins-medium.jpg",
+            "source_url": "https://stantonwilliams.com/en/works/central-saint-martins-college-of-art-and-design",
+            "source_name": "Stanton Williams",
+            "source_type": "remote_reference",
+            "usage_note": "Remote reference image; verify source permissions before redistribution.",
+        }
+    ],
+    "case_15_university_of_pittsburgh_ford_factory": [
+        {
+            "label": "Primary case image",
+            "url": "https://www.tradelineinc.com/sites/default/files/styles/article_feature/public/2023-09/Exterior_RESIZED.jpg?itok=dN3FvUcb",
+            "source_url": "https://www.tradelineinc.com/reports/2023-9/adaptive-reuse-historic-industrial-building-helps-urban-university-keep-growing",
+            "source_name": "Tradeline",
+            "source_type": "remote_reference",
+            "usage_note": "Remote reference image; verify source permissions before redistribution.",
+        }
+    ],
+    "case_16_guilford_technical_community_college_advanced_manufacturing_campus": [
+        {
+            "label": "Primary case image",
+            "url": "https://cplteam.com/wp-content/uploads/2022/11/Guilford-Technical-College-CAM-Exterior.jpg",
+            "source_url": "https://cplteam.com/blog/adaptive-reuse-reimagining-existing-campus-assets-in-creative-ways/",
+            "source_name": "CPL",
+            "source_type": "remote_reference",
+            "usage_note": "Remote reference image; verify source permissions before redistribution.",
+        }
+    ],
+    "case_17_tu_delft_bk_city": [
+        {
+            "label": "Primary case image",
+            "url": "https://europeanheritageawards-archive.eu/fileadmin/_processed_/3/1/csm_3a_temple_2006_64c5bb574a.jpg",
+            "source_url": "https://europeanheritageawards-archive.eu/laureates-1978-2022/detail/the-making-of-bk-city-delft",
+            "source_name": "European Heritage Awards Archive",
+            "source_type": "remote_reference",
+            "usage_note": "Remote reference image; verify source permissions before redistribution.",
+        }
+    ],
+    "case_18_university_of_toronto_daniels_building": [
+        {
+            "label": "Primary case image",
+            "url": "https://images.adsttc.com/media/images/5ccc/4ab7/284d/d11e/3700/00c7/medium_jpg/03.jpg?1556892326",
+            "source_url": "https://www.archdaily.com/916301/daniels-building-at-university-of-toronto-nadaaa",
+            "source_name": "ArchDaily",
+            "source_type": "remote_reference",
+            "usage_note": "Remote reference image; verify source permissions before redistribution.",
+        }
+    ],
+    "case_19_duke_university_smith_warehouse": [
+        {
+            "label": "Primary case image",
+            "url": "https://schooldesigns.com/wp-content/uploads/2019/09/1411asu056b-1.jpg",
+            "source_url": "https://schooldesigns.com/Projects/duke-university-smith-warehouse-2/",
+            "source_name": "SchoolDesigns",
+            "source_type": "remote_reference",
+            "usage_note": "Remote reference image; verify source permissions before redistribution.",
+        }
+    ],
+    "case_20_aalto_university_harald_herlin_learning_centre": [
+        {
+            "label": "Primary case image",
+            "url": "https://images.adsttc.com/media/images/5983/1a00/b22e/3889/1400/0208/medium_jpg/Tuomas_Uusheimo-161103-aalto-oppimiskeskus-051.jpg?1501764057",
+            "source_url": "https://www.archdaily.com/876977/aalto-university-library-harald-herlin-learning-centre-jkmm",
+            "source_name": "ArchDaily",
+            "source_type": "remote_reference",
+            "usage_note": "Remote reference image; verify source permissions before redistribution.",
+        }
+    ],
+}
+
+
 TAXONOMY: list[dict[str, Any]] = [
     {
         "id": "1",
@@ -650,6 +854,10 @@ def build_precedent_dna(case: dict[str, Any]) -> dict[str, Any]:
     }
 
 
+def case_images_for(case_id: str) -> list[dict[str, str]]:
+    return [image.copy() for image in CASE_IMAGE_REFERENCES.get(case_id, [])]
+
+
 def build_case(case: dict[str, Any], index: int) -> dict[str, Any]:
     case_name = case.get("case", "")
     case_id = f"case_{index:02d}_{slugify(case_name)}"
@@ -672,6 +880,7 @@ def build_case(case: dict[str, Any], index: int) -> dict[str, Any]:
             "continent": case.get("continent") or None,
             "floor": case.get("floor") or None,
         },
+        "case_images": case_images_for(case_id),
         "knowledge_precedent": build_knowledge_precedent(case),
         "precedent_dna": build_precedent_dna(case),
         "notes": "Rule-based extraction from sparse spreadsheet data. Empty Excel fields are kept as null; inferred tags include evidence.",
@@ -749,6 +958,7 @@ def build_case_overview(cases: list[dict[str, Any]]) -> dict[str, Any]:
                 "location": raw.get("location"),
                 "key_spatial_features": raw.get("key_spatial_features"),
                 "keywords": raw.get("keywords", []),
+                "case_images": case.get("case_images", []),
                 "typology_tags": typology_keys,
                 "layer_tags": layer_tags,
                 "spatial_vocabulary": case["precedent_dna"].get("Gene_C1", []),
