@@ -1,6 +1,7 @@
 # Adaptive Campus Case Study
 
 把 `campus_cases.xlsx` 裡的校園案例，轉成可以給 My GPT / AI Co-Designer 使用的 JSON 知識資料。
+自適應校園案例GPT:https://chatgpt.com/g/g-6a1fa01a625481918792d2bdba37cbf1-adaptive-campus-case-study
 
 ## 常用的檔案
 
