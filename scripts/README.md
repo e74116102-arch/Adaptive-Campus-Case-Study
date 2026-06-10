@@ -21,13 +21,7 @@
 python scripts\extract_campus_precedents.py
 ```
 
-也就是在這個位置執行：
-
-```text
-D:\MS\case\Adaptive-Campus-Case-Study-main\Adaptive-Campus-Case-Study-main
-```
-
-## 什麼時候要執行
+## 建議執行
 
 - 新增案例到 `campus_cases.xlsx`
 - 修改案例欄位
