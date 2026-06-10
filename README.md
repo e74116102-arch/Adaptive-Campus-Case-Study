@@ -2,6 +2,8 @@
 
 This repository contains a structured adaptive campus precedent dataset for My GPT / AI Co-Designer workflows.
 
+My GPT link: https://chatgpt.com/g/g-6a1fa01a625481918792d2bdba37cbf1-adaptive-campus-case-study
+
 The current dataset includes 20 campus adaptive reuse or campus renewal cases. Each case has image references, a six-layer Knowledge Precedent classification, Precedent DNA fields, and an adaptive transformation analysis.
 
 ## Main Files
