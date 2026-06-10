@@ -1,39 +1,46 @@
 # Scripts
 
-這個資料夾放資料產生腳本。
-
 ## `extract_campus_precedents.py`
 
-用途：從根目錄的 `campus_cases.xlsx` 萃取案例，產生 JSON 知識庫。
+This script reads `campus_cases.xlsx` and regenerates the project JSON dataset.
 
-會產生：
+Generated outputs:
 
 - `json/taxonomy.json`
 - `json/campus_knowledge_precedents.json`
 - `json/case_overview.json`
 - `json/cases/*.json`
+- `campus_knowledge_precedents_MyGPT_upload.json`
 
-## 執行方式
+The generated taxonomy uses six layers:
 
-請在專案根目錄執行：
+1. `architectural_layer`
+2. `urban_context_layer`
+3. `temporal_transformation_layer`
+4. `functional_layer`
+5. `typology_layer`
+6. `adaptive_transformation_layer`
+
+Layer 6 includes:
+
+- `adaptation_model`
+- `behavior`
+- `organizational_driver`
+- `transformation_driver`
+
+Each case also includes:
+
+- `case_images`
+- `adaptive_transformation_analysis`
+- `knowledge_precedent`
+- `precedent_dna`
+
+## Run
+
+From the repository root:
 
 ```powershell
 python scripts\extract_campus_precedents.py
 ```
 
-也就是在這個位置執行：
-
-```text
-D:\MS\case\Adaptive-Campus-Case-Study-main\Adaptive-Campus-Case-Study-main
-```
-
-## 什麼時候要執行
-
-- 新增案例到 `campus_cases.xlsx`
-- 修改案例欄位
-- 修改分類邏輯
-- JSON 被刪除或需要重新整理
-
-## 注意
-
-腳本會覆寫 `json/` 裡自動產生的 JSON 檔案。
+The script overwrites generated JSON files. Edit `campus_cases.xlsx` or the extraction rules in `extract_campus_precedents.py`, then rerun the script.

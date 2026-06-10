@@ -1,29 +1,32 @@
 # Adaptive Campus Case Study
 
-這個資料夾是「校園再利用案例知識庫」專案。
+This repository contains a structured adaptive campus precedent dataset for My GPT / AI Co-Designer workflows.
 
-目標是把 `campus_cases.xlsx` 裡的校園案例，轉成可以給 My GPT / AI Co-Designer 使用的 JSON 知識資料。
+The current dataset includes 20 campus adaptive reuse or campus renewal cases. Each case has image references, a six-layer Knowledge Precedent classification, Precedent DNA fields, and an adaptive transformation analysis.
 
-## 最常用的檔案
+## Main Files
 
-| 檔案 | 用途 |
+| File | Purpose |
 |---|---|
-| `GPT_Site_Context_Analysis_Prompt.md` | 貼到 My GPT Instructions 的 prompt |
-| `json/campus_knowledge_precedents.json` | 20 筆案例的完整 JSON 知識庫 |
-| `json/case_overview.json` | 20 筆案例的精簡總覽 JSON |
-| `json/taxonomy.json` | Knowledge Precedent 分類架構 |
-| `json/cases/*.json` | 每個案例各自一份 JSON |
-| `campus_cases.xlsx` | 原始案例 Excel |
-| `scripts/extract_campus_precedents.py` | 從 Excel 重新產生 JSON 的腳本 |
-| `docs/FOLDER_STRUCTURE.md` | 完整資料夾架構說明 |
+| `campus_knowledge_precedents_MyGPT_upload.json` | Recommended single upload file for My GPT. Contains all 20 complete cases. |
+| `GPT_Site_Context_Analysis_Prompt.md` | Custom GPT Instructions prompt using the six-layer taxonomy. |
+| `json/campus_knowledge_precedents.json` | Full database with taxonomy and all 20 complete case records. |
+| `json/case_overview.json` | Compact overview for browsing, filtering, and quick retrieval. |
+| `json/taxonomy.json` | Six-layer Knowledge Precedent taxonomy. |
+| `json/cases/*.json` | One complete JSON file per case. |
+| `classifiction structure.txt` | Human-readable six-layer taxonomy outline. Filename is intentionally kept as originally spelled. |
+| `campus_cases.xlsx` | Source spreadsheet. |
+| `scripts/extract_campus_precedents.py` | Extraction script that regenerates all JSON outputs. |
+| `docs/FOLDER_STRUCTURE.md` | Folder and file guide. |
 
-## 資料夾架構
+## Folder Structure
 
 ```text
-Adaptive-Campus-Case-Study-main/
+Adaptive-Campus-Case-Study/
 +-- README.md
 +-- GPT_Site_Context_Analysis_Prompt.md
 +-- campus_cases.xlsx
++-- campus_knowledge_precedents_MyGPT_upload.json
 +-- classifiction structure.txt
 +-- LICENSE
 +-- docs/
@@ -42,42 +45,86 @@ Adaptive-Campus-Case-Study-main/
     +-- README.md
 ```
 
-## 工作流程
+## Six-Layer Taxonomy
 
-1. 在 `campus_cases.xlsx` 補或改案例資料。
-2. 執行腳本重新產生 JSON：
+1. `architectural_layer`
+2. `urban_context_layer`
+3. `temporal_transformation_layer`
+4. `functional_layer`
+5. `typology_layer`
+6. `adaptive_transformation_layer`
+
+The sixth layer contains:
+
+- `adaptation_model`
+  - `what_changed`
+  - `why_changed`
+  - `what_remained`
+  - `how_space_adapted`
+  - `evidence`
+- `behavior`
+  - `informal_learning`
+  - `group_discussion`
+  - `knowledge_sharing`
+  - `social_interaction`
+- `organizational_driver`
+  - `cross_disciplinary_curriculum`
+  - `project_based_learning`
+  - `shared_facility_management`
+  - `community_engagement`
+- `transformation_driver`
+  - `pedagogical_change`
+  - `technology_change`
+  - `enrollment_growth`
+  - `financial_pressure`
+  - `community_outreach`
+
+## Case JSON Fields
+
+Each complete case includes:
+
+- `id`
+- `case_name`
+- `source`
+- `raw_fields`
+- `case_images`
+- `adaptive_transformation_analysis`
+- `knowledge_precedent`
+- `precedent_dna`
+- `notes`
+
+## My GPT Usage
+
+For My GPT knowledge upload, use:
+
+```text
+campus_knowledge_precedents_MyGPT_upload.json
+```
+
+For My GPT Instructions, use:
+
+```text
+GPT_Site_Context_Analysis_Prompt.md
+```
+
+## Regenerate JSON
+
+Run this from the repository root:
 
 ```powershell
 python scripts\extract_campus_precedents.py
 ```
 
-3. 使用 `json/campus_knowledge_precedents.json` 作為 My GPT 的完整知識檔。
-4. 使用 `json/case_overview.json` 作為快速瀏覽或輕量上傳檔。
-5. 使用 `GPT_Site_Context_Analysis_Prompt.md` 作為 My GPT 的 Instructions。
+The script regenerates:
 
-## JSON 內容
+- `json/taxonomy.json`
+- `json/campus_knowledge_precedents.json`
+- `json/case_overview.json`
+- `json/cases/*.json`
+- `campus_knowledge_precedents_MyGPT_upload.json`
 
-每個案例都有兩個主要部分：
+## Notes
 
-- `knowledge_precedent`：依五層分類架構標記案例特徵。
-- `precedent_dna`：依期中簡報的 Precedent DNA 邏輯整理案例。
-
-五層分類架構：
-
-1. Architectural Layer（建築層）
-2. Urban Context Layer（都市脈絡層）
-3. Temporal Transformation Layer（時間轉化層）
-4. Functional Layer（機能層）
-5. Typology Layer（類型層）
-
-## 目前資料狀態
-
-- 目前 Excel 有 20 筆非空白案例。
-- 已產生 20 份個案 JSON。
-- 已產生 1 份精簡總覽 JSON：`json/case_overview.json`。
-- JSON 是從 Excel 以規則式萃取產生，不是完整文獻研究資料。
-- Excel 空白欄位會保留為 `null`，不會硬填資料。
-
-## 注意
-
-`classifiction structure.txt` 檔名原本就拼成 `classifiction`，目前先保留，避免改名造成路徑混亂。內容是 Knowledge Precedent 分類架構。
+- Image data is stored as remote reference URLs and source page URLs. Verify source permissions before redistribution.
+- Empty spreadsheet values are kept as `null`.
+- `classifiction structure.txt` keeps the original misspelled filename to avoid breaking existing references.
