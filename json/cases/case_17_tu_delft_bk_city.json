@@ -24,6 +24,16 @@
     "continent": "Europe",
     "floor": null
   },
+  "case_images": [
+    {
+      "label": "Primary case image",
+      "url": "https://europeanheritageawards-archive.eu/fileadmin/_processed_/3/1/csm_3a_temple_2006_64c5bb574a.jpg",
+      "source_url": "https://europeanheritageawards-archive.eu/laureates-1978-2022/detail/the-making-of-bk-city-delft",
+      "source_name": "European Heritage Awards Archive",
+      "source_type": "remote_reference",
+      "usage_note": "Remote reference image; verify source permissions before redistribution."
+    }
+  ],
   "knowledge_precedent": {
     "architectural_layer": {
       "id": "1",

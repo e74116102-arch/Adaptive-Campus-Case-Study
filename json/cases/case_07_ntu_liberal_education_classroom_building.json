@@ -22,6 +22,16 @@
     "continent": null,
     "floor": null
   },
+  "case_images": [
+    {
+      "label": "Primary case image",
+      "url": "https://icrvb3jy.xinmedia.com/solomo/article/B/A/B/BAB45791-3DDD-3D8E-DE26-947676C72B25.jpeg",
+      "source_url": "https://www.xinmedia.com/article/133942",
+      "source_name": "Xinmedia",
+      "source_type": "remote_reference",
+      "usage_note": "Remote reference image; verify source permissions before redistribution."
+    }
+  ],
   "knowledge_precedent": {
     "architectural_layer": {
       "id": "1",

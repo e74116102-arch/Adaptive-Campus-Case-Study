@@ -24,6 +24,16 @@
     "continent": "Europe",
     "floor": null
   },
+  "case_images": [
+    {
+      "label": "Primary case image",
+      "url": "https://images.adsttc.com/media/images/5983/1a00/b22e/3889/1400/0208/medium_jpg/Tuomas_Uusheimo-161103-aalto-oppimiskeskus-051.jpg?1501764057",
+      "source_url": "https://www.archdaily.com/876977/aalto-university-library-harald-herlin-learning-centre-jkmm",
+      "source_name": "ArchDaily",
+      "source_type": "remote_reference",
+      "usage_note": "Remote reference image; verify source permissions before redistribution."
+    }
+  ],
   "knowledge_precedent": {
     "architectural_layer": {
       "id": "1",
